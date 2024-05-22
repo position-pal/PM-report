@@ -1,5 +1,5 @@
-# Project Management PositionPal report
+# Overview
 
-This repo contains the report for the Project Management course of the PositionPal project.
+Table of contents:
 
-1. [Scoping](./chapters/01-scoping.md)
+1. [Scoping](./sections/01-scoping.md)

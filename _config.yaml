@@ -1,0 +1,16 @@
+title: PositionPal - Project Management
+description: Project Management Report for the PositionPal project
+baseurl: "/PM-report"
+
+# Rendering
+markdown: kramdown
+kramdown:
+  input: GFM                  # Uses GitHub Flavored Markdown
+  hard_wrap: false            # Do not enter <br> automatically
+  syntax_highlighter: rouge   # Uses Rouge for syntax highlighting
+
+# Theme and plugins
+remote_theme: pages-themes/primer@v0.6.0
+plugins:
+  - jekyll-remote-theme
+  - jemoji
