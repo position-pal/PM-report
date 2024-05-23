@@ -20,8 +20,8 @@ pre:has(.language-mermaid) {
     background-color: transparent;
 }
 
-.language-mermaid {
-    display: flex !important;
+code.language-mermaid {
+    display: flex;
     justify-content: center;
 }
 
