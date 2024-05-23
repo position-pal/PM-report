@@ -5,12 +5,31 @@ baseurl: "/PM-report"
 # Rendering
 markdown: kramdown
 kramdown:
-  input: GFM                  # Uses GitHub Flavored Markdown
-  hard_wrap: false            # Do not enter <br> automatically
-  syntax_highlighter: rouge   # Uses Rouge for syntax highlighting
+  auto_ids: true
+  input: GFM
+  math_engine: mathjax
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  toc_levels: 1..6
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    guess_lang: true
 
 # Theme and plugins
-remote_theme: pages-themes/primer@v0.6.0
+remote_theme: sighingnow/jekyll-gitbook
+gitbook_version:  3.2.3
+toc:
+  enabled: true
+  h_min: 1
+  h_max: 3
+collections:
+  pages:
+    output: true
+    permalink: /:collection/:path/
+page_width: 1100px
+syntax_highlighter_style: colorful
+permalink: /:categories/:year-:month-:day-:title:output_ext
 plugins:
   - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-readme-index
   - jemoji

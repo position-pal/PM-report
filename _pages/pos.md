@@ -1,18 +1,17 @@
-# Scoping
+---
+title: Project Overview Statement
+layout: post
+---
 
-## Goal
+## Obiettivo
 
 L'obiettivo del progetto è l'implementazione di un sistema a micro-servizi che permetta agli utenti di formare gruppi di persone fidate, in cui condividere in tempo reale la posizione e uno stato. L'idea del progetto nasce dalla letteratura riguardante le recenti situazioni di alcune zone delle città non sicure, in cui sorge l'esigenza di imbastire un sistema di tracciamento che all'evenienza permetta di segnalare in maniera rapida una situazione di emergenza.
 L'analisi in termini di project management verterà sulla valutazione dei criteri di successo e dei rischi che possono accompagnare alcune scelte, oltre che sulla frammentazione delle macro-attività in unità più piccole, a cui seguirà una stima dei tempi di lavoro previsti e i deliverables attesi.
 
-## Opportunities / Problems
+## Opportunità / Problemi
 
 I problemi relativi all'applicativo sono principalmente connessi all'inesperienza del team in materia, sia in termini di tecnologie adottate, sia in fase di design dell'applicativo.
 Le opportunità sono relative sia al funzionamento del sistema, sia ad un aspetto di modularità, che se eseguito correttamente a livello di design, getta le basi di proprietà di estensibilità, replicazione di servizi e scaling e fault-tolerance.
-
-## Event Storming
-
-In allegato [TODO] è possibile consultare la modellazione del dominio seguendo un approccio event-storming.
 
 ## Objectives
 
@@ -70,6 +69,6 @@ Il servizio deve essere corredato da una chiara documentazione, per permettere a
 
 ### Chat (Gio)
 
-## Risks
+## Success Criteria
 
-## Requirements
+## Rischi

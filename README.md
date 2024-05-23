@@ -1,5 +1,15 @@
-# Overview
+---
+layout: home
+title: PositionPal - Relazione di progetto di Project Management
+permalink: /
+---
 
-Table of contents:
+## Introduzione
 
-1. [Scoping](./sections/01-scoping.md)
+`TODO`
+
+## Autori
+
+- Giovanni Antonioni
+- Luca Rubboli
+- Luca Tassinari
