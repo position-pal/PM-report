@@ -22,8 +22,13 @@ toc:
   h_min: 1
   h_max: 3
 collections:
-  pages:
+  report:
     output: true
+    sort_by: date
+    permalink: /:collection/:path/
+  attachments:
+    output: true
+    sort_by: date
     permalink: /:collection/:path/
 page_width: 1100px
 syntax_highlighter_style: colorful
