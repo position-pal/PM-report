@@ -30,7 +30,7 @@ collections:
     output: true
     sort_by: date
     permalink: /:collection/:path/
-page_width: 1100px
+page_width: 1000px
 syntax_highlighter_style: colorful
 permalink: /:categories/:year-:month-:day-:title:output_ext
 plugins:
