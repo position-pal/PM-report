@@ -18,6 +18,37 @@ Per queste ragioni il progetto _software_ e il suo processo di sviluppo sarà im
 
 ## Riunione di definizione del progetto (_scoping meeting_)
 
+Partecipanti della riunione:
+
+| Membro                | Ruolo              |
+|-----------------------|--------------------|
+| Luca Rubboli          | Facilitatore       |
+| Luca Tassinari        | _Core Team member_ |
+| Giovanni Antonioni    | _Core Team member_ |
+
+Agenda:
+
+- introduzione (ad opera del facilitatore);
+- scopo della riunione (ad opera del facilitatore);
+- discussione delle _conditions of satisfaction_;
+- descrizione dell'opportunità di business;
+- produzione del progetto del derivable;
+- descrizione dei requisiti e della documentazione;
+- scelta del modello PMLC da seguire;
+- bozza e approvazione del POS;
+- aggiornamento a una eventuale riunione successiva;
+
+
+### Facilitatore
+
+La riunione del 29/05/2024 è tenuta da tutti i componenti del gruppo, lo scopo è quello di definire gli obiettivi principali del progetto, formalizzare i requisiti e i criteri di accettazione.
+Il processo viene accompagnato dalla fase di Event Storming, con l'obiettivo di estrarre le principali funzionalità dell'applicativo.
+
+
+
+
+
+
 `TODO`
 
 > ##### TIP
