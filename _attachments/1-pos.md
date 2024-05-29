@@ -77,9 +77,9 @@ Il servizio deve essere corredato da una chiara documentazione, per permettere a
 
 -->
 
-3. Progettazione e implementazione di un servizio di localizzazione che deve poter permettere di geolocalizzare un utente in tempo reale, individuare coordinate a partire da indirizzi / luoghi ed esporre un'API per impostare notifiche quando l'utente arriva in prossimità di una certa posizione.
+1. Progettazione e implementazione di un servizio di localizzazione che permetta di geolocalizzare un utente in tempo reale, individuare coordinate a partire da indirizzi / luoghi ed esporre un'API per impostare notifiche quando l'utente arriva in prossimità di una certa posizione.
 
-4. [CHAT, Gio]
+2. [CHAT, Gio]
 
 ## _Conditions of Satisfactions_
 

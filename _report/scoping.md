@@ -13,7 +13,7 @@ Al contrario, tutti i membri del _team_ collaborano attivamente per cercare di c
 
 L'analisi, in termini di _project management_, verterà sulla valutazione dei criteri di successo e dei rischi che possono accompagnare alcune scelte, oltre che all'individuazione e decomposizione delle macro-attività in unità più piccole, a cui seguirà una stima dei tempi di lavoro previsti e i _deliverables_ attesi.
 
-Da un punto di vista tecnico, i membri del _team_ hanno recentemente avuto modo di seguire corsi riguardo a come progettare applicazioni _software_ di medio/grandi dimensioni sfruttando approcci guidati dal dominio (_domain-driven_), architetture distribuite a micro-servizi, e hanno avuto modo di apprezzare l'importanza di applicare metodologie di sviluppo _DevOps_ in cui l'automatizzazione dei processi e l'integrazione di codice funzionante (_working code_) in produzione è un fattore di primaria importanza.
+Da un punto di vista tecnico, i membri del _team_ hanno recentemente avuto modo di seguire corsi riguardo a come progettare applicazioni _software_ di medio/grandi dimensioni sfruttando approcci guidati dal dominio (_domain-driven_), architetture distribuite a micro-servizi, e hanno avuto modo di apprezzare l'importanza di applicare metodologie di sviluppo _DevOps_ in cui l'automatizzazione dei processi e l'integrazione continua di codice funzionante (_working code_) in produzione in maniera completamente automatizzata è un fattore di primaria importanza.
 Per queste ragioni il progetto _software_ e il suo processo di sviluppo sarà improntato seguendo queste fondamentali linee guida.
 
 ## Riunione di definizione del progetto (_scoping meeting_)
