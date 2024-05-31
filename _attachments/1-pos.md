@@ -30,54 +30,6 @@ Qui di seguito vengono descritti i principali obiettivi del progetto:
 
 2. Progettazione e implementazione di un servizio per la gestione utente che deve occuparsi di tutti gli aspetti relativi all'autenticazione, sia per quanto riguarda l'iscrizione, sia per il log-in, a cui va aggiunta la creazione e il mantenimento dei gruppi e lo stato in tempo reale.
 
-<!--  Questi sono piu requisiti che obiettivi 
-
-#### Autenticazione
-
-##### Iscrizione
-
-Il servizio deve supportare l'iscrizione di nuovi utenti
-
-###### Mail
-
-Il servizio deve inviare una mail con i dati relativi all'iscrizione
-
-##### Log-in
-
-Il servizio deve supportare il log-in di utenti già iscritti
-
-###### Token & sessione
-
-Il servizio deve creare e gestire token di autenticazione e la sessione a questo correlata
-
-##### Aggiornamento utente
-
-Il servizio deve permettere all'utente di modificare le proprie informazioni e password
-
-#### Gestione gruppi
-
-##### Creazione gruppo
-
-Il servizio deve supportare la creazione di un gruppo e la stesura delle policy
-
-##### Adesione gruppo
-
-Il servizio deve supportare la possibilità di invitare utenti nei gruppi, oltre che notificare i facenti parte del gruppo ad ogni nuova adesione
-
-##### Abbandono gruppo
-
-Il servizio deve permettere all'utente di abbandonare un gruppo in cui ha precedentemente aderito
-
-#### Gestione stato
-
-Il servizio deve gestire tutti gli aspetti relativi allo stato, compreso l'aggiornamento con annessa notifica a tutti i membri di tutti i gruppi di cui fa parte; deve essere possibile resettare lo stato dopo un'emergenza
-
-#### Documentazione
-
-Il servizio deve essere corredato da una chiara documentazione, per permettere all'utente di utilizzarlo correttamente ed al personale tecnico di intervenire prontamente con manutenzioni all'evenienza
-
--->
-
 3. Progettazione e implementazione di un servizio di localizzazione che permetta di geolocalizzare un utente in tempo reale, individuare coordinate a partire da indirizzi / luoghi ed esporre un'API per impostare notifiche quando l'utente arriva in prossimità di una certa posizione.
 
 4. Progettazione e implementazione di un servizio di chat che permetta di conversare in tempo reale con un singolo o un gruppo ristretto di utenti con la quale si vuole condividere la propria posizione e stato. Questo permetterà all'utente di avere una comunicazione più diretta e immediata con i membri del gruppo.
