@@ -13,15 +13,6 @@ Tuttavia, dall'analisi di questi ultimi è affiorata la possibilità di fornire 
 
 **Lo scopo del progetto è l'implementazione di un sistema <!-- a micro-servizi --> di tracciamento e condivisione, in tempo reale, della posizione e di un'informazione di stato tra gruppi di utenti fidati.**
 
-<!-- opportunita / problemi 
-
-_`TODO`: quelli qui sotto mi sembrano più rischi che opportunità / problemi. Qui per opportunità e problemi sono intesi quelli che spingono alla realizzazione di questo progetto e non problemi tecnologici._
-
-I problemi relativi all'applicativo sono totalmente connessi all'inesperienza del team in materia, sia in termini di tecnologie adottate, sia in fase di design dell'applicativo.
-Le opportunità sono relative sia al funzionamento del sistema, sia ad un aspetto di modularità, che se eseguito correttamente a livello di design, getta le basi di proprietà di estensibilità, replicazione di servizi e scaling e fault-tolerance.
-
--->
-
 ## Obiettivi
 
 Qui di seguito vengono descritti i principali obiettivi del progetto:

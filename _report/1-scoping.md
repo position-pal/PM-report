@@ -40,7 +40,12 @@ Per queste ragioni il progetto _software_ e il suo processo di sviluppo sarà im
 
 ### Facilitatore
 
-La riunione del 29/05/2024 è tenuta da tutti i componenti del gruppo, lo scopo è quello di definire gli obiettivi principali del progetto, formalizzare i requisiti e i criteri di accettazione.
+Per fini di brevità, aggreghiamo i risultati delle prime 3 riunioni, tenute da tutti i componenti del gruppo.
+Lo scopo di queste è stato quello di definire gli obiettivi principali del progetto, formalizzare i requisiti e i criteri di accettazione.
+In dettaglio, l'analisi è stata raffinata in più passi, inizialmente definendo gli obiettivi generali del progetto, da cui sono emerse le opportunità e i rischi correlati; parallelamente sono state stilate le condizioni e criteri di successo del sistema.
+Attraverso la stesura dei _requirements_ in una struttura gerarchica è stato possibile identificare anche un ordine di produzione delle macro-componenti, al fine di favorire inizialmente uno sviluppo che giovi dei benefici offerti dalla _continuous integration_ fin dall'inizio, e una struttura di testing incrementale.
+La frammentazione dei requisiti in più sotto-funzionalità ha permesso di avere una visione più dettagliata del sistema, il chè ha favorito una stima di tempi di consegna più accurati.
+
 Il processo viene accompagnato dalla fase di Event Storming, con l'obiettivo di estrarre le principali funzionalità dell'applicativo.
 
 `TODO`
