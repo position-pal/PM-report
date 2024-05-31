@@ -87,7 +87,7 @@ Il servizio deve essere corredato da una chiara documentazione, per permettere a
 - Il sistema deve essere completato entro Luglio 2024;
 - Utilizzo di architettura a micro-servizi e di _tool_ di orchestrazione come Kubernetes;
 - Utilizzo di approccio _Domain_ e _Test Driven_ (DDD e TDD);
-- Organizzazione di focus group per raccolta di feedback sulla user experience
+- Organizzazione di focus group per raccolta di feedback sulla user experience.
 
 ## Success Criteria
 
@@ -104,4 +104,4 @@ Un elenco dei principali rischi che ci si assumerebbero sono elencati qui di seg
 - il team ha limitata esperienza riguardo l'utilizzo di tecnologie e strumenti per il _continuous depoloyment_ in ambienti di produzione;
 - il sistema finale potrebbe avere meno _appeal_ rispetto a quello dei _competitor_ nel mercato
 
-### Gestione dei rischi
+L'analisi e la gestione del rischio è trattata [Allegato 3 - Analisi dei rischi](/PM-report/attachments/3-risk-analysis/)

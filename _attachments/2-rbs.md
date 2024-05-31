@@ -4,7 +4,7 @@ date: 2024-05-27
 layout: post
 ---
 
-Vengono qui di seguito esplosi i requisiti del sistema, a partire dagli obiettivi definiti nel [POS](/attachments/1-pos/).
+Vengono qui di seguito esplosi i requisiti del sistema, a partire dagli obiettivi definiti nel [POS](/PM-report/attachments/1-pos/).
 
 1. **Organizzazione, configurazione e inizializzazione dei workspace con un adeguato _build tool_, di un'infrastruttura con predisposizione a una _pipeline_ automatizzata di _continuous integration & deployment_.**
    1. configurazione di una pipeline di _continuous integration_
