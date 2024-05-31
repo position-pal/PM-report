@@ -13,7 +13,9 @@ Vengono qui di seguito esplosi i requisiti del sistema, a partire dagli obiettiv
    4. configurazione _bot_ per il _merge_ automatizzato di Pull Request sulla repo
    5. configurazione build tool
 2. **Progettazione e implementazione di un servizio per la gestione utente che deve occuparsi di tutti gli aspetti relativi all'autenticazione, sia per quanto riguarda l'iscrizione, sia per il log-in, a cui va aggiunta la creazione e il mantenimento dei gruppi e lo stato in tempo reale.**
+   1. 
 3. **Progettazione e implementazione di un servizio di localizzazione che permetta di geolocalizzare un utente in tempo reale, individuare coordinate a partire da indirizzi / luoghi ed esporre un'API per impostare notifiche quando l'utente arriva in prossimità di una certa posizione.**
    1. _geocoding_ di indirizzi / luoghi in coordinate
    2. impostare notifiche di prossimità
    3. salvataggio e gestione della posizione degli utenti
+4. **Progettazione e implementazione di un servizio di chat che permetta di conversare in tempo reale con un singolo o un gruppo ristretto di utenti con la quale si vuole condividere la propria posizione e stato. Questo permetterà all'utente di avere una comunicazione più diretta e immediata con i membri del gruppo.**

@@ -102,6 +102,17 @@ Un elenco dei principali rischi che ci si assumerebbero sono elencati qui di seg
 
 - il team non ha esperienza nella progettazione e sviluppo di applicazioni con architettura a micro-servizi;
 - il team ha limitata esperienza riguardo l'utilizzo di tecnologie e strumenti per il _continuous depoloyment_ in ambienti di produzione;
-- il sistema finale potrebbe avere meno _appeal_ rispetto a quello dei _competitor_ nel mercato
+- il sistema finale potrebbe avere meno _appeal_ rispetto a quello dei _competitor_ nel mercato.
 
 L'analisi e la gestione del rischio è trattata [Allegato 3 - Analisi dei rischi](/PM-report/attachments/3-risk-analysis/)
+
+## Milestone
+
+Si prevede di rilasciare i servizi in questo ordine:
+
+1. predisposizione infrastruttura di continuous integration & deployment;
+2. sotto-sistema autenticazione e gestione gruppi;
+3. sotto-sistema di localizzazione;
+4. sotto-sistema di notifiche;
+5. sotto-sistema di chat.
+6. predisposizione di un sistema di diagnosi e monitoraggio.
