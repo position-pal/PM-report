@@ -4,7 +4,8 @@ date: 2024-05-27
 layout: post
 ---
 
-`TODO` Riportare diagramma _event storming_
+> **🚧 TODO: Riportare diagramma _event storming_**
+{: .block-warning }
 
 Vengono qui di seguito esplosi i requisiti del sistema, a partire dagli obiettivi definiti nel [POS](/PM-report/attachments/1-pos/).
 
@@ -52,5 +53,4 @@ Vengono qui di seguito esplosi i requisiti del sistema, a partire dagli obiettiv
       1. Implementazione servizio _crittografia E2E_
    2. Implementazione funzionalità di chat
       1. Gestione invio _notifiche_
-   3. Implementazione funzionalità _amministrazione_ dei gruppi chat 
-   
+   3. Implementazione funzionalità _amministrazione_ dei gruppi chat

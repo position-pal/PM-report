@@ -2,6 +2,7 @@
 title: Allegato 3 - Risk Analysis
 date: 2024-06-05
 layout: post
+mermaid: true
 ---
 
 `TODO`
@@ -24,3 +25,5 @@ quadrantChart
     Campaign E: [0.40, 0.34]
     Campaign F: [0.35, 0.78]
 ```
+
+Lorem ipsum...

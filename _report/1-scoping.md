@@ -21,9 +21,10 @@ Per queste ragioni il progetto _software_ e il suo processo di sviluppo sarà im
 **Scopo:** individuazione delle aspettative e dei requisiti dell'applicazione.
 
 **Partecipanti della riunione:**
+
 | Membro                | Ruolo              |
 |-----------------------|--------------------|
-| Luca Rubboli          | **Facilitatore**       |
+| Luca Rubboli          | **Facilitatore**   |
 | Luca Tassinari        | _Core Team member_ |
 | Giovanni Antonioni    | _Core Team member_ |
 
@@ -38,47 +39,19 @@ Per queste ragioni il progetto _software_ e il suo processo di sviluppo sarà im
 - scelta del modello _PMLC_ da seguire;
 - bozza e approvazione del _POS_;
 
-### Facilitatore
+**Sintesi svolgimento:**
 
-Per fini di brevità, aggreghiamo i risultati delle prime 3 riunioni, tenute da tutti i componenti del gruppo.
-Lo scopo di queste è stato quello di definire gli obiettivi principali del progetto, formalizzare i requisiti e i criteri di accettazione.
-In dettaglio, l'analisi è stata raffinata in più passi, inizialmente definendo gli obiettivi generali del progetto, da cui sono emerse le opportunità e i rischi correlati; parallelamente sono state stilate le condizioni e criteri di successo del sistema.
+Per fini di brevità, aggreghiamo la sintesi e i risultati delle prime 3 riunioni, tenute da tutti i componenti del gruppo, nelle quali sono stati definiti gli obiettivi principali del progetto, sono stati formalizzati i requisiti e i criteri di accettazione.
+
+In dettaglio, l'analisi è stata raffinata incrementalmente, inizialmente definendo gli obiettivi generali del progetto, da cui sono emerse le opportunità e i rischi correlati; parallelamente, sono state stilate le condizioni e criteri di successo del sistema.
+
+Al fine di estrarre le principali funzionalità dell'applicativo nel modo più rapido ed efficace possibile, è stato utilizzato **_Event Storming_**, una tecnica di modellazione collaborativa e visuale particolarmente utilizzata e apprezzata nel contesto di sviluppo _agile_ e _Domain-Driven_.
+La sua potenza deriva da un gruppo eterogeneo e multidisciplinare di esperti, dagli architetti ai _product owner_, passando per i _designer_ dell'_UI/UX_ ai _tester_, che, insieme, collaborano per estrarre le principali funzionalità e i processi che le guidano, condividendo questa conoscenza per far sì che sia condivisa al di là dei compartimenti stagni di ciascun team.
+
+> **🚧 TODO: inserire spiegazione event storming.**
+{: .block-warning }
+
 Attraverso la stesura dei _requirements_ in una struttura gerarchica è stato possibile identificare anche un ordine di produzione delle macro-componenti, al fine di favorire inizialmente uno sviluppo che giovi dei benefici offerti dalla _continuous integration_ fin dall'inizio, e una struttura di testing incrementale.
-La frammentazione dei requisiti in più sotto-funzionalità ha permesso di avere una visione più dettagliata del sistema, il chè ha favorito una stima di tempi di consegna più accurati.
 
-Il processo viene accompagnato dalla fase di Event Storming, con l'obiettivo di estrarre le principali funzionalità dell'applicativo.
-
-`TODO`
-
-> ##### TIP
->
-> Dalle slide del prof:
->
-> _Obiettivi della riunione:_
->
-> - tracciare desideri / aspettative e bisogni dei committenti
->
-> _Deliverables_
->
-> - POS
-> - RBS
-> - CoS (Conditions of Satisfacion)
-> - PMLC model da usare
->
-> Il tutto seguendo un approccio incrementale e iterativo
->
-> _Possibile Agenda_:
->
-> - introduzione (ad opera del facilitatore);
-> - scopo del meeting (facilitatore);
-> - discussione delle conditions of satisfaction;
-> - descrizione del problem o della business opportunity;
-> - descrizione dello stato finale che si vuole raggiungere;
-> - descrizione dei requisiti e della documentazione;
-> - scelta del modello PMLC da seguire;
-> - bozza e approvazione del POS;
-> - aggiornamento a una eventuale riunione successiva;
->
-> Per la relazione e i meeting si chiede di documentare l'ordine del giorno, i partecipanti e una sintesi dell'ipotetico svolgimento
->   - lo svolgimento a mo' di dialogo?
->   - individuare chi è il facilitatore e gli altri membri e i loro ruoli
+> **🚧 TODO: PMLC**
+{: .block-warning }
