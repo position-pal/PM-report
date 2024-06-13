@@ -24,7 +24,7 @@ Per queste ragioni il progetto _software_ e il suo processo di sviluppo sarà im
 
 | Membro                | Ruolo              |
 |-----------------------|--------------------|
-| Luca Rubboli          | **Facilitatore**   |
+| **Luca Rubboli**      | **Facilitatore**   |
 | Luca Tassinari        | _Core Team member_ |
 | Giovanni Antonioni    | _Core Team member_ |
 
@@ -47,9 +47,23 @@ In dettaglio, l'analisi è stata raffinata incrementalmente, inizialmente define
 
 Al fine di estrarre le principali funzionalità dell'applicativo nel modo più rapido ed efficace possibile, è stato utilizzato **_Event Storming_**, una tecnica di modellazione collaborativa e visuale particolarmente utilizzata e apprezzata nel contesto di sviluppo _agile_ e _Domain-Driven_.
 La sua potenza deriva da un gruppo eterogeneo e multidisciplinare di esperti, dagli architetti ai _product owner_, passando per i _designer_ dell'_UI/UX_ ai _tester_, che, insieme, collaborano per estrarre le principali funzionalità e i processi che le guidano, condividendo questa conoscenza per far sì che sia condivisa al di là dei compartimenti stagni di ciascun team.
+Inoltre, questo approccio consente di uniformare il linguaggio utilizzato (quello che in DDD è detto _ubiquitous language_) e di sollevare e poi risolvere eventuali ambiguità o incomprensioni che possono emergere sin dalle prime fasi del progetto.
 
-> **🚧 TODO: inserire spiegazione event storming.**
-{: .block-warning }
+Dopo aver introdotto brevemente quali sono i vantaggi nell'utilizzo di questa tecnica rispetto a un approccio più tradizionale, è stato quindi illustrato a tutti i componenti del gruppo come si svolge una sessione di _Event Storming_.
+
+Si parte da un problema o da un obiettivo e, attraverso l'uso di _stickynotes_ colorate e _markers_, si procede a mappare i processi e le interazioni tra le varie entità coinvolte, in modo da ottenere una visione d'insieme del sistema e delle sue interazioni.
+Più in dettaglio, la sessione inizia con l'identificazione dei _domain event_, ovvero gli eventi relativi al dominio che si sta esplorando che rappresentano qualcosa di interessante che è accaduto (per questo si usa il passato) e che possa essere utile per il sistema.
+Questi vengono disposti in sequenza temporale in modo da creare una _timeline_ che rappresenti il flusso di eventi che si verificano nel sistema.
+A questo punto si procede con l'identificazione dei _commands_, ovvero azioni che possono essere eseguite sul sistema da parte di un attore, e delle _policy_ con cui il sistema reagisce, andando ad arricchire la _timeline_ seguendo il flusso di eventi e azioni.
+Infine si pongono in evidenza i _read models_, ovvero qualunque informazione che il sistema deve mostrare all'utente.
+
+La struttura da seguire viene riassunta di seguito:
+
+![Meta event storming](/PM-report/res/meta-event-storming.png)
+
+> 📂 **_Allegato_**
+> Lo schema risultante dell'_Event Storming_ è riportato, insieme all'RBS, nell'[Allegato 2](/PM-report/attachments/2-rbs/)
+{: .block-tip }
 
 Attraverso la stesura dei _requirements_ in una struttura gerarchica è stato possibile identificare anche un ordine di produzione delle macro-componenti, al fine di favorire inizialmente uno sviluppo che giovi dei benefici offerti dalla _continuous integration_ fin dall'inizio, e una struttura di testing incrementale.
 
