@@ -18,7 +18,7 @@ Vengono qui di seguito esplosi i requisiti del sistema, a partire dagli obiettiv
       1. definizione delle regole di merge automatico
    6. Configurazione di un sistema di _ticketing_ automatizzato
 
-2. **Progettazione e implementazione di un servizio per la gestione utente che deve occuparsi di tutti gli aspetti relativi all'autenticazione, sia per quanto riguarda l'iscrizione, sia per il log-in, a cui va aggiunta la creazione e il mantenimento dei gruppi e lo stato in tempo reale.**
+2. **Progettazione e implementazione di un servizio per la gestione utente che deve occuparsi di tutti gli aspetti relativi all'autenticazione, sia per quanto riguarda l'iscrizione, sia per il log-in, a cui va aggiunta la creazione e il mantenimento dei gruppi.**
    1. Autenticazione
       1. Iscrizione
          1. il servizio deve supportare l'iscrizione di nuovi utenti
@@ -35,10 +35,6 @@ Vengono qui di seguito esplosi i requisiti del sistema, a partire dagli obiettiv
          1. il servizio deve supportare la possibilità di invitare utenti nei gruppi, oltre che notificare i facenti parte del gruppo ad ogni nuova adesione
       3. Abbandono gruppo
          1. il servizio deve permettere all'utente di abbandonare un gruppo in cui ha precedentemente aderito
-   3. Gestione stato
-      1. Aggiornamento stato
-         1. il servizio deve gestire tutti gli aspetti di aggiornamento, con annessa la possibilità di resettare lo stato dopo un'emergenza
-         2. in fase di aggiornamento di stato, il servizio deve sollevare notifiche a tutti i componenti di tutti i gruppi di cui l'utente che aggiorna il proprio stato fa parte
 
 3. **Progettazione e implementazione di un servizio di localizzazione che permetta di geolocalizzare un utente in tempo reale, individuare coordinate a partire da indirizzi / luoghi ed esporre un'API per impostare notifiche quando l'utente arriva in prossimità di una certa posizione.**
    1. _geocoding_ di indirizzi / luoghi in coordinate
@@ -47,7 +43,11 @@ Vengono qui di seguito esplosi i requisiti del sistema, a partire dagli obiettiv
       2. disattivazione della condivisione della posizione
    3. impostazione di notifiche di prossimità
    4. salvataggio e gestione della posizione degli utenti
-
+   5. Gestione stato
+      1. Aggiornamento stato
+         1. il servizio deve gestire tutti gli aspetti di aggiornamento, con annessa la possibilità di resettare lo stato dopo un'emergenza
+         2. in fase di aggiornamento di stato, il servizio deve sollevare notifiche a tutti i componenti di tutti i gruppi di cui l'utente che aggiorna il proprio stato fa parte
+   
 4. **Progettazione e implementazione di un servizio di chat che permetta di conversare in tempo reale con un singolo o un gruppo ristretto di utenti con la quale si vuole condividere la propria posizione e stato. Questo permetterà all,'utente di avere una comunicazione più diretta e immediata con i membri del gruppo.**
    1. Analisi aspetti di _sicurezza_ nella comunicazione in tempo reale tra più utenti
       1. Implementazione servizio _crittografia E2E_
