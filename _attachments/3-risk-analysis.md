@@ -7,35 +7,54 @@ mermaid: true
 
 ## Identificazione dei rischi
 
-- [TECNICO] il team non ha esperienza nella progettazione e sviluppo di applicazioni con architettura a micro-servizi;
-- [TECNICO] il team ha limitata esperienza riguardo l'utilizzo di tecnologie e strumenti per il _continuous depoloyment_ in ambienti di produzione;
-- [ORGANIZZATIVO] rischio di sforare il budget;
-- [ORGANIZZATIVO] vista la poca esperienza e altri progetti in corso provocare ritardi nella consegna;
-- [ESTERNO] il sistema finale potrebbe avere meno _appeal_ rispetto a quello dei _competitor_ nel mercato.
+- **[TECNICO]** il team non ha esperienza nella progettazione e sviluppo di applicazioni con architettura a micro-servizi;
+- **[TECNICO]** il progetto richiede l'utilizzo di tecnologie e strumenti sconosciuti ai membri del team di svliuppo;
+- **[TECNICO]** il team ha limitata esperienza riguardo l'utilizzo di tecnologie e strumenti per il _continuous depoloyment_ in ambienti di produzione;
+- **[ORGANIZZATIVO]** rischio di sforare il budget;
+- **[ORGANIZZATIVO]** vista la poca esperienza e altri progetti in corso provocare ritardi nella consegna;
+- **[ESTERNO]** il sistema finale potrebbe avere meno _appeal_ rispetto a quello dei _competitor_ nel mercato.
 
-## Assesment
+## Assessment
 
+**Legenda**:
 
+I livelli di impatto e priorità sono categorizzati in 4 livelli:
+- B: Bassa
+- M: Media
+- A: Alta
+- C: Critica
 
-`TODO`
-
-Test mermaid:
+| Categoria di rischio | Scope | Evento # | Evento | Probabilità | Impatto | Priorità | 
+|----------------------|-------|----------|--------|-------------|---------|----------|
+| TECNICO | Qualità | TC1 | Mancata qualità dovuta all'inesperienza del team di sviluppo | 0.6 | C | A | 
+| TECNICO | Qualità | TC2 | Le tecnologie CI/CD ritardano il rilascio in produzione | 0.3 | A | A |
+| TECNICO | Qualità | TC3 | Il mal utilizzo delle tecnologie adottate provoca un deterioramento dei QoS (Quality of Services) | 0.8 | C | C |
+| ORGANIZZATIVO | Budget | OR1 | Sforamento del budget | 0.1 | M | B |
+| ORGANIZZATIVO | Budget | OR2 | Ritardi nella consegna | 0.5 | M | M |
+| ESTERNO | Mercato | ES1 | Il sistema finale ha meno _appeal_ rispetto ai _competitor_ | 0.9 | B | B |
 
 ```mermaid
 quadrantChart
-    title Reach and engagement of campaigns
-    x-axis Low Reach --> High Reach
-    y-axis Low Engagement --> High Engagement
-    quadrant-1 We should expand
-    quadrant-2 Need to promote
-    quadrant-3 Re-evaluate
-    quadrant-4 May be improved
-    Campaign A: [0.3, 0.6]
-    Campaign B: [0.45, 0.23]
-    Campaign C: [0.57, 0.69]
-    Campaign D: [0.78, 0.34]
-    Campaign E: [0.40, 0.34]
-    Campaign F: [0.35, 0.78]
+    title Matrice dei rischi
+    y-axis Bassa probabilita --> Alta probabilita
+    x-axis Impatto basso --> Impatto alto
+    TC1: [0.9, 0.6]
+    TC2: [0.76, 0.3]
+    TC3: [0.95, 0.8]
+    OR1: [0.5, 0.1]
+    OR2: [0.5, 0.5]
+    ES1: [0.05 , 0.9]
 ```
 
-Lorem ipsum...
+## Gestione dei rischi
+
+| Evento # | Gestione   | Descrizione |
+|:----:    |:----------:|:----------|
+| TC1      | Mitigate   | Formazione del team sull'architettura a microservizi |
+| TC2      | Mitigate   | Formazione del team sulle tecnologie CI/CD |
+| TC3      | Mitigate   | Formazione del team sulle tecnologie presenti nel mercato |
+| OR1      | Accept |
+| OR2      | Contingency Planning | In caso di ritardi le funzionalità opzionali vengono scartate |
+| ES1      | Accept |
+
+
