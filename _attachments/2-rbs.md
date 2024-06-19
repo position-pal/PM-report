@@ -7,7 +7,7 @@ layout: post
 > **🚧 TODO: Riportare diagramma _event storming_**
 {: .block-warning }
 
-Vengono qui di seguito esplosi i requisiti del sistema, a partire dagli obiettivi definiti nel [POS](/PM-report/attachments/1-pos/).
+Vengono qui di seguito esplosi i requisiti del sistema, a partire dagli obiettivi definiti nel [POS]({{ site.baseurl }}/attachments/1-pos/).
 
 1. **Organizzazione, configurazione e inizializzazione dei workspace con un adeguato _build tool_, di un'infrastruttura con predisposizione a una _pipeline_ automatizzata di _continuous integration & deployment_.**
    1. Configurazione build tool e DVCS
@@ -58,16 +58,39 @@ Vengono qui di seguito esplosi i requisiti del sistema, a partire dagli obiettiv
 ```plantuml
 @startwbs wbs
 
-* PositionPal.
++ PositionPal.
 
-** Organizzazione, configurazione e \n inizializzazione dei workspace
-*** Configurazione build tool
-*** Configurazione pipeline di CI
-*** Configurazione pipeline di CD
-*** Configurazione bot per aggiornamento \n automatico delle dipendenze
-*** Configurazione bot per il merge \n automatizzato di Pull Request
-**** Definizione delle regole di merge automatico
-*** Configurazione di un sistema di ticketing automatizzato
+++ 1. Organizzazione, configurazione e \n inizializzazione dei workspace
++++ 1.1 Configurazione build tool
++++ 1.2 Configurazione pipeline di CI
++++ 1.3 Configurazione pipeline di CD
++++ 1.4 Configurazione bot per \n aggiornamento automatico \n delle dipendenze
++++ 1.5 Configurazione bot per il \n merge automatico di Pull Request
+++++ 1.5.1. Definizione \n regole di merge \n automatico
++++ 1.6 Configurazione di un sistema \n di ticketing automatico
 
+++ 2. Servizio di gestione \n utenti e gruppi
++++ 2.1 Autenticazione
+++++ 2.1.1 Iscrizione
+++++ 2.1.2 Log-in
+++++ 2.1.3 Aggiornamento info utente
++++ 2.2 Gestione gruppi
+++++ 2.2.1 Creazione gruppo
+++++ 2.2.2 Adesione gruppo
+++++ 2.2.3 Abbandono gruppo
+
+++ 3. Servizio di localizzazione
++++ 3.1 Geocoding di indirizzi
++++ 3.2 Tracciamento della posizione
++++ 3.3 Impostazione notifiche di prossimità
++++ 3.4 Salvataggio e gestione \n della posizione degli utenti
++++ 3.5 Gestione stato
+++++ 3.5.1 Aggiornamento stato
+
+++ 4. Servizio di chat
++++ 4.1 Analisi aspetti di sicurezza
+++++ 4.1.1 Servizio crittografia E2E
++++ 4.2 Funzionalità di chat
++++ 4.3 Funzionalità \n amministrazione dei gruppi chat
 @endwbs
 ```
