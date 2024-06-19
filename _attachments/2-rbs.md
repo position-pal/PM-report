@@ -54,3 +54,20 @@ Vengono qui di seguito esplosi i requisiti del sistema, a partire dagli obiettiv
    2. Implementazione funzionalità di chat
       1. Gestione invio _notifiche_
    3. Implementazione funzionalità _amministrazione_ dei gruppi chat
+
+```plantuml
+@startwbs wbs
+
+* PositionPal.
+
+** Organizzazione, configurazione e \n inizializzazione dei workspace
+*** Configurazione build tool
+*** Configurazione pipeline di CI
+*** Configurazione pipeline di CD
+*** Configurazione bot per aggiornamento \n automatico delle dipendenze
+*** Configurazione bot per il merge \n automatizzato di Pull Request
+**** Definizione delle regole di merge automatico
+*** Configurazione di un sistema di ticketing automatizzato
+
+@endwbs
+```
