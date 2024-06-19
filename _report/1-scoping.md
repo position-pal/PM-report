@@ -59,10 +59,10 @@ Infine si pongono in evidenza i _read models_, ovvero qualunque informazione che
 
 La struttura da seguire viene riassunta di seguito:
 
-![Meta event storming](/PM-report/res/meta-event-storming.png)
+![Meta event storming]({{ site.baseurl }}/res/meta-event-storming.png)
 
 > 📂 **_Allegato_**
-> Lo schema risultante dell'_Event Storming_ è riportato, insieme all'RBS, nell'[Allegato 2](/PM-report/attachments/2-rbs/)
+> Lo schema risultante dell'_Event Storming_ è riportato, insieme all'RBS, nell'[Allegato 2]({{ site.baseurl }}/attachments/2-rbs/)
 {: .block-tip }
 
 Attraverso la stesura dei _requirements_ in una struttura gerarchica è stato possibile identificare anche un ordine di produzione delle macro-componenti, al fine di favorire inizialmente uno sviluppo che giovi dei benefici offerti dalla _continuous integration_ fin dall'inizio, e una struttura di testing incrementale.
