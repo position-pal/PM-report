@@ -1,0 +1,484 @@
+<!DOCTYPE HTML>
+<html lang="en" >
+    <head><meta charset="UTF-8">
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"><title>Scoping · PositionPal - Project Management</title><meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="description" content="Project Management Report for the PositionPal project"><meta name="generator" content="Jekyll (using style of GitBook 3.2.3)"><link rel="stylesheet" href="/PM-report/assets/gitbook/style.css">
+<link rel="stylesheet" href="/PM-report/assets/gitbook/gitbook-plugin-back-to-top-button/plugin.css">
+<link rel="stylesheet" href="/PM-report/assets/gitbook/gitbook-plugin-expandable-chapters-small2/expandable-chapters-small.css">
+<link rel="stylesheet" href="/PM-report/assets/gitbook/gitbook-plugin-fontsettings/website.css">
+<link rel="stylesheet" href="/PM-report/assets/gitbook/gitbook-plugin-search-pro/search.css">
+<link rel="stylesheet" href="/PM-report/assets/gitbook/gitbook-plugin-splitter/splitter.css">
+
+<link rel="stylesheet" href="/PM-report/assets/gitbook/rouge/colorful.css">
+
+<link rel="stylesheet" href="/PM-report/assets/gitbook/custom.css">
+<link rel="stylesheet" href="/PM-report/assets/gitbook/custom-local.css">
+
+<meta name="HandheldFriendly" content="true"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="/PM-report/assets/gitbook/images/apple-touch-icon-precomposed-152.png">
+<link rel="shortcut icon" href="/PM-report/" type="image/x-icon">
+
+
+
+
+            <link rel="prev" href="/PM-report/" />
+        
+
+        
+            <link rel="next" href="/PM-report/report/2-planning/" />
+        
+    </head>
+    <body>
+        <div class="book"><div class="book-summary">
+    <script type="text/javascript">
+        // Fixes the page links scroll problem on both desktop and mobile browsers
+        function pageScrollToTop(element) {
+            // both mobile and non-mobile
+            $('div.body-inner').animate({scrollTop: 0});
+            $(element).parent().find('li>ul>li').removeClass('active');
+            return true;  // propagate
+        }
+        // Fixes the anchor links scroll problem on mobile browsers
+        function mobilePageScrollToAnchor(element) {
+            $(element).closest('li.chapter').find('ul>li').removeClass('active');
+            $(element).parent().addClass('active');
+            if ($(document).width() <= 1240) {
+                $('div.body-inner').animate({scrollTop: $($(element).attr('href')).get(0).offsetTop});
+            }
+            return true;
+        }
+    </script>
+
+    <nav role="navigation">
+        <div id="book-search-input" role="search">
+            <input type="text" placeholder="Type to search" />
+        </div>
+        <div id="book-search-input-link" role="search">
+            <a href="/PM-report/assets/search.html">Click to Search</a>
+        </div>
+        <ul class="summary">
+            
+            <li class="chapter" data-level="1.1" data-path="/PM-report">
+            
+                <a href="/PM-report/" onclick="pageScrollToTop(this)">
+                    PositionPal - Project Management
+                </a>
+            </li>
+
+            <li class="divider"></li>
+
+            
+                <!-- <p>attachments</p> -->
+                
+                    
+
+                    
+                        
+                        <li class="chapter" data-level="1.1" data-path="/PM-report/attachments/1-pos/">
+                        
+                            <a href="/PM-report/attachments/1-pos/" onclick="pageScrollToTop(this)">
+                                Allegato 1 - Project Overview Statement
+                            </a>
+                            
+                                
+                            
+                        </li>
+                    
+                        
+                        <li class="chapter" data-level="1.1" data-path="/PM-report/attachments/2-rbs/">
+                        
+                            <a href="/PM-report/attachments/2-rbs/" onclick="pageScrollToTop(this)">
+                                Allegato 2 - Requirements Breakdown Structure
+                            </a>
+                            
+                                
+                            
+                        </li>
+                    
+                        
+                        <li class="chapter" data-level="1.1" data-path="/PM-report/attachments/3-risk-analysis/">
+                        
+                            <a href="/PM-report/attachments/3-risk-analysis/" onclick="pageScrollToTop(this)">
+                                Allegato 3 - Risk Analysis
+                            </a>
+                            
+                                
+                            
+                        </li>
+                    
+
+                    
+                        <li class="divider"></li>
+                    
+                
+            
+                <!-- <p>posts</p> -->
+                
+                    
+
+                    
+
+                    
+                
+            
+                <!-- <p>report</p> -->
+                
+                    
+
+                    
+                        
+                        <li class="chapter active" data-level="1.2" data-path="/PM-report/report/1-scoping/">
+                        
+                            <a href="/PM-report/report/1-scoping/" onclick="pageScrollToTop(this)">
+                                Scoping
+                            </a>
+                            
+                                
+                                    <ul><li><a href="#contesto" onclick="mobilePageScrollToAnchor(this)" >Contesto</a></li><li><a href="#riunione-di-definizione-del-progetto-scoping-meeting" onclick="mobilePageScrollToAnchor(this)" >Riunione di definizione del progetto (<em>scoping meeting</em>)</a></li></ul>
+
+                                
+                            
+                        </li>
+                    
+                        
+                        <li class="chapter" data-level="1.1" data-path="/PM-report/report/2-planning/">
+                        
+                            <a href="/PM-report/report/2-planning/" onclick="pageScrollToTop(this)">
+                                Planning
+                            </a>
+                            
+                                
+                            
+                        </li>
+                    
+
+                    
+                        <li class="divider"></li>
+                    
+                
+            
+        </ul>
+    </nav>
+</div>
+<div class="book-body">
+                <div class="book-header" role="navigation">
+                    <!-- Title -->
+                    <h1>
+                        <i class="fa fa-circle-o-notch fa-spin"></i>
+                        
+                            <a href="." >Scoping</a>
+                        
+                    </h1>
+                </div>
+
+                <div class="body-inner"><div class="page-wrapper" tabindex="-1" role="main">
+    
+
+    <div class="page-inner">
+        <div id="book-search-results">
+            <div class="search-noresults">
+                <section class="normal markdown-section">
+                    
+                        <h1 id="/report/1-scoping">Scoping</h1>
+                    
+
+                    <h2 id="contesto">Contesto</h2>
+
+<p>Luca, Giovanni, Luca e Valerio sono quattro studenti di Ingegneria e Scienze Informatiche dell’Università di Bologna che, a fronte di <a href="https://www.open.online/2024/04/04/scrivi-quando-arrivi-gruppo-whatsapp-ragazze/">alcune notizie</a> lette recentemente di ragazzi e ragazze che tornando a casa di notte in zone poco sicure della città condividono la loro posizione in un gruppo WhatsApp per sostenersi e sorvegliarsi a vicenda, si sono posti come obiettivo quello di creare un sistema software <em>open source</em> di tracciamento della posizione specificatamente progettato e studiato per creare una rete di supporto e assistenza efficace e tempestiva, in grado di segnalare in maniera rapida una situazione di emergenza.</p>
+
+<p>Essendo un progetto <em>open source</em> nato in contesto universitario da alcuni studenti con l’obiettivo di apprendere nuove tecnologie, pattern di progettazione, nonché nuove metodologie di sviluppo, non c’è un vero e proprio committente, né una singola figura che lo rappresenta.
+Al contrario, tutti i membri del <em>team</em> collaborano attivamente per cercare di capire e individuare al meglio tutti i possibili bisogni e desideri dell’utenza finale del prodotto.</p>
+
+<p>L’analisi, in termini di <em>project management</em>, verterà sulla valutazione dei criteri di successo e dei rischi che possono accompagnare alcune scelte, oltre che all’individuazione e decomposizione delle macro-attività in unità più piccole, a cui seguirà una stima dei tempi di lavoro previsti e i <em>deliverables</em> attesi.</p>
+
+<p>Da un punto di vista tecnico, i membri del <em>team</em> hanno recentemente avuto modo di seguire corsi riguardo a come progettare applicazioni <em>software</em> di medio/grandi dimensioni sfruttando approcci guidati dal dominio (<em>domain-driven</em>), architetture distribuite a micro-servizi, e hanno avuto modo di apprezzare l’importanza di applicare metodologie di sviluppo <em>DevOps</em> in cui l’automatizzazione dei processi e l’integrazione continua di codice funzionante (<em>working code</em>) in produzione in maniera completamente automatizzata è un fattore di primaria importanza.
+Per queste ragioni il progetto <em>software</em> e il suo processo di sviluppo sarà improntato seguendo queste fondamentali linee guida.</p>
+
+<h2 id="riunione-di-definizione-del-progetto-scoping-meeting">Riunione di definizione del progetto (<em>scoping meeting</em>)</h2>
+
+<p><strong>Scopo:</strong> individuazione delle aspettative e dei requisiti dell’applicazione.</p>
+
+<p><strong>Partecipanti della riunione:</strong></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Membro</th>
+      <th>Ruolo</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Luca Rubboli</strong></td>
+      <td><strong>Facilitatore</strong></td>
+    </tr>
+    <tr>
+      <td>Luca Tassinari</td>
+      <td><em>Core Team member</em></td>
+    </tr>
+    <tr>
+      <td>Giovanni Antonioni</td>
+      <td><em>Core Team member</em></td>
+    </tr>
+  </tbody>
+</table>
+
+<p><strong>Agenda:</strong></p>
+
+<ul>
+  <li>introduzione (ad opera del facilitatore);</li>
+  <li>scopo della riunione (ad opera del facilitatore);</li>
+  <li>descrizione dell’opportunità di business;</li>
+  <li>discussione delle <em>conditions of satisfaction</em>;</li>
+  <li>descrizione dei <em>derivable</em> del progetto;</li>
+  <li>descrizione dei requisiti e della documentazione tramite <em>event storming</em>;</li>
+  <li>scelta del modello <em>PMLC</em> da seguire;</li>
+  <li>bozza e approvazione del <em>POS</em>;</li>
+</ul>
+
+<p><strong>Sintesi svolgimento:</strong></p>
+
+<p>Per fini di brevità, aggreghiamo la sintesi e i risultati delle prime 3 riunioni, tenute da tutti i componenti del gruppo, nelle quali sono stati definiti gli obiettivi principali del progetto, sono stati formalizzati i requisiti e i criteri di accettazione.</p>
+
+<p>In dettaglio, l’analisi è stata raffinata incrementalmente, inizialmente definendo gli obiettivi generali del progetto, da cui sono emerse le opportunità e i rischi correlati; parallelamente, sono state stilate le condizioni e criteri di successo del sistema.</p>
+
+<p>Al fine di estrarre le principali funzionalità dell’applicativo nel modo più rapido ed efficace possibile, è stato utilizzato <strong><em>Event Storming</em></strong>, una tecnica di modellazione collaborativa e visuale particolarmente utilizzata e apprezzata nel contesto di sviluppo <em>agile</em> e <em>Domain-Driven</em>.
+La sua potenza deriva da un gruppo eterogeneo e multidisciplinare di esperti, dagli architetti ai <em>product owner</em>, passando per i <em>designer</em> dell’<em>UI/UX</em> ai <em>tester</em>, che, insieme, collaborano per estrarre le principali funzionalità e i processi che le guidano, condividendo questa conoscenza per far sì che sia condivisa al di là dei compartimenti stagni di ciascun team.
+Inoltre, questo approccio consente di uniformare il linguaggio utilizzato (quello che in DDD è detto <em>ubiquitous language</em>) e di sollevare e poi risolvere eventuali ambiguità o incomprensioni che possono emergere sin dalle prime fasi del progetto.</p>
+
+<p>Dopo aver introdotto brevemente quali sono i vantaggi nell’utilizzo di questa tecnica rispetto a un approccio più tradizionale, è stato quindi illustrato a tutti i componenti del gruppo come si svolge una sessione di <em>Event Storming</em>.</p>
+
+<p>Si parte da un problema o da un obiettivo e, attraverso l’uso di <em>stickynotes</em> colorate e <em>markers</em>, si procede a mappare i processi e le interazioni tra le varie entità coinvolte, in modo da ottenere una visione d’insieme del sistema e delle sue interazioni.
+Più in dettaglio, la sessione inizia con l’identificazione dei <em>domain event</em>, ovvero gli eventi relativi al dominio che si sta esplorando che rappresentano qualcosa di interessante che è accaduto (per questo si usa il passato) e che possa essere utile per il sistema.
+Questi vengono disposti in sequenza temporale in modo da creare una <em>timeline</em> che rappresenti il flusso di eventi che si verificano nel sistema.
+A questo punto si procede con l’identificazione dei <em>commands</em>, ovvero azioni che possono essere eseguite sul sistema da parte di un attore, e delle <em>policy</em> con cui il sistema reagisce, andando ad arricchire la <em>timeline</em> seguendo il flusso di eventi e azioni.
+Infine si pongono in evidenza i <em>read models</em>, ovvero qualunque informazione che il sistema deve mostrare all’utente.</p>
+
+<p>La struttura da seguire viene riassunta di seguito:</p>
+
+<p><img src="/PM-report/res/meta-event-storming.png" alt="Meta event storming" /></p>
+
+<blockquote class="block-tip">
+  <p>📂 <strong><em>Allegato</em></strong>
+Lo schema risultante dell’<em>Event Storming</em> è riportato, insieme all’RBS, nell’<a href="/PM-report/attachments/2-rbs/">Allegato 2</a></p>
+</blockquote>
+
+<p>Attraverso la stesura dei <em>requirements</em> in una struttura gerarchica è stato possibile identificare anche un ordine di produzione delle macro-componenti, al fine di favorire inizialmente uno sviluppo che giovi dei benefici offerti dalla <em>continuous integration</em> fin dall’inizio, e una struttura di testing incrementale.</p>
+
+<blockquote class="block-warning">
+  <p><strong>🚧 TODO: PMLC</strong></p>
+</blockquote>
+</section>
+            </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div></div>
+    </div>
+</div>
+
+<!-- introduce mathjax support -->
+<script>
+window.MathJax = {
+  tex: {
+    inlineMath: [ ['$', '$'], ['\\(', '\\)'] ]
+  },
+  svg: {
+    fontCache: 'global'
+  }
+};
+</script>
+<script
+  type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+</script>
+
+
+<!-- introduce per-page mermaid support -->
+
+
+<!-- introduce mathjax support -->
+<script>
+    function fixes_chrome_anchors() {
+        let chrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
+        if (window.location.hash && chrome) {
+            setTimeout(function () {
+                var hash = window.location.hash;
+                window.location.hash = "";
+                window.location.hash = hash;
+            }, 300);
+        }
+    }
+
+    if (document.readyState === "loading") {
+        // Loading hasn't finished yet
+        document.addEventListener("DOMContentLoaded", fixes_chrome_anchors);
+    } else {
+        // `DOMContentLoaded` has already fired
+        fixes_chrome_anchors();
+    }
+</script>
+
+
+                        <a href="/PM-report/" class="navigation navigation-prev navigation-unique" aria-label="Previous page: PositionPal - Project Management">
+                            <i class="fa fa-angle-left"></i>
+                        </a>
+                    
+
+                    
+                        <a href="/PM-report/report/2-planning/" class="navigation navigation-next navigation-unique" aria-label="Next page: Planning">
+                            <i class="fa fa-angle-right"></i>
+                        </a>
+                    
+                </div>
+            </div>
+
+            <script>
+            var gitbook = gitbook || [];
+            gitbook.push(function() {
+                gitbook.page.hasChanged({
+    "page": {
+        "title": "Introduction",
+        "level": "1.1",
+        "depth": 1,
+        
+        "next": {
+            "title": "Planning",
+            "level": "1.2",
+            "depth": 1,
+            "path": "_report/2-planning.md",
+            "ref": "_report/2-planning.md",
+            "articles": []
+        },
+        
+        "dir": "ltr"
+    },    "config": {
+        "plugins": ["fontsettings", "highlight", "livereload", "lunr", "search", "sharing", "theme-default", "livereload"],
+        "styles": {
+            "ebook": "styles/ebook.css",
+            "epub": "styles/epub.css",
+            "mobi": "styles/mobi.css",
+            "pdf": "styles/pdf.css",
+            "print": "styles/print.css",
+            "website": "styles/website.css"
+        },
+        "pluginsConfig": {
+            "expandable-chapter-small2": {
+                "articlesExpand": true,
+            },
+            "fontsettings": {
+                "family": "sans",
+                "size": 2,
+                "theme": "white"
+            },
+            "highlight": {},
+            "livereload": {},
+            "lunr": {
+                "ignoreSpecialCharacters": false,
+                "maxIndexSize": 1000000
+            },
+            "search": {},            "sharing": {
+                "facebook": true,
+
+                "google": false,
+
+                "github": true,
+              
+                "github_link": "https://github.com",
+              
+
+                "telegram": false,
+                "telegram_link": "https://t.me",
+
+                "instapaper": false,
+
+                "twitter": true,
+              
+
+                "vk": false,
+
+                "weibo": false,
+
+                "all": ["facebook", "google", "twitter", "weibo", "instapaper", "github", "telegram"]
+            },
+"theme-default": {
+                "showLevel": false,
+                "styles": {
+                    "ebook": "styles/ebook.css",
+                    "epub": "styles/epub.css",
+                    "mobi": "styles/mobi.css",
+                    "pdf": "styles/pdf.css",
+                    "print": "styles/print.css",
+                    "website": "styles/website.css"
+                }
+            },
+        },
+        "theme": "default",
+        "author": "Tao He",
+        "pdf": {
+            "pageNumbers": true,
+            "fontSize": 12,
+            "fontFamily": "Arial",
+            "paperSize": "a4",
+            "chapterMark": "pagebreak",
+            "pageBreaksBefore": "/",
+            "margin": {
+                "right": 62,
+                "left": 62,
+                "top": 56,
+                "bottom": 56
+            }
+        },
+        "structure": {
+            "langs": "LANGS.md",
+            "readme": "README.md",
+        },
+        "variables": {},
+        "title": "PositionPal - Project Management",
+        "language": "en",
+        "gitbook": "*"
+    },
+    "file": {
+        "path": "_report/1-scoping.md",
+        "mtime": "2024-05-24 00:00:00 +0000",
+        "type": "markdown"
+    },
+    "gitbook": {
+        "version": "3.2.3",
+        "time": "2024-06-19 12:29:51 +0000"
+    },
+    "basePath": "/PM-report",
+    "book": {
+        "language": ""
+    }
+});
+            });
+            </script>
+        </div><script src="/PM-report/assets/gitbook/gitbook.js"></script>
+<script src="/PM-report/assets/gitbook/theme.js"></script>
+
+<script src="/PM-report/assets/gitbook/gitbook-plugin-back-to-top-button/plugin.js"></script>
+<script src="/PM-report/assets/gitbook/gitbook-plugin-copy-code-button/toggle.js"></script>
+<script src="/PM-report/assets/gitbook/gitbook-plugin-expandable-chapters-small2/expandable-chapters-small.js"></script>
+<script src="/PM-report/assets/gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+<script src="/PM-report/assets/gitbook/gitbook-plugin-search-pro/jquery.mark.min.js"></script>
+<script src="/PM-report/assets/gitbook/gitbook-plugin-search-pro/search.js"></script>
+<script src="/PM-report/assets/gitbook/gitbook-plugin-sharing/buttons.js"></script>
+<script src="/PM-report/assets/gitbook/gitbook-plugin-splitter/splitter.js"></script>
+
+<!--
+<script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+<script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+<script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+<script src="../gitbook/gitbook-plugin-search/search.js"></script>
+-->
+
+</body>
+</html>
