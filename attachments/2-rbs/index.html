@@ -95,7 +95,7 @@
                             </a>
                             
                                 
-                                    
+                                    <ul><li><a href="#event-storming" onclick="mobilePageScrollToAnchor(this)" >Event Storming</a></li><li><a href="#work-breakdown-structure" onclick="mobilePageScrollToAnchor(this)" >Work Breakdown Structure</a></li></ul>
 
                                 
                             
@@ -185,71 +185,86 @@
                         <h1 id="/attachments/2-rbs">Allegato 2 - Requirements Breakdown Structure</h1>
                     
 
-                    <blockquote class="block-warning">
+                    <h2 id="event-storming">Event Storming</h2>
+
+<blockquote class="block-warning">
   <p><strong>🚧 TODO: Riportare diagramma <em>event storming</em></strong></p>
 </blockquote>
 
-<p>Vengono qui di seguito esplosi i requisiti del sistema, a partire dagli obiettivi definiti nel <a href="/PM-report/attachments/1-pos/">POS</a>.</p>
+<h2 id="work-breakdown-structure">Work Breakdown Structure</h2>
+
+<p>Vengono qui di seguito esplosi i requisiti del sistema, a partire dagli obiettivi definiti nel <a href="/PM-report/attachments/1-pos/">POS</a>, nel formato di una <em>Requirements Breakdown Structure</em>.</p>
+
+<blockquote class="block-tip">
+  <p>ℹ️ <strong><em>Info</em></strong>
+La versione ingrandita dello schema è reperibile <a href="/PM-report/res/wbs.svg">qui</a>.
+Di seguito è riportata una versione testuale.</p>
+</blockquote>
+
+<p><img src="/PM-report/res/wbs.svg" alt="wbs schema" /></p>
 
 <ol>
-  <li><strong>Organizzazione, configurazione e inizializzazione dei workspace con un adeguato <em>build tool</em>, di un’infrastruttura con predisposizione a una <em>pipeline</em> automatizzata di <em>continuous integration &amp; deployment</em>.</strong>
+  <li><strong>Progettazione, inizializzazione e configurazione dei workspace con un adeguato <em>build tool</em>, di un’infrastruttura con predisposizione a una <em>pipeline</em> automatizzata di <em>continuous integration &amp; deployment</em>.</strong>
     <ol>
       <li>Configurazione build tool e DVCS</li>
       <li>Configurazione pipeline di <em>continuous integration</em></li>
-      <li>Configurazione pipeline di <em>continuous deployment</em></li>
-      <li>Configurazione <em>bot</em> per aggiornamento automatico delle dipendenze</li>
-      <li>Configurazione <em>bot</em> per il <em>merge</em> automatizzato di Pull Request sulla repo
+      <li>Configurazione pipeline di <em>continuous deployment</em>
         <ol>
-          <li>definizione delle regole di merge automatico</li>
+          <li>Progettazione diagrammi deployment</li>
+          <li>Creazione struttura locale minimale di orchestrazione</li>
+          <li>Configurazione ambiente di produzione</li>
+          <li>Sviluppo azioni deployment da locale a produzione</li>
         </ol>
       </li>
+      <li>Configurazione <em>bot</em> per aggiornamento automatico delle dipendenze</li>
+      <li>Configurazione <em>bot</em> per il <em>merge</em> automatizzato di Pull Request sulla repo</li>
+      <li>Configurazione <em>bot</em> per il rilascio automatico delle <em>release</em></li>
       <li>Configurazione di un sistema di <em>ticketing</em> automatizzato</li>
     </ol>
   </li>
   <li><strong>Progettazione e implementazione di un servizio per la gestione utente che deve occuparsi di tutti gli aspetti relativi all’autenticazione, sia per quanto riguarda l’iscrizione, sia per il log-in, a cui va aggiunta la creazione e il mantenimento dei gruppi.</strong>
     <ol>
-      <li>Autenticazione
+      <li>Progettazione e design</li>
+      <li>Configurazione ed implementazione servizio di autenticazione
         <ol>
-          <li>Iscrizione
-            <ol>
-              <li>il servizio deve supportare l’iscrizione di nuovi utenti</li>
-              <li>il servizio deve inviare una mail con i dati relativi all’iscrizione</li>
-            </ol>
-          </li>
-          <li>Log-in
-            <ol>
-              <li>il servizio deve supportare il <em>login</em> di utenti già iscritti</li>
-              <li>il servizio deve creare e gestire <em>token</em> di autenticazione e la sessione a questo correlata</li>
-            </ol>
-          </li>
-          <li>Aggiornamento utente
-            <ol>
-              <li>il servizio deve permettere all’utente di modificare le proprie informazioni e password</li>
-            </ol>
-          </li>
+          <li>Configurazione DB e implementazione schemi</li>
+          <li>Implementazione token di autenticazione</li>
+          <li>Regole di controllo di accesso</li>
+          <li>Implementazione API di autenticazione</li>
         </ol>
       </li>
-      <li>Gestione gruppi
+      <li>Implementazione delle feature relative ai gruppi
         <ol>
-          <li>Creazione gruppo
-            <ol>
-              <li>il servizio deve supportare la creazione di un gruppo</li>
-            </ol>
-          </li>
-          <li>Adesione gruppo
-            <ol>
-              <li>il servizio deve supportare la possibilità di invitare utenti nei gruppi, oltre che notificare i facenti parte del gruppo ad ogni nuova adesione</li>
-            </ol>
-          </li>
-          <li>Abbandono gruppo
-            <ol>
-              <li>il servizio deve permettere all’utente di abbandonare un gruppo in cui ha precedentemente aderito</li>
-            </ol>
-          </li>
+          <li>Configurazione DB e implementazione schemi</li>
+          <li>Implementazione API di gestione gruppi</li>
         </ol>
       </li>
+      <li>Scrittura della documentazione</li>
+      <li>Definizione configurazione di deployment</li>
     </ol>
   </li>
+</ol>
+
+<!--
+   1. Autenticazione
+      1. Iscrizione
+         1. il servizio deve supportare l'iscrizione di nuovi utenti
+         2. il servizio deve inviare una mail con i dati relativi all'iscrizione
+      2. Log-in
+         1. il servizio deve supportare il _login_ di utenti già iscritti
+         2. il servizio deve creare e gestire _token_ di autenticazione e la sessione a questo correlata
+      3. Aggiornamento utente
+         1. il servizio deve permettere all'utente di modificare le proprie informazioni e password
+   2. Gestione gruppi
+      1. Creazione gruppo
+         1. il servizio deve supportare la creazione di un gruppo
+      2. Adesione gruppo
+         1. il servizio deve supportare la possibilità di invitare utenti nei gruppi, oltre che notificare i facenti parte del gruppo ad ogni nuova adesione
+      3. Abbandono gruppo
+         1. il servizio deve permettere all'utente di abbandonare un gruppo in cui ha precedentemente aderito
+-->
+
+<ol>
   <li><strong>Progettazione e implementazione di un servizio di localizzazione che permetta di geolocalizzare un utente in tempo reale, individuare coordinate a partire da indirizzi / luoghi ed esporre un’API per impostare notifiche quando l’utente arriva in prossimità di una certa posizione.</strong>
     <ol>
       <li><em>geocoding</em> di indirizzi / luoghi in coordinate</li>
@@ -288,9 +303,8 @@
       <li>Implementazione funzionalità <em>amministrazione</em> dei gruppi chat</li>
     </ol>
   </li>
+  <li><strong>Sistema di notifiche</strong></li>
 </ol>
-
-<p><img src="/PM-report/res/wbs.svg" alt="wbs schema" /></p>
 </section>
             </div><div class="search-results">
     <div class="has-results">
@@ -472,7 +486,7 @@ window.MathJax = {
     },
     "gitbook": {
         "version": "3.2.3",
-        "time": "2024-06-19 19:34:58 +0000"
+        "time": "2024-06-20 16:19:25 +0000"
     },
     "basePath": "/PM-report",
     "book": {
