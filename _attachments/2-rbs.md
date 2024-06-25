@@ -11,7 +11,7 @@ layout: post
 
 ## Work Breakdown Structure
 
-Vengono qui di seguito esplosi i requisiti del sistema, a partire dagli obiettivi definiti nel [POS]({{ site.baseurl }}/attachments/1-pos/), nel formato di una _Requirements Breakdown Structure_.
+Vengono qui di seguito esplosi i requisiti del sistema, a partire dagli obiettivi definiti nel [POS]({{ site.baseurl }}/attachments/1-pos/) e sulla base dell'_Event Storming_ effettuato , nel formato di una _Requirements Breakdown Structure_.
 
 > ℹ️ **_Info_**
 > La versione ingrandita dello schema è reperibile [qui]({{ site.baseurl }}/res/wbs.svg).
@@ -83,25 +83,6 @@ Vengono qui di seguito esplosi i requisiti del sistema, a partire dagli obiettiv
    4. Scrittura della documentazione
    5. Definizione configurazione di deployment
 
-<!--
-   1. Autenticazione
-      1. Iscrizione
-         1. il servizio deve supportare l'iscrizione di nuovi utenti
-         2. il servizio deve inviare una mail con i dati relativi all'iscrizione
-      2. Log-in
-         1. il servizio deve supportare il _login_ di utenti già iscritti
-         2. il servizio deve creare e gestire _token_ di autenticazione e la sessione a questo correlata
-      3. Aggiornamento utente
-         1. il servizio deve permettere all'utente di modificare le proprie informazioni e password
-   2. Gestione gruppi
-      1. Creazione gruppo
-         1. il servizio deve supportare la creazione di un gruppo
-      2. Adesione gruppo
-         1. il servizio deve supportare la possibilità di invitare utenti nei gruppi, oltre che notificare i facenti parte del gruppo ad ogni nuova adesione
-      3. Abbandono gruppo
-         1. il servizio deve permettere all'utente di abbandonare un gruppo in cui ha precedentemente aderito
--->
-
 3. **Progettazione e implementazione di un servizio di localizzazione che permetta di geolocalizzare un utente in tempo reale, individuare coordinate a partire da indirizzi / luoghi ed esporre un'API per impostare notifiche quando l'utente arriva in prossimità di una certa posizione.**
    1. _geocoding_ di indirizzi / luoghi in coordinate
    2. tracciamento della posizione
@@ -122,3 +103,22 @@ Vengono qui di seguito esplosi i requisiti del sistema, a partire dagli obiettiv
    3. Implementazione funzionalità _amministrazione_ dei gruppi chat
 
 5. **Sistema di notifiche**
+
+<!--
+   1. Autenticazione
+      1. Iscrizione
+         1. il servizio deve supportare l'iscrizione di nuovi utenti
+         2. il servizio deve inviare una mail con i dati relativi all'iscrizione
+      2. Log-in
+         1. il servizio deve supportare il _login_ di utenti già iscritti
+         2. il servizio deve creare e gestire _token_ di autenticazione e la sessione a questo correlata
+      3. Aggiornamento utente
+         1. il servizio deve permettere all'utente di modificare le proprie informazioni e password
+   2. Gestione gruppi
+      1. Creazione gruppo
+         1. il servizio deve supportare la creazione di un gruppo
+      2. Adesione gruppo
+         1. il servizio deve supportare la possibilità di invitare utenti nei gruppi, oltre che notificare i facenti parte del gruppo ad ogni nuova adesione
+      3. Abbandono gruppo
+         1. il servizio deve permettere all'utente di abbandonare un gruppo in cui ha precedentemente aderito
+-->
