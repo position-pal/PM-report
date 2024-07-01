@@ -46,7 +46,12 @@
             $(element).closest('li.chapter').find('ul>li').removeClass('active');
             $(element).parent().addClass('active');
             if ($(document).width() <= 1240) {
-                $('div.body-inner').animate({scrollTop: $($(element).attr('href')).get(0).offsetTop});
+                let target = $($(element).attr('href'));
+                if (target.length) {
+                    $('div.body-inner').animate({
+                        scrollTop: target.get(0).offsetTop,
+                    });
+                }
             }
             return true;
         }
@@ -71,103 +76,105 @@
             <li class="divider"></li>
 
             
-                <!-- <p>attachments</p> -->
                 
+                    <!-- <p>attachments</p> -->
                     
+                        
 
-                    
                         
-                        <li class="chapter" data-level="1.1" data-path="/PM-report/attachments/1-pos/">
-                        
-                            <a href="/PM-report/attachments/1-pos/" onclick="pageScrollToTop(this)">
-                                Allegato 1 - Project Overview Statement
-                            </a>
                             
+                            <li class="chapter" data-level="1.1" data-path="/PM-report/attachments/1-pos/">
+                            
+                                <a href="/PM-report/attachments/1-pos/" onclick="pageScrollToTop(this)">
+                                    Allegato 1 - Project Overview Statement
+                                </a>
                                 
-                            
-                        </li>
-                    
-                        
-                        <li class="chapter active" data-level="1.2" data-path="/PM-report/attachments/2-rbs/">
-                        
-                            <a href="/PM-report/attachments/2-rbs/" onclick="pageScrollToTop(this)">
-                                Allegato 2 - Requirements Breakdown Structure
-                            </a>
-                            
+                                    
                                 
-                                    <ul><li><a href="#event-storming" onclick="mobilePageScrollToAnchor(this)" >Event Storming</a></li><li><a href="#work-breakdown-structure" onclick="mobilePageScrollToAnchor(this)" >Work Breakdown Structure</a></li></ul>
+                            </li>
+                        
+                            
+                            <li class="chapter active" data-level="1.2" data-path="/PM-report/attachments/2-rbs/">
+                            
+                                <a href="/PM-report/attachments/2-rbs/" onclick="pageScrollToTop(this)">
+                                    Allegato 2 - Requirements Breakdown Structure
+                                </a>
+                                
+                                    
+                                        <ul><li><a href="#event-storming" onclick="mobilePageScrollToAnchor(this)" >Event Storming</a></li><li><a href="#work-breakdown-structure" onclick="mobilePageScrollToAnchor(this)" >Work Breakdown Structure</a></li></ul>
 
+                                    
                                 
-                            
-                        </li>
-                    
+                            </li>
                         
-                        <li class="chapter" data-level="1.1" data-path="/PM-report/attachments/3-costs-estimation/">
-                        
-                            <a href="/PM-report/attachments/3-costs-estimation/" onclick="pageScrollToTop(this)">
-                                Allegato 3 - Stima dei costi
-                            </a>
                             
+                            <li class="chapter" data-level="1.1" data-path="/PM-report/attachments/3-costs-estimation/">
+                            
+                                <a href="/PM-report/attachments/3-costs-estimation/" onclick="pageScrollToTop(this)">
+                                    Allegato 3 - Stima dei costi
+                                </a>
                                 
-                            
-                        </li>
-                    
-                        
-                        <li class="chapter" data-level="1.1" data-path="/PM-report/attachments/4-risk-analysis/">
-                        
-                            <a href="/PM-report/attachments/4-risk-analysis/" onclick="pageScrollToTop(this)">
-                                Allegato 4 - Risk Analysis
-                            </a>
-                            
+                                    
                                 
+                            </li>
+                        
                             
-                        </li>
-                    
+                            <li class="chapter" data-level="1.1" data-path="/PM-report/attachments/4-risk-analysis/">
+                            
+                                <a href="/PM-report/attachments/4-risk-analysis/" onclick="pageScrollToTop(this)">
+                                    Allegato 4 - Risk Analysis
+                                </a>
+                                
+                                    
+                                
+                            </li>
+                        
 
-                    
-                        <li class="divider"></li>
-                    
-                
-            
-                <!-- <p>posts</p> -->
-                
-                    
-
-                    
-
+                        
+                            <li class="divider"></li>
+                        
                     
                 
-            
-                <!-- <p>report</p> -->
+                    <!-- <p>posts</p> -->
+                    
+                        
+
+                        
+
+                        
+                    
                 
+                    <!-- <p>report</p> -->
                     
+                        
 
-                    
                         
-                        <li class="chapter" data-level="1.1" data-path="/PM-report/report/1-scoping/">
-                        
-                            <a href="/PM-report/report/1-scoping/" onclick="pageScrollToTop(this)">
-                                Scoping
-                            </a>
                             
+                            <li class="chapter" data-level="1.1" data-path="/PM-report/report/1-scoping/">
+                            
+                                <a href="/PM-report/report/1-scoping/" onclick="pageScrollToTop(this)">
+                                    Scoping
+                                </a>
                                 
-                            
-                        </li>
-                    
-                        
-                        <li class="chapter" data-level="1.1" data-path="/PM-report/report/2-planning/">
-                        
-                            <a href="/PM-report/report/2-planning/" onclick="pageScrollToTop(this)">
-                                Planning
-                            </a>
-                            
+                                    
                                 
+                            </li>
+                        
                             
-                        </li>
-                    
+                            <li class="chapter" data-level="1.1" data-path="/PM-report/report/2-planning/">
+                            
+                                <a href="/PM-report/report/2-planning/" onclick="pageScrollToTop(this)">
+                                    Planning
+                                </a>
+                                
+                                    
+                                
+                            </li>
+                        
 
-                    
-                        <li class="divider"></li>
+                        
+                            <li class="divider"></li>
+                        
                     
                 
             
@@ -256,43 +263,64 @@ Di seguito è riportata una versione testuale.</p>
   </li>
   <li><strong>Progettazione e implementazione di un servizio di localizzazione che permetta di geolocalizzare un utente in tempo reale, individuare coordinate a partire da indirizzi / luoghi ed esporre un’API per impostare notifiche quando l’utente arriva in prossimità di una certa posizione.</strong>
     <ol>
-      <li><em>geocoding</em> di indirizzi / luoghi in coordinate</li>
-      <li>tracciamento della posizione
+      <li>Confronto di tecnologie <em>MOM</em> consone allo sviluppo del servizio</li>
+      <li>Progettazione e design</li>
+      <li><em>Geocoding</em> di indirizzi / luoghi in coordinate
         <ol>
-          <li>attivazione della condivisione della posizione</li>
-          <li>disattivazione della condivisione della posizione</li>
+          <li>Studio di un servizio web di mappe per il <em>geocoding</em></li>
+          <li>Implementazione logica</li>
         </ol>
       </li>
-      <li>impostazione di notifiche di prossimità</li>
-      <li>salvataggio e gestione della posizione degli utenti</li>
-      <li>Gestione stato
+      <li>Implementazione API del servizio
         <ol>
-          <li>Aggiornamento stato
-            <ol>
-              <li>il servizio deve gestire tutti gli aspetti di aggiornamento, con annessa la possibilità di resettare lo stato dopo un’emergenza</li>
-              <li>in fase di aggiornamento di stato, il servizio deve sollevare notifiche a tutti i componenti di tutti i gruppi di cui l’utente che aggiorna il proprio stato fa parte</li>
-            </ol>
-          </li>
+          <li>Impostazione di notifiche di prossimità</li>
+          <li>Tracciamento real-time e gestione della posizione</li>
+          <li>Configurazione DB dati e implementazione schemi</li>
+          <li>Gestione stato utente</li>
+          <li>Configurazione tecnologia / protocollo scelto all’interno del sistema</li>
         </ol>
       </li>
+      <li>Scrittura della documentazione</li>
+      <li>Definizione configurazione di deployment</li>
     </ol>
   </li>
   <li><strong>Progettazione e implementazione di un servizio di chat che permetta di conversare in tempo reale con un singolo o un gruppo ristretto di utenti con la quale si vuole condividere la propria posizione e stato. Questo permetterà all,’utente di avere una comunicazione più diretta e immediata con i membri del gruppo.</strong>
     <ol>
+      <li>Analisi di tecnologie / protocolli per lo scambio di messaggi</li>
       <li>Analisi aspetti di <em>sicurezza</em> nella comunicazione in tempo reale tra più utenti
         <ol>
           <li>Implementazione servizio <em>crittografia E2E</em></li>
         </ol>
       </li>
-      <li>Implementazione funzionalità di chat
+      <li>Implementazione API del servizio
         <ol>
-          <li>Gestione invio <em>notifiche</em></li>
+          <li>Configurazione tecnologia / protocollo scelto all’interno del sistema</li>
+          <li>Implementazione funzionalità di chat
+            <ol>
+              <li>Gestione invio <em>notifiche</em></li>
+            </ol>
+          </li>
+          <li>Implementazione funzionalità <em>amministrazione</em> dei gruppi chat</li>
         </ol>
       </li>
-      <li>Implementazione funzionalità <em>amministrazione</em> dei gruppi chat</li>
+      <li>Scrittura della documentazione</li>
+      <li>Definizione configurazione di deployment</li>
     </ol>
   </li>
-  <li><strong>Sistema di notifiche</strong></li>
+  <li><strong>Sistema di notifiche</strong>
+    <ol>
+      <li>Analisi di tecnologie / protocolli per l’invio di notifiche push</li>
+      <li>Implementazione API del servizio
+        <ol>
+          <li>Implementazione DB e schemi</li>
+          <li>Implementazione funzionalità di invio notifiche push</li>
+          <li>Implementazione funzionalità di invio notifiche mail</li>
+        </ol>
+      </li>
+      <li>Scrittura della documentazione</li>
+      <li>Definizione configurazione di deployment</li>
+    </ol>
+  </li>
 </ol>
 
 <!--
@@ -494,7 +522,7 @@ window.MathJax = {
     },
     "gitbook": {
         "version": "3.2.3",
-        "time": "2024-06-25 13:23:18 +0000"
+        "time": "2024-07-01 16:07:26 +0000"
     },
     "basePath": "/PM-report",
     "book": {
@@ -521,6 +549,9 @@ window.MathJax = {
 <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
 <script src="../gitbook/gitbook-plugin-search/search.js"></script>
 -->
+
+<script src="/PM-report/assets/gitbook/custom.js"></script>
+<script src="/PM-report/assets/gitbook/custom-local.js"></script>
 
 </body>
 </html>

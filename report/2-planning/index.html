@@ -44,7 +44,12 @@
             $(element).closest('li.chapter').find('ul>li').removeClass('active');
             $(element).parent().addClass('active');
             if ($(document).width() <= 1240) {
-                $('div.body-inner').animate({scrollTop: $($(element).attr('href')).get(0).offsetTop});
+                let target = $($(element).attr('href'));
+                if (target.length) {
+                    $('div.body-inner').animate({
+                        scrollTop: target.get(0).offsetTop,
+                    });
+                }
             }
             return true;
         }
@@ -69,103 +74,105 @@
             <li class="divider"></li>
 
             
-                <!-- <p>attachments</p> -->
                 
+                    <!-- <p>attachments</p> -->
                     
+                        
 
-                    
                         
-                        <li class="chapter" data-level="1.1" data-path="/PM-report/attachments/1-pos/">
-                        
-                            <a href="/PM-report/attachments/1-pos/" onclick="pageScrollToTop(this)">
-                                Allegato 1 - Project Overview Statement
-                            </a>
                             
+                            <li class="chapter" data-level="1.1" data-path="/PM-report/attachments/1-pos/">
+                            
+                                <a href="/PM-report/attachments/1-pos/" onclick="pageScrollToTop(this)">
+                                    Allegato 1 - Project Overview Statement
+                                </a>
                                 
-                            
-                        </li>
-                    
-                        
-                        <li class="chapter" data-level="1.1" data-path="/PM-report/attachments/2-rbs/">
-                        
-                            <a href="/PM-report/attachments/2-rbs/" onclick="pageScrollToTop(this)">
-                                Allegato 2 - Requirements Breakdown Structure
-                            </a>
-                            
+                                    
                                 
-                            
-                        </li>
-                    
+                            </li>
                         
-                        <li class="chapter" data-level="1.1" data-path="/PM-report/attachments/3-costs-estimation/">
-                        
-                            <a href="/PM-report/attachments/3-costs-estimation/" onclick="pageScrollToTop(this)">
-                                Allegato 3 - Stima dei costi
-                            </a>
                             
+                            <li class="chapter" data-level="1.1" data-path="/PM-report/attachments/2-rbs/">
+                            
+                                <a href="/PM-report/attachments/2-rbs/" onclick="pageScrollToTop(this)">
+                                    Allegato 2 - Requirements Breakdown Structure
+                                </a>
                                 
-                            
-                        </li>
-                    
-                        
-                        <li class="chapter" data-level="1.1" data-path="/PM-report/attachments/4-risk-analysis/">
-                        
-                            <a href="/PM-report/attachments/4-risk-analysis/" onclick="pageScrollToTop(this)">
-                                Allegato 4 - Risk Analysis
-                            </a>
-                            
+                                    
                                 
+                            </li>
+                        
                             
-                        </li>
-                    
+                            <li class="chapter" data-level="1.1" data-path="/PM-report/attachments/3-costs-estimation/">
+                            
+                                <a href="/PM-report/attachments/3-costs-estimation/" onclick="pageScrollToTop(this)">
+                                    Allegato 3 - Stima dei costi
+                                </a>
+                                
+                                    
+                                
+                            </li>
+                        
+                            
+                            <li class="chapter" data-level="1.1" data-path="/PM-report/attachments/4-risk-analysis/">
+                            
+                                <a href="/PM-report/attachments/4-risk-analysis/" onclick="pageScrollToTop(this)">
+                                    Allegato 4 - Risk Analysis
+                                </a>
+                                
+                                    
+                                
+                            </li>
+                        
 
-                    
-                        <li class="divider"></li>
-                    
-                
-            
-                <!-- <p>posts</p> -->
-                
-                    
-
-                    
-
+                        
+                            <li class="divider"></li>
+                        
                     
                 
-            
-                <!-- <p>report</p> -->
+                    <!-- <p>posts</p> -->
+                    
+                        
+
+                        
+
+                        
+                    
                 
+                    <!-- <p>report</p> -->
                     
+                        
 
-                    
                         
-                        <li class="chapter" data-level="1.1" data-path="/PM-report/report/1-scoping/">
-                        
-                            <a href="/PM-report/report/1-scoping/" onclick="pageScrollToTop(this)">
-                                Scoping
-                            </a>
                             
+                            <li class="chapter" data-level="1.1" data-path="/PM-report/report/1-scoping/">
+                            
+                                <a href="/PM-report/report/1-scoping/" onclick="pageScrollToTop(this)">
+                                    Scoping
+                                </a>
                                 
-                            
-                        </li>
-                    
-                        
-                        <li class="chapter active" data-level="1.2" data-path="/PM-report/report/2-planning/">
-                        
-                            <a href="/PM-report/report/2-planning/" onclick="pageScrollToTop(this)">
-                                Planning
-                            </a>
-                            
+                                    
                                 
-                                    <ul><li><a href="#project-planning-session" onclick="mobilePageScrollToAnchor(this)" >Project Planning session</a></li></ul>
+                            </li>
+                        
+                            
+                            <li class="chapter active" data-level="1.2" data-path="/PM-report/report/2-planning/">
+                            
+                                <a href="/PM-report/report/2-planning/" onclick="pageScrollToTop(this)">
+                                    Planning
+                                </a>
+                                
+                                    
+                                        <ul><li><a href="#project-planning-session" onclick="mobilePageScrollToAnchor(this)" >Project Planning session</a></li></ul>
 
+                                    
                                 
-                            
-                        </li>
-                    
+                            </li>
+                        
 
-                    
-                        <li class="divider"></li>
+                        
+                            <li class="divider"></li>
+                        
                     
                 
             
@@ -380,7 +387,7 @@ window.MathJax = {
     },
     "gitbook": {
         "version": "3.2.3",
-        "time": "2024-06-25 13:23:18 +0000"
+        "time": "2024-07-01 16:07:26 +0000"
     },
     "basePath": "/PM-report",
     "book": {
@@ -407,6 +414,9 @@ window.MathJax = {
 <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
 <script src="../gitbook/gitbook-plugin-search/search.js"></script>
 -->
+
+<script src="/PM-report/assets/gitbook/custom.js"></script>
+<script src="/PM-report/assets/gitbook/custom-local.js"></script>
 
 </body>
 </html>

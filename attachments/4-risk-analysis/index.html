@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html lang="en" >
     <head><meta charset="UTF-8">
-<meta content="text/html; charset=utf-8" http-equiv="Content-Type"><title>Scoping · PositionPal - Project Management</title><meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"><title>Allegato 4 - Risk Analysis · PositionPal - Project Management</title><meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="description" content="Project Management Report for the PositionPal project"><meta name="generator" content="Jekyll (using style of GitBook 3.2.3)"><link rel="stylesheet" href="/PM-report/assets/gitbook/style.css">
 <link rel="stylesheet" href="/PM-report/assets/gitbook/gitbook-plugin-back-to-top-button/plugin.css">
 <link rel="stylesheet" href="/PM-report/assets/gitbook/gitbook-plugin-expandable-chapters-small2/expandable-chapters-small.css">
@@ -24,11 +24,9 @@
 
 
 
-            <link rel="prev" href="/PM-report/" />
+            <link rel="prev" href="/PM-report/attachments/3-costs-estimation/" />
         
 
-        
-            <link rel="next" href="/PM-report/report/2-planning/" />
         
     </head>
     <body>
@@ -116,12 +114,15 @@
                             </li>
                         
                             
-                            <li class="chapter" data-level="1.1" data-path="/PM-report/attachments/4-risk-analysis/">
+                            <li class="chapter active" data-level="1.2" data-path="/PM-report/attachments/4-risk-analysis/">
                             
                                 <a href="/PM-report/attachments/4-risk-analysis/" onclick="pageScrollToTop(this)">
                                     Allegato 4 - Risk Analysis
                                 </a>
                                 
+                                    
+                                        <ul><li><a href="#identificazione-dei-rischi" onclick="mobilePageScrollToAnchor(this)" >Identificazione dei rischi</a></li><li><a href="#assessment" onclick="mobilePageScrollToAnchor(this)" >Assessment</a></li><li><a href="#gestione-dei-rischi" onclick="mobilePageScrollToAnchor(this)" >Gestione dei rischi</a></li></ul>
+
                                     
                                 
                             </li>
@@ -147,15 +148,12 @@
 
                         
                             
-                            <li class="chapter active" data-level="1.2" data-path="/PM-report/report/1-scoping/">
+                            <li class="chapter" data-level="1.1" data-path="/PM-report/report/1-scoping/">
                             
                                 <a href="/PM-report/report/1-scoping/" onclick="pageScrollToTop(this)">
                                     Scoping
                                 </a>
                                 
-                                    
-                                        <ul><li><a href="#contesto" onclick="mobilePageScrollToAnchor(this)" >Contesto</a></li><li><a href="#riunione-di-definizione-del-progetto-scoping-meeting" onclick="mobilePageScrollToAnchor(this)" >Riunione di definizione del progetto (<em>scoping meeting</em>)</a></li></ul>
-
                                     
                                 
                             </li>
@@ -187,7 +185,7 @@
                     <h1>
                         <i class="fa fa-circle-o-notch fa-spin"></i>
                         
-                            <a href="." >Scoping</a>
+                            <a href="." >Allegato 4 - Risk Analysis</a>
                         
                     </h1>
                 </div>
@@ -200,95 +198,158 @@
             <div class="search-noresults">
                 <section class="normal markdown-section">
                     
-                        <h1 id="/report/1-scoping">Scoping</h1>
+                        <h1 id="/attachments/4-risk-analysis">Allegato 4 - Risk Analysis</h1>
                     
 
-                    <h2 id="contesto">Contesto</h2>
+                    <h2 id="identificazione-dei-rischi">Identificazione dei rischi</h2>
 
-<p>Luca, Giovanni, Luca e Valerio sono quattro studenti di Ingegneria e Scienze Informatiche dell’Università di Bologna che, a fronte di <a href="https://www.open.online/2024/04/04/scrivi-quando-arrivi-gruppo-whatsapp-ragazze/">alcune notizie</a> lette recentemente di ragazzi e ragazze che tornando a casa di notte in zone poco sicure della città condividono la loro posizione in un gruppo WhatsApp per sostenersi e sorvegliarsi a vicenda, si sono posti come obiettivo quello di creare un sistema software <em>open source</em> di tracciamento della posizione specificatamente progettato e studiato per creare una rete di supporto e assistenza efficace e tempestiva, in grado di segnalare in maniera rapida una situazione di emergenza.</p>
+<ul>
+  <li><strong>TECNICO</strong>: il team non ha esperienza nella progettazione e sviluppo di applicazioni con architettura a micro-servizi;</li>
+  <li><strong>TECNICO</strong>: il progetto richiede l’utilizzo di tecnologie e strumenti sconosciuti ai membri del team di svliuppo;</li>
+  <li><strong>TECNICO</strong>: il team ha limitata esperienza riguardo l’utilizzo di tecnologie e strumenti per il <em>continuous depoloyment</em> in ambienti di produzione;</li>
+  <li><strong>ORGANIZZATIVO</strong>: rischio di sforare il budget;</li>
+  <li><strong>ORGANIZZATIVO</strong>: vista la poca esperienza e altri progetti in corso provocare ritardi nella consegna;</li>
+  <li><strong>ESTERNO</strong>: il sistema finale potrebbe avere meno <em>appeal</em> rispetto a quello dei <em>competitor</em> nel mercato.</li>
+</ul>
 
-<p>Essendo un progetto <em>open source</em> nato in contesto universitario da alcuni studenti con l’obiettivo di apprendere nuove tecnologie, pattern di progettazione, nonché nuove metodologie di sviluppo, non c’è un vero e proprio committente, né una singola figura che lo rappresenta.
-Al contrario, tutti i membri del <em>team</em> collaborano attivamente per cercare di capire e individuare al meglio tutti i possibili bisogni e desideri dell’utenza finale del prodotto.</p>
+<h2 id="assessment">Assessment</h2>
 
-<p>L’analisi, in termini di <em>project management</em>, verterà sulla valutazione dei criteri di successo e dei rischi che possono accompagnare alcune scelte, oltre che all’individuazione e decomposizione delle macro-attività in unità più piccole, a cui seguirà una stima dei tempi di lavoro previsti e i <em>deliverables</em> attesi.</p>
+<p><strong>Legenda</strong>:</p>
 
-<p>Da un punto di vista tecnico, i membri del <em>team</em> hanno recentemente avuto modo di seguire corsi riguardo a come progettare applicazioni <em>software</em> di medio/grandi dimensioni sfruttando approcci guidati dal dominio (<em>domain-driven</em>), architetture distribuite a micro-servizi, e hanno avuto modo di apprezzare l’importanza di applicare metodologie di sviluppo <em>DevOps</em> in cui l’automatizzazione dei processi e l’integrazione continua di codice funzionante (<em>working code</em>) in produzione in maniera completamente automatizzata è un fattore di primaria importanza.
-Per queste ragioni il progetto <em>software</em> e il suo processo di sviluppo sarà improntato seguendo queste fondamentali linee guida.</p>
+<p>I livelli di impatto e priorità sono categorizzati in 4 livelli:</p>
 
-<h2 id="riunione-di-definizione-del-progetto-scoping-meeting">Riunione di definizione del progetto (<em>scoping meeting</em>)</h2>
-
-<p><strong>Scopo:</strong> individuazione delle aspettative e dei requisiti dell’applicazione.</p>
-
-<p><strong>Partecipanti della riunione:</strong></p>
+<ul>
+  <li>B: Bassa</li>
+  <li>M: Media</li>
+  <li>A: Alta</li>
+  <li>C: Critica</li>
+</ul>
 
 <table>
   <thead>
     <tr>
-      <th>Membro</th>
-      <th>Ruolo</th>
+      <th>Categoria di rischio</th>
+      <th>Scope</th>
+      <th>Evento #</th>
+      <th>Evento</th>
+      <th>Probabilità</th>
+      <th>Impatto</th>
+      <th>Priorità</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><strong>Luca Rubboli</strong></td>
-      <td><strong>Facilitatore</strong></td>
+      <td>TECNICO</td>
+      <td>Qualità</td>
+      <td>TC1</td>
+      <td>Mancata qualità dovuta all’inesperienza del team di sviluppo</td>
+      <td>0.6</td>
+      <td>C</td>
+      <td>A</td>
     </tr>
     <tr>
-      <td>Luca Tassinari</td>
-      <td><em>Core Team member</em></td>
+      <td>TECNICO</td>
+      <td>Qualità</td>
+      <td>TC2</td>
+      <td>Le tecnologie CI/CD ritardano il rilascio in produzione</td>
+      <td>0.3</td>
+      <td>A</td>
+      <td>A</td>
     </tr>
     <tr>
-      <td>Giovanni Antonioni</td>
-      <td><em>Core Team member</em></td>
+      <td>TECNICO</td>
+      <td>Qualità</td>
+      <td>TC3</td>
+      <td>Il mal utilizzo delle tecnologie adottate provoca un deterioramento dei QoS (Quality of Services)</td>
+      <td>0.8</td>
+      <td>C</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td>ORGANIZZATIVO</td>
+      <td>Budget</td>
+      <td>OR1</td>
+      <td>Sforamento del budget</td>
+      <td>0.1</td>
+      <td>M</td>
+      <td>B</td>
+    </tr>
+    <tr>
+      <td>ORGANIZZATIVO</td>
+      <td>Budget</td>
+      <td>OR2</td>
+      <td>Ritardi nella consegna</td>
+      <td>0.5</td>
+      <td>M</td>
+      <td>M</td>
+    </tr>
+    <tr>
+      <td>ESTERNO</td>
+      <td>Mercato</td>
+      <td>ES1</td>
+      <td>Il sistema finale ha meno <em>appeal</em> rispetto ai <em>competitor</em></td>
+      <td>0.9</td>
+      <td>B</td>
+      <td>B</td>
     </tr>
   </tbody>
 </table>
 
-<p><strong>Agenda:</strong></p>
+<pre><code class="language-mermaid">quadrantChart
+    title Matrice dei rischi
+    y-axis Bassa probabilita --&gt; Alta probabilita
+    x-axis Impatto basso --&gt; Impatto alto
+    TC1: [0.9, 0.6]
+    TC2: [0.76, 0.3]
+    TC3: [0.95, 0.8]
+    OR1: [0.5, 0.1]
+    OR2: [0.5, 0.5]
+    ES1: [0.05 , 0.9]
+</code></pre>
 
-<ul>
-  <li>introduzione (ad opera del facilitatore);</li>
-  <li>scopo della riunione (ad opera del facilitatore);</li>
-  <li>descrizione dell’opportunità di business;</li>
-  <li>discussione delle <em>conditions of satisfaction</em>;</li>
-  <li>descrizione dei <em>derivable</em> del progetto;</li>
-  <li>descrizione dei requisiti e della documentazione tramite <em>event storming</em>;</li>
-  <li>scelta del modello <em>PMLC</em> da seguire;</li>
-  <li>bozza e approvazione del <em>POS</em>;</li>
-</ul>
+<h2 id="gestione-dei-rischi">Gestione dei rischi</h2>
 
-<p><strong>Sintesi svolgimento:</strong></p>
-
-<p>Per fini di brevità, aggreghiamo la sintesi e i risultati delle prime 3 riunioni, tenute da tutti i componenti del gruppo, nelle quali sono stati definiti gli obiettivi principali del progetto, sono stati formalizzati i requisiti e i criteri di accettazione.</p>
-
-<p>In dettaglio, l’analisi è stata raffinata incrementalmente, inizialmente definendo gli obiettivi generali del progetto, da cui sono emerse le opportunità e i rischi correlati; parallelamente, sono state stilate le condizioni e criteri di successo del sistema.</p>
-
-<p>Al fine di estrarre le principali funzionalità dell’applicativo nel modo più rapido ed efficace possibile, è stato utilizzato <strong><em>Event Storming</em></strong>, una tecnica di modellazione collaborativa e visuale particolarmente utilizzata e apprezzata nel contesto di sviluppo <em>agile</em> e <em>Domain-Driven</em>.
-La sua potenza deriva da un gruppo eterogeneo e multidisciplinare di esperti, dagli architetti ai <em>product owner</em>, passando per i <em>designer</em> dell’<em>UI/UX</em> ai <em>tester</em>, che, insieme, collaborano per estrarre le principali funzionalità e i processi che le guidano, condividendo questa conoscenza per far sì che sia condivisa al di là dei compartimenti stagni di ciascun team.
-Inoltre, questo approccio consente di uniformare il linguaggio utilizzato (quello che in DDD è detto <em>ubiquitous language</em>) e di sollevare e poi risolvere eventuali ambiguità o incomprensioni che possono emergere sin dalle prime fasi del progetto.</p>
-
-<p>Dopo aver introdotto brevemente quali sono i vantaggi nell’utilizzo di questa tecnica rispetto a un approccio più tradizionale, è stato quindi illustrato a tutti i componenti del gruppo come si svolge una sessione di <em>Event Storming</em>.</p>
-
-<p>Si parte da un problema o da un obiettivo e, attraverso l’uso di <em>stickynotes</em> colorate e <em>markers</em>, si procede a mappare i processi e le interazioni tra le varie entità coinvolte, in modo da ottenere una visione d’insieme del sistema e delle sue interazioni.
-Più in dettaglio, la sessione inizia con l’identificazione dei <em>domain event</em>, ovvero gli eventi relativi al dominio che si sta esplorando che rappresentano qualcosa di interessante che è accaduto (per questo si usa il passato) e che possa essere utile per il sistema.
-Questi vengono disposti in sequenza temporale in modo da creare una <em>timeline</em> che rappresenti il flusso di eventi che si verificano nel sistema.
-A questo punto si procede con l’identificazione dei <em>commands</em>, ovvero azioni che possono essere eseguite sul sistema da parte di un attore, e delle <em>policy</em> con cui il sistema reagisce, andando ad arricchire la <em>timeline</em> seguendo il flusso di eventi e azioni.
-Infine si pongono in evidenza i <em>read models</em>, ovvero qualunque informazione che il sistema deve mostrare all’utente.</p>
-
-<p>La struttura da seguire viene riassunta di seguito:</p>
-
-<p><img src="/PM-report/res/meta-event-storming.png" alt="Meta event storming" /></p>
-
-<blockquote class="block-tip">
-  <p>📂 <strong><em>Allegato</em></strong>
-Lo schema risultante dell’<em>Event Storming</em> è riportato, insieme all’RBS, nell’<a href="/PM-report/attachments/2-rbs/">Allegato 2</a></p>
-</blockquote>
-
-<p>Attraverso la stesura dei <em>requirements</em> in una struttura gerarchica è stato possibile identificare anche un ordine di produzione delle macro-componenti, al fine di favorire inizialmente uno sviluppo che giovi dei benefici offerti dalla <em>continuous integration</em> fin dall’inizio, e una struttura di testing incrementale.</p>
-
-<blockquote class="block-warning">
-  <p><strong>🚧 TODO: PMLC</strong></p>
-</blockquote>
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Evento #</th>
+      <th style="text-align: center">Gestione</th>
+      <th style="text-align: left">Descrizione</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">TC1</td>
+      <td style="text-align: center"><em>Mitigate</em></td>
+      <td style="text-align: left">Formazione del team sull’architettura a microservizi</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">TC2</td>
+      <td style="text-align: center"><em>Mitigate</em></td>
+      <td style="text-align: left">Formazione del team sulle tecnologie CI/CD</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">TC3</td>
+      <td style="text-align: center"><em>Mitigate</em></td>
+      <td style="text-align: left">Formazione del team sulle tecnologie presenti nel mercato</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">OR1</td>
+      <td style="text-align: center"><em>Accept</em></td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center">OR2</td>
+      <td style="text-align: center"><em>Contingency Planning</em></td>
+      <td style="text-align: left">In caso di ritardi le funzionalità opzionali vengono scartate</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">ES1</td>
+      <td style="text-align: center"><em>Accept</em></td>
+      <td style="text-align: left"> </td>
+    </tr>
+  </tbody>
+</table>
 </section>
             </div><div class="search-results">
     <div class="has-results">
@@ -321,6 +382,38 @@ window.MathJax = {
 
 <!-- introduce per-page mermaid support -->
 
+    <script>
+    function render_mermaid() {
+        mermaid.initialize({
+            startOnLoad: false,
+            theme: "default",
+        });
+        window.mermaid.init(undefined, document.querySelectorAll('.language-mermaid'));
+    }
+
+    function initialize_mermaid() {
+        if (document.readyState === "loading") {
+            // Loading hasn't finished yet
+            document.addEventListener("DOMContentLoaded", render_mermaid);
+        } else {
+            // `DOMContentLoaded` has already fired
+            render_mermaid();
+        }
+    }
+
+    if (window.mermaid_script && window.mermaid) {
+        initialize_mermaid();
+    } else {
+        window.mermaid_script = document.createElement("script");
+        mermaid_script.onload = initialize_mermaid;
+        document.head.appendChild(mermaid_script);
+        mermaid_script.defer = true;
+        mermaid_script.id = 'mermaid-script';
+        mermaid_script.src = 'https://unpkg.com/mermaid@10.4.0/dist/mermaid.min.js';
+    }
+</script>
+
+
 
 <!-- introduce mathjax support -->
 <script>
@@ -345,15 +438,11 @@ window.MathJax = {
 </script>
 
 
-                        <a href="/PM-report/" class="navigation navigation-prev navigation-unique" aria-label="Previous page: PositionPal - Project Management">
+                        <a href="/PM-report/attachments/3-costs-estimation/" class="navigation navigation-prev navigation-unique" aria-label="Previous page: Allegato 3 - Stima dei costi">
                             <i class="fa fa-angle-left"></i>
                         </a>
                     
 
-                    
-                        <a href="/PM-report/report/2-planning/" class="navigation navigation-next navigation-unique" aria-label="Next page: Planning">
-                            <i class="fa fa-angle-right"></i>
-                        </a>
                     
                 </div>
             </div>
@@ -366,15 +455,6 @@ window.MathJax = {
         "title": "Introduction",
         "level": "1.1",
         "depth": 1,
-        
-        "next": {
-            "title": "Planning",
-            "level": "1.2",
-            "depth": 1,
-            "path": "_report/2-planning.md",
-            "ref": "_report/2-planning.md",
-            "articles": []
-        },
         
         "dir": "ltr"
     },    "config": {
@@ -464,8 +544,8 @@ window.MathJax = {
         "gitbook": "*"
     },
     "file": {
-        "path": "_report/1-scoping.md",
-        "mtime": "2024-05-24 00:00:00 +0000",
+        "path": "_attachments/4-risk-analysis.md",
+        "mtime": "2024-06-26 00:00:00 +0000",
         "type": "markdown"
     },
     "gitbook": {
