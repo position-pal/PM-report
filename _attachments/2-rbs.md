@@ -84,25 +84,40 @@ Vengono qui di seguito esplosi i requisiti del sistema, a partire dagli obiettiv
    5. Definizione configurazione di deployment
 
 3. **Progettazione e implementazione di un servizio di localizzazione che permetta di geolocalizzare un utente in tempo reale, individuare coordinate a partire da indirizzi / luoghi ed esporre un'API per impostare notifiche quando l'utente arriva in prossimità di una certa posizione.**
-   1. _geocoding_ di indirizzi / luoghi in coordinate
-   2. tracciamento della posizione
-      1. attivazione della condivisione della posizione
-      2. disattivazione della condivisione della posizione
-   3. impostazione di notifiche di prossimità
-   4. salvataggio e gestione della posizione degli utenti
-   5. Gestione stato
-      1. Aggiornamento stato
-         1. il servizio deve gestire tutti gli aspetti di aggiornamento, con annessa la possibilità di resettare lo stato dopo un'emergenza
-         2. in fase di aggiornamento di stato, il servizio deve sollevare notifiche a tutti i componenti di tutti i gruppi di cui l'utente che aggiorna il proprio stato fa parte
+   1. Confronto di tecnologie _MOM_ consone allo sviluppo del servizio
+   2. Progettazione e design
+   3. _Geocoding_ di indirizzi / luoghi in coordinate
+      1. Studio di un servizio web di mappe per il _geocoding_
+      2. Implementazione logica
+   4. Implementazione API del servizio
+      1. Impostazione di notifiche di prossimità
+      2. Tracciamento real-time e gestione della posizione
+      3. Configurazione DB dati e implementazione schemi
+      4. Gestione stato utente
+      5. Configurazione tecnologia / protocollo scelto all'interno del sistema
+   5. Scrittura della documentazione
+   6. Definizione configurazione di deployment
 
 4. **Progettazione e implementazione di un servizio di chat che permetta di conversare in tempo reale con un singolo o un gruppo ristretto di utenti con la quale si vuole condividere la propria posizione e stato. Questo permetterà all,'utente di avere una comunicazione più diretta e immediata con i membri del gruppo.**
-   1. Analisi aspetti di _sicurezza_ nella comunicazione in tempo reale tra più utenti
+   1. Analisi di tecnologie / protocolli per lo scambio di messaggi
+   2. Analisi aspetti di _sicurezza_ nella comunicazione in tempo reale tra più utenti
       1. Implementazione servizio _crittografia E2E_
-   2. Implementazione funzionalità di chat
-      1. Gestione invio _notifiche_
-   3. Implementazione funzionalità _amministrazione_ dei gruppi chat
+   3. Implementazione API del servizio
+      1. Configurazione tecnologia / protocollo scelto all'interno del sistema
+      2. Implementazione funzionalità di chat
+         1. Gestione invio _notifiche_
+      3. Implementazione funzionalità _amministrazione_ dei gruppi chat
+   4. Scrittura della documentazione
+   5. Definizione configurazione di deployment
 
 5. **Sistema di notifiche**
+   1. Analisi di tecnologie / protocolli per l'invio di notifiche push
+   2. Implementazione API del servizio
+      1. Implementazione DB e schemi
+      2. Implementazione funzionalità di invio notifiche push
+      3. Implementazione funzionalità di invio notifiche mail
+   3. Scrittura della documentazione
+   4. Definizione configurazione di deployment
 
 <!--
    1. Autenticazione

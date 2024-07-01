@@ -19,6 +19,7 @@ mermaid: true
 **Legenda**:
 
 I livelli di impatto e priorità sono categorizzati in 4 livelli:
+
 - B: Bassa
 - M: Media
 - A: Alta
@@ -50,9 +51,9 @@ quadrantChart
 
 | Evento # | Gestione | Descrizione |
 |:----:|:---:|:---|
-| TC1 | Mitigate | Formazione del team sull'architettura a microservizi |
-| TC2 | Mitigate | Formazione del team sulle tecnologie CI/CD |
-| TC3 | Mitigate   | Formazione del team sulle tecnologie presenti nel mercato |
-| OR1 | Accept | |
-| OR2 | Contingency Planning | In caso di ritardi le funzionalità opzionali vengono scartate |
-| ES1 | Accept | |
+| TC1 | _Mitigate_ | Formazione del team sull'architettura a microservizi |
+| TC2 | _Mitigate_ | Formazione del team sulle tecnologie CI/CD |
+| TC3 | _Mitigate_   | Formazione del team sulle tecnologie presenti nel mercato |
+| OR1 | _Accept_ | |
+| OR2 | _Contingency Planning_ | In caso di ritardi le funzionalità opzionali vengono scartate |
+| ES1 | _Accept_ | |
