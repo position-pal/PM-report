@@ -33,7 +33,11 @@ def update_md(path, output_dir)
   updated_content = content.gsub(/```plantuml\n(@start\w+)\s+(\w+)\n(.*?)\n```/m) do
     diagram_name = $2
     puts File.join(output_dir, diagram_name)
-    "![#{diagram_name} schema]({{ site.baseurl }}/#{File.join(output_dir, diagram_name)}.svg)"
+    <<~EOF
+    <div class="scroll-container">
+      <img src="{{ site.baseurl }}/#{File.join(output_dir, diagram_name)}.svg" alt="#{diagram_name} schema">
+    </div>
+    EOF
   end
   File.write(path, updated_content)
 end
