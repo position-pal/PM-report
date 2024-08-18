@@ -1,0 +1,9 @@
+.scroll-container {
+    width: 100%;
+    overflow-x: auto; /* Allow horizontal scrolling */
+    white-space: nowrap; /* Avoid wrapping of child elements */
+}
+
+.scroll-container img {
+    max-width: none; /* Ensure image is displayed at full size */
+}
