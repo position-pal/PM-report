@@ -17,7 +17,7 @@ kramdown:
 
 # Theme and plugins
 remote_theme: sighingnow/jekyll-gitbook
-gitbook_version:  3.2.3
+gitbook_version: 3.2.3
 toc:
   enabled: true
   h_min: 1
@@ -33,6 +33,8 @@ collections:
     permalink: /:collection/:path/
 page_width: 1000px
 syntax_highlighter_style: colorful
+extra_css:
+  - extras/extra-css.css
 permalink: /:categories/:year-:month-:day-:title:output_ext
 plugins:
   - jekyll-remote-theme
