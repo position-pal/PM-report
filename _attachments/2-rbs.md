@@ -14,8 +14,7 @@ layout: post
 Vengono qui di seguito esplosi i requisiti del sistema, a partire dagli obiettivi definiti nel [POS]({{ site.baseurl }}/attachments/1-pos/) e sulla base dell'_Event Storming_ effettuato , nel formato di una _Requirements Breakdown Structure_.
 
 > ℹ️ **_Info_**
-> La versione ingrandita dello schema è reperibile [qui]({{ site.baseurl }}/res/wbs.svg).
-> Di seguito è riportata una versione testuale.
+> Di seguito è riportata una versione testuale dello schema.
 {: .block-tip }
 
 ```plantuml
