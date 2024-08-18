@@ -11,13 +11,22 @@ unless plantuml_installed?
 end
 
 if ARGV.length != 2 || !File.directory?(ARGV[0]) || !File.directory?(ARGV[1])
-  puts "A script to embed PlantUML diagrams in markdown files."
-  puts ""
-  puts "Usage: plant-in-md.rb <root_directory> <output_directory>"
-  puts ""
-  puts "Arguments:"
-  puts "  <root_directory> - The directory where markdown files are searched recursively"
-  puts "  <output_directory> - The directory where the generated SVG diagrams are saved"
+  output = <<~EOF
+    A script to embed PlantUML diagrams in markdown files.
+
+    Usage: plant-in-md.rb <root_directory> <output_directory>
+  
+    Arguments:
+      <root_directory> - The root directory where the markdown files are located
+      <output_directory> - The directory where the generated SVG diagrams are saved
+
+    The script searches for PlantUML code blocks in mardkdown files (starting from 
+    the <root_directory> and walking top-down recursively), generates the SVG 
+    diagrams (in the <output_directory>) and embeds them in the markdown files as images. 
+    To make sure the diagrams are displayed correctly (especially for large diagrams), 
+    the script wraps the images in a scrollable container.
+  EOF
+  puts output
   exit 1
 end
 
@@ -34,17 +43,23 @@ def update_md(path, output_dir)
     diagram_name = $2
     puts File.join(output_dir, diagram_name)
     <<~EOF
-    <div class="scroll-container">
-      <img src="{{ site.baseurl }}/#{File.join(output_dir, diagram_name)}.svg" alt="#{diagram_name} schema">
+    <div style="width: 100%; overflow-x: auto; white-space: nowrap;">
+      <img 
+        src="{{ site.baseurl }}/#{File.join(output_dir, diagram_name)}.svg" 
+        alt="#{diagram_name} schema" 
+        style="max-width: none;"
+      />
     </div>
     EOF
   end
   File.write(path, updated_content)
 end
 
+MARKDOWN_FILE_EXTENSION = ".md"
+
 def process_md_files(directory, output_dir)
   Find.find(directory) do |path|
-    if File.file?(path) && File.extname(path) == ".md"
+    if File.file?(path) && File.extname(path) == MARKDOWN_FILE_EXTENSION
       generate_svg_diagrams(path, output_dir)
       update_md(path, output_dir)
     end
