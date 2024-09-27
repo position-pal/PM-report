@@ -28,7 +28,7 @@
         
 
         
-            <link rel="next" href="/PM-report/attachments/3-costs-estimation/" />
+            <link rel="next" href="/PM-report/attachments/3-wbs/" />
         
     </head>
     <body>
@@ -104,17 +104,17 @@
                                 </a>
                                 
                                     
-                                        <ul><li><a href="#event-storming" onclick="mobilePageScrollToAnchor(this)" >Event Storming</a></li><li><a href="#work-breakdown-structure" onclick="mobilePageScrollToAnchor(this)" >Work Breakdown Structure</a></li></ul>
+                                        <ul><li><a href="#event-storming" onclick="mobilePageScrollToAnchor(this)" >Event Storming</a></li><li><a href="#requirements-breakdown-structure" onclick="mobilePageScrollToAnchor(this)" >Requirements Breakdown Structure</a></li></ul>
 
                                     
                                 
                             </li>
                         
                             
-                            <li class="chapter" data-level="1.1" data-path="/PM-report/attachments/3-costs-estimation/">
+                            <li class="chapter" data-level="1.1" data-path="/PM-report/attachments/3-wbs/">
                             
-                                <a href="/PM-report/attachments/3-costs-estimation/" onclick="pageScrollToTop(this)">
-                                    Allegato 3 - Stima dei costi
+                                <a href="/PM-report/attachments/3-wbs/" onclick="pageScrollToTop(this)">
+                                    Allegato 3 - Work Breakdown Structure
                                 </a>
                                 
                                     
@@ -122,10 +122,21 @@
                             </li>
                         
                             
-                            <li class="chapter" data-level="1.1" data-path="/PM-report/attachments/4-risk-analysis/">
+                            <li class="chapter" data-level="1.1" data-path="/PM-report/attachments/4-costs-estimation/">
                             
-                                <a href="/PM-report/attachments/4-risk-analysis/" onclick="pageScrollToTop(this)">
-                                    Allegato 4 - Risk Analysis
+                                <a href="/PM-report/attachments/4-costs-estimation/" onclick="pageScrollToTop(this)">
+                                    Allegato 4 - Stima dei costi
+                                </a>
+                                
+                                    
+                                
+                            </li>
+                        
+                            
+                            <li class="chapter" data-level="1.1" data-path="/PM-report/attachments/5-risk-analysis/">
+                            
+                                <a href="/PM-report/attachments/5-risk-analysis/" onclick="pageScrollToTop(this)">
+                                    Allegato 5 - Risk Analysis
                                 </a>
                                 
                                     
@@ -212,139 +223,49 @@
   <p><strong>🚧 TODO: Riportare diagramma <em>event storming</em></strong></p>
 </blockquote>
 
-<h2 id="work-breakdown-structure">Work Breakdown Structure</h2>
+<h2 id="requirements-breakdown-structure">Requirements Breakdown Structure</h2>
 
-<p>Vengono qui di seguito esplosi i requisiti del sistema, a partire dagli obiettivi definiti nel <a href="/PM-report/attachments/1-pos/">POS</a> e sulla base dell’<em>Event Storming</em> effettuato , nel formato di una <em>Requirements Breakdown Structure</em>.</p>
-
-<blockquote class="block-tip">
-  <p>ℹ️ <strong><em>Info</em></strong>
-Di seguito è riportata una versione testuale dello schema.</p>
-</blockquote>
-
-<div style="width: 100%; overflow-x: auto; white-space: nowrap;">
-  <img src="/PM-report/res/wbs.svg" alt="wbs schema" style="max-width: none;" />
-</div>
+<p>Vengono qui di seguito esplosi i requisiti del sistema, a partire dagli obiettivi definiti nel <a href="/PM-report/attachments/1-pos/">POS</a> e sulla base dell’<em>Event Storming</em> effettuato, nel formato di una <em>Requirements Breakdown Structure</em>.</p>
 
 <ol>
-  <li><strong>Progettazione, inizializzazione e configurazione dei workspace con un adeguato <em>build tool</em>, di un’infrastruttura con predisposizione a una <em>pipeline</em> automatizzata di <em>continuous integration &amp; deployment</em>.</strong>
+  <li>
+    <p><strong>Progettazione, inizializzazione e configurazione dei workspace con un adeguato <em>build tool</em>, di un’infrastruttura con predisposizione a una <em>pipeline</em> automatizzata di <em>continuous integration &amp; deployment</em>.</strong></p>
+  </li>
+  <li><strong>Progettazione e implementazione di un servizio per la gestione utente.</strong>
     <ol>
-      <li>Configurazione build tool e DVCS</li>
-      <li>Configurazione pipeline di <em>continuous integration</em></li>
-      <li>Configurazione pipeline di <em>continuous deployment</em>
-        <ol>
-          <li>Progettazione diagrammi deployment</li>
-          <li>Creazione struttura locale minimale di orchestrazione</li>
-          <li>Configurazione ambiente di produzione</li>
-          <li>Sviluppo azioni deployment da locale a produzione</li>
-        </ol>
-      </li>
-      <li>Configurazione <em>bot</em> per aggiornamento automatico delle dipendenze</li>
-      <li>Configurazione <em>bot</em> per il <em>merge</em> automatizzato di Pull Request sulla repo</li>
-      <li>Configurazione <em>bot</em> per il rilascio automatico delle <em>release</em></li>
-      <li>Configurazione di un sistema di <em>ticketing</em> automatizzato</li>
+      <li>Il sistema deve poter gestire l’autenticazione degli utenti;</li>
+      <li>Il sistema deve poter gestire la creazione, adesione e abbandono ai gruppi (operazioni CRUD);</li>
+      <li>Il sistema deve supportare una struttura gerarchica degli utenti appartenenti ad un gruppo;</li>
+      <li>Il sistema deve poter gestire le informazioni relative agli utenti e l’impostazione degli indirizzi preferiti.</li>
     </ol>
   </li>
-  <li><strong>Progettazione e implementazione di un servizio per la gestione utente che deve occuparsi di tutti gli aspetti relativi all’autenticazione, sia per quanto riguarda l’iscrizione, sia per il log-in, a cui va aggiunta la creazione e il mantenimento dei gruppi.</strong>
+  <li><strong>Progettazione e implementazione di un servizio di localizzazione.</strong>
     <ol>
-      <li>Progettazione e design</li>
-      <li>Configurazione ed implementazione servizio di autenticazione
-        <ol>
-          <li>Configurazione DB e implementazione schemi</li>
-          <li>Implementazione token di autenticazione</li>
-          <li>Regole di controllo di accesso</li>
-          <li>Implementazione API di autenticazione</li>
-        </ol>
-      </li>
-      <li>Implementazione delle feature relative ai gruppi
-        <ol>
-          <li>Configurazione DB e implementazione schemi</li>
-          <li>Implementazione API di gestione gruppi</li>
-        </ol>
-      </li>
-      <li>Scrittura della documentazione</li>
-      <li>Definizione configurazione di deployment</li>
+      <li>Il sistema deve effettuare il <em>geocoding</em> di indirizzi / luoghi in coordinate;</li>
+      <li>Il sistema deve localizzare in tempo reale gli utenti e supportarne la condivisione con i membri del proprio gruppo;</li>
+      <li>Il sistema deve gestire lo stato degli utenti in tempo reale;</li>
+      <li>Il sistema deve permettere di impostare notifiche di prossimità con cui notificare gli utenti del proprio gruppo quando si raggiunge una certa posizione.</li>
     </ol>
   </li>
-  <li><strong>Progettazione e implementazione di un servizio di localizzazione che permetta di geolocalizzare un utente in tempo reale, individuare coordinate a partire da indirizzi / luoghi ed esporre un’API per impostare notifiche quando l’utente arriva in prossimità di una certa posizione.</strong>
+  <li><strong>Progettazione e implementazione di un servizio di chat.</strong>
     <ol>
-      <li>Confronto di tecnologie <em>MOM</em> consone allo sviluppo del servizio</li>
-      <li>Progettazione e design</li>
-      <li><em>Geocoding</em> di indirizzi / luoghi in coordinate
-        <ol>
-          <li>Studio di un servizio web di mappe per il <em>geocoding</em></li>
-          <li>Implementazione logica</li>
-        </ol>
-      </li>
-      <li>Implementazione API del servizio
-        <ol>
-          <li>Impostazione di notifiche di prossimità</li>
-          <li>Tracciamento real-time e gestione della posizione</li>
-          <li>Configurazione DB dati e implementazione schemi</li>
-          <li>Gestione stato utente</li>
-          <li>Configurazione tecnologia / protocollo scelto all’interno del sistema</li>
-        </ol>
-      </li>
-      <li>Scrittura della documentazione</li>
-      <li>Definizione configurazione di deployment</li>
-    </ol>
-  </li>
-  <li><strong>Progettazione e implementazione di un servizio di chat che permetta di conversare in tempo reale con un singolo o un gruppo ristretto di utenti con la quale si vuole condividere la propria posizione e stato. Questo permetterà all,’utente di avere una comunicazione più diretta e immediata con i membri del gruppo.</strong>
-    <ol>
-      <li>Analisi di tecnologie / protocolli per lo scambio di messaggi</li>
-      <li>Analisi aspetti di <em>sicurezza</em> nella comunicazione in tempo reale tra più utenti
-        <ol>
-          <li>Implementazione servizio <em>crittografia E2E</em></li>
-        </ol>
-      </li>
-      <li>Implementazione API del servizio
-        <ol>
-          <li>Configurazione tecnologia / protocollo scelto all’interno del sistema</li>
-          <li>Implementazione funzionalità di chat
-            <ol>
-              <li>Gestione invio <em>notifiche</em></li>
-            </ol>
-          </li>
-          <li>Implementazione funzionalità <em>amministrazione</em> dei gruppi chat</li>
-        </ol>
-      </li>
-      <li>Scrittura della documentazione</li>
-      <li>Definizione configurazione di deployment</li>
+      <li>Il sistema deve permettere una comunicazione sicura;</li>
+      <li>Il sistema deve permettere un canale di comunicazione tra il client e il server;</li>
+      <li>Il sistema deve permettere una comunicazione (di messaggi testuali) di natura broadcast ai membri appartenenti ai gruppi.</li>
     </ol>
   </li>
   <li><strong>Sistema di notifiche</strong>
     <ol>
-      <li>Analisi di tecnologie / protocolli per l’invio di notifiche push</li>
-      <li>Implementazione API del servizio
-        <ol>
-          <li>Implementazione DB e schemi</li>
-          <li>Implementazione funzionalità di invio notifiche push</li>
-          <li>Implementazione funzionalità di invio notifiche mail</li>
-        </ol>
-      </li>
-      <li>Scrittura della documentazione</li>
-      <li>Definizione configurazione di deployment</li>
+      <li>Il sistema deve permettere l’invio di notifiche push;</li>
+      <li>Il sistema deve permettere l’invio di notifiche mail.</li>
     </ol>
   </li>
 </ol>
 
-<!--
-   1. Autenticazione
-      1. Iscrizione
-         1. il servizio deve supportare l'iscrizione di nuovi utenti
-         2. il servizio deve inviare una mail con i dati relativi all'iscrizione
-      2. Log-in
-         1. il servizio deve supportare il _login_ di utenti già iscritti
-         2. il servizio deve creare e gestire _token_ di autenticazione e la sessione a questo correlata
-      3. Aggiornamento utente
-         1. il servizio deve permettere all'utente di modificare le proprie informazioni e password
-   2. Gestione gruppi
-      1. Creazione gruppo
-         1. il servizio deve supportare la creazione di un gruppo
-      2. Adesione gruppo
-         1. il servizio deve supportare la possibilità di invitare utenti nei gruppi, oltre che notificare i facenti parte del gruppo ad ogni nuova adesione
-      3. Abbandono gruppo
-         1. il servizio deve permettere all'utente di abbandonare un gruppo in cui ha precedentemente aderito
--->
+<div style="width: 100%; overflow-x: auto; white-space: nowrap;">
+  <img src="/PM-report/res/rbs.svg" alt="rbs schema" style="max-width: none;" />
+</div>
+
 </section>
             </div><div class="search-results">
     <div class="has-results">
@@ -407,7 +328,7 @@ window.MathJax = {
                     
 
                     
-                        <a href="/PM-report/attachments/3-costs-estimation/" class="navigation navigation-next navigation-unique" aria-label="Next page: Allegato 3 - Stima dei costi">
+                        <a href="/PM-report/attachments/3-wbs/" class="navigation navigation-next navigation-unique" aria-label="Next page: Allegato 3 - Work Breakdown Structure">
                             <i class="fa fa-angle-right"></i>
                         </a>
                     
@@ -424,11 +345,11 @@ window.MathJax = {
         "depth": 1,
         
         "next": {
-            "title": "Allegato 3 - Stima dei costi",
+            "title": "Allegato 3 - Work Breakdown Structure",
             "level": "1.2",
             "depth": 1,
-            "path": "_attachments/3-costs-estimation.md",
-            "ref": "_attachments/3-costs-estimation.md",
+            "path": "_attachments/3-wbs.md",
+            "ref": "_attachments/3-wbs.md",
             "articles": []
         },
         
@@ -526,7 +447,7 @@ window.MathJax = {
     },
     "gitbook": {
         "version": "3.2.3",
-        "time": "2024-09-27 13:32:39 +0000"
+        "time": "2024-09-27 15:26:13 +0000"
     },
     "basePath": "/PM-report",
     "book": {
