@@ -25,7 +25,8 @@ Vengono qui di seguito esplosi i requisiti del sistema, a partire dagli obiettiv
    1. Il sistema deve effettuare il _geocoding_ di indirizzi / luoghi in coordinate;
    2. Il sistema deve localizzare in tempo reale gli utenti e supportarne la condivisione con i membri del proprio gruppo;
    3. Il sistema deve gestire lo stato degli utenti in tempo reale;
-   4. Il sistema deve permettere di impostare notifiche di prossimità con cui notificare gli utenti del proprio gruppo quando si raggiunge una certa posizione.
+   4. Il sistema deve permettere di impostare notifiche di prossimità con cui notificare gli utenti del proprio gruppo quando si raggiunge una certa posizione o se si verificano situazioni anomale (ad esempio, l'utente rimane fermo per troppo tempo).
+   5. Il sistema deve permettere di poter notificare gli utenti di una situazione di pericolo, iniziando a tracciare il percorso dell'utente.
 
 4. **Progettazione e implementazione di un servizio di chat.**
    1. Il sistema deve permettere una comunicazione sicura;

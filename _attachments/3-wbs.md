@@ -4,6 +4,8 @@ date: 2024-05-27
 layout: post
 ---
 
+A partire dalla RBS definita nel [Allegato 2 - Requirements Breakdown Structure]({{ site.baseurl }}/PM-report/attachments/2-rbs/), vengono qui di seguito esplosi i requisiti del sistema elencando le attività necessarie per soddisfarli, nel formato di una _Work Breakdown Structure_.
+
 1. **Progettazione, inizializzazione e configurazione dei workspace con un adeguato _build tool_, di un'infrastruttura con predisposizione a una _pipeline_ automatizzata di _continuous integration & deployment_.**
    1. Configurazione build tool e DVCS
    2. Configurazione pipeline di _continuous integration_
@@ -36,7 +38,8 @@ layout: post
    1. Il sistema deve effettuare il _geocoding_ di indirizzi / luoghi in coordinate;
    2. Il sistema deve localizzare in tempo reale gli utenti e supportarne la condivisione con i membri del proprio gruppo;
    3. Il sistema deve gestire lo stato degli utenti in tempo reale;
-   4. Il sistema deve permettere di impostare notifiche di prossimità con cui notificare gli utenti del proprio gruppo quando si raggiunge una certa posizione.
+   4. Il sistema deve permettere di impostare notifiche di prossimità con cui notificare gli utenti del proprio gruppo quando si raggiunge una certa posizione o se si verificano situazioni anomale (ad esempio, l'utente rimane fermo per troppo tempo).
+   5. Il sistema deve permettere di poter notificare gli utenti di una situazione di pericolo, iniziando a tracciare il percorso dell'utente.
 
 4. **Progettazione e implementazione di un servizio di chat.**
    1. Il sistema deve permettere una comunicazione sicura;
@@ -54,9 +57,8 @@ layout: post
 
 
 
------------------------------------------------
-
-2. **Progettazione e implementazione di un servizio per la gestione utente che deve occuparsi di tutti gli aspetti relativi all'autenticazione, sia per quanto riguarda l'iscrizione, sia per il log-in, a cui va aggiunta la creazione e il mantenimento dei gruppi.**
+<!--
+1. **Progettazione e implementazione di un servizio per la gestione utente che deve occuparsi di tutti gli aspetti relativi all'autenticazione, sia per quanto riguarda l'iscrizione, sia per il log-in, a cui va aggiunta la creazione e il mantenimento dei gruppi.**
    1. Configurazione ed implementazione servizio di autenticazione
       1. Configurazione DB e implementazione schemi
       2. Implementazione token di autenticazione
@@ -68,7 +70,7 @@ layout: post
    3. Scrittura della documentazione
    4. Definizione configurazione di deployment
 
-3. **Progettazione e implementazione di un servizio di localizzazione che permetta di geolocalizzare un utente in tempo reale, individuare coordinate a partire da indirizzi / luoghi ed esporre un'API per impostare notifiche quando l'utente arriva in prossimità di una certa posizione.**
+2. **Progettazione e implementazione di un servizio di localizzazione che permetta di geolocalizzare un utente in tempo reale, individuare coordinate a partire da indirizzi / luoghi ed esporre un'API per impostare notifiche quando l'utente arriva in prossimità di una certa posizione.**
    1. Confronto di tecnologie _MOM_ consone allo sviluppo del servizio
    2. Progettazione e design
    3. _Geocoding_ di indirizzi / luoghi in coordinate
@@ -83,7 +85,7 @@ layout: post
    5. Scrittura della documentazione
    6. Definizione configurazione di deployment
 
-4. **Progettazione e implementazione di un servizio di chat che permetta di conversare in tempo reale con un singolo o un gruppo ristretto di utenti con la quale si vuole condividere la propria posizione e stato. Questo permetterà all,'utente di avere una comunicazione più diretta e immediata con i membri del gruppo.**
+3. **Progettazione e implementazione di un servizio di chat che permetta di conversare in tempo reale con un singolo o un gruppo ristretto di utenti con la quale si vuole condividere la propria posizione e stato. Questo permetterà all,'utente di avere una comunicazione più diretta e immediata con i membri del gruppo.**
    1. Analisi di tecnologie / protocolli per lo scambio di messaggi
    2. Analisi aspetti di _sicurezza_ nella comunicazione in tempo reale tra più utenti
       1. Implementazione servizio _crittografia E2E_
@@ -95,7 +97,7 @@ layout: post
    4. Scrittura della documentazione
    5. Definizione configurazione di deployment
 
-5. **Sistema di notifiche**
+4. **Sistema di notifiche**
    1. Analisi di tecnologie / protocolli per l'invio di notifiche push
    2. Implementazione API del servizio
       1. Implementazione DB e schemi
@@ -104,21 +106,4 @@ layout: post
    3. Scrittura della documentazione
    4. Definizione configurazione di deployment
 
-<!--
-   1. Autenticazione
-      1. Iscrizione
-         1. il servizio deve supportare l'iscrizione di nuovi utenti
-         2. il servizio deve inviare una mail con i dati relativi all'iscrizione
-      2. Log-in
-         1. il servizio deve supportare il _login_ di utenti già iscritti
-         2. il servizio deve creare e gestire _token_ di autenticazione e la sessione a questo correlata
-      3. Aggiornamento utente
-         1. il servizio deve permettere all'utente di modificare le proprie informazioni e password
-   2. Gestione gruppi
-      1. Creazione gruppo
-         1. il servizio deve supportare la creazione di un gruppo
-      2. Adesione gruppo
-         1. il servizio deve supportare la possibilità di invitare utenti nei gruppi, oltre che notificare i facenti parte del gruppo ad ogni nuova adesione
-      3. Abbandono gruppo
-         1. il servizio deve permettere all'utente di abbandonare un gruppo in cui ha precedentemente aderito
 -->
