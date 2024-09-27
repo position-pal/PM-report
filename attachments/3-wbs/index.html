@@ -185,6 +185,39 @@
                                 
                             </li>
                         
+                            
+                            <li class="chapter" data-level="1.1" data-path="/PM-report/report/3-launching-execution/">
+                            
+                                <a href="/PM-report/report/3-launching-execution/" onclick="pageScrollToTop(this)">
+                                    Launching / Execution
+                                </a>
+                                
+                                    
+                                
+                            </li>
+                        
+                            
+                            <li class="chapter" data-level="1.1" data-path="/PM-report/report/4-monitoring/">
+                            
+                                <a href="/PM-report/report/4-monitoring/" onclick="pageScrollToTop(this)">
+                                    Monitoring &amp; Controlling
+                                </a>
+                                
+                                    
+                                
+                            </li>
+                        
+                            
+                            <li class="chapter" data-level="1.1" data-path="/PM-report/report/5-closing/">
+                            
+                                <a href="/PM-report/report/5-closing/" onclick="pageScrollToTop(this)">
+                                    Closing &amp; Acceptance
+                                </a>
+                                
+                                    
+                                
+                            </li>
+                        
 
                         
                             <li class="divider"></li>
@@ -217,7 +250,9 @@
                         <h1 id="/attachments/3-wbs">Allegato 3 - Work Breakdown Structure</h1>
                     
 
-                    <ol>
+                    <p>A partire dalla RBS definita nel <a href="/PM-report/PM-report/attachments/2-rbs/">Allegato 2 - Requirements Breakdown Structure</a>, vengono qui di seguito esplosi i requisiti del sistema elencando le attività necessarie per soddisfarli, nel formato di una <em>Work Breakdown Structure</em>.</p>
+
+<ol>
   <li><strong>Progettazione, inizializzazione e configurazione dei workspace con un adeguato <em>build tool</em>, di un’infrastruttura con predisposizione a una <em>pipeline</em> automatizzata di <em>continuous integration &amp; deployment</em>.</strong>
     <ol>
       <li>Configurazione build tool e DVCS</li>
@@ -267,7 +302,8 @@
       <li>Il sistema deve effettuare il <em>geocoding</em> di indirizzi / luoghi in coordinate;</li>
       <li>Il sistema deve localizzare in tempo reale gli utenti e supportarne la condivisione con i membri del proprio gruppo;</li>
       <li>Il sistema deve gestire lo stato degli utenti in tempo reale;</li>
-      <li>Il sistema deve permettere di impostare notifiche di prossimità con cui notificare gli utenti del proprio gruppo quando si raggiunge una certa posizione.</li>
+      <li>Il sistema deve permettere di impostare notifiche di prossimità con cui notificare gli utenti del proprio gruppo quando si raggiunge una certa posizione o se si verificano situazioni anomale (ad esempio, l’utente rimane fermo per troppo tempo).</li>
+      <li>Il sistema deve permettere di poter notificare gli utenti di una situazione di pericolo, iniziando a tracciare il percorso dell’utente.</li>
     </ol>
   </li>
   <li><strong>Progettazione e implementazione di un servizio di chat.</strong>
@@ -285,108 +321,55 @@
   </li>
 </ol>
 
-<hr />
-
-<ol>
-  <li><strong>Progettazione e implementazione di un servizio per la gestione utente che deve occuparsi di tutti gli aspetti relativi all’autenticazione, sia per quanto riguarda l’iscrizione, sia per il log-in, a cui va aggiunta la creazione e il mantenimento dei gruppi.</strong>
-    <ol>
-      <li>Configurazione ed implementazione servizio di autenticazione
-        <ol>
-          <li>Configurazione DB e implementazione schemi</li>
-          <li>Implementazione token di autenticazione</li>
-          <li>Regole di controllo di accesso</li>
-          <li>Implementazione API di autenticazione</li>
-        </ol>
-      </li>
-      <li>Implementazione delle feature relative ai gruppi
-        <ol>
-          <li>Configurazione DB e implementazione schemi</li>
-          <li>Implementazione API di gestione gruppi</li>
-        </ol>
-      </li>
-      <li>Scrittura della documentazione</li>
-      <li>Definizione configurazione di deployment</li>
-    </ol>
-  </li>
-  <li><strong>Progettazione e implementazione di un servizio di localizzazione che permetta di geolocalizzare un utente in tempo reale, individuare coordinate a partire da indirizzi / luoghi ed esporre un’API per impostare notifiche quando l’utente arriva in prossimità di una certa posizione.</strong>
-    <ol>
-      <li>Confronto di tecnologie <em>MOM</em> consone allo sviluppo del servizio</li>
-      <li>Progettazione e design</li>
-      <li><em>Geocoding</em> di indirizzi / luoghi in coordinate
-        <ol>
-          <li>Studio di un servizio web di mappe per il <em>geocoding</em></li>
-          <li>Implementazione logica</li>
-        </ol>
-      </li>
-      <li>Implementazione API del servizio
-        <ol>
-          <li>Impostazione di notifiche di prossimità</li>
-          <li>Tracciamento real-time e gestione della posizione</li>
-          <li>Configurazione DB dati e implementazione schemi</li>
-          <li>Gestione stato utente</li>
-          <li>Configurazione tecnologia / protocollo scelto all’interno del sistema</li>
-        </ol>
-      </li>
-      <li>Scrittura della documentazione</li>
-      <li>Definizione configurazione di deployment</li>
-    </ol>
-  </li>
-  <li><strong>Progettazione e implementazione di un servizio di chat che permetta di conversare in tempo reale con un singolo o un gruppo ristretto di utenti con la quale si vuole condividere la propria posizione e stato. Questo permetterà all,’utente di avere una comunicazione più diretta e immediata con i membri del gruppo.</strong>
-    <ol>
-      <li>Analisi di tecnologie / protocolli per lo scambio di messaggi</li>
-      <li>Analisi aspetti di <em>sicurezza</em> nella comunicazione in tempo reale tra più utenti
-        <ol>
-          <li>Implementazione servizio <em>crittografia E2E</em></li>
-        </ol>
-      </li>
-      <li>Implementazione API del servizio
-        <ol>
-          <li>Configurazione tecnologia / protocollo scelto all’interno del sistema</li>
-          <li>Implementazione funzionalità di chat
-            <ol>
-              <li>Gestione invio <em>notifiche</em></li>
-            </ol>
-          </li>
-          <li>Implementazione funzionalità <em>amministrazione</em> dei gruppi chat</li>
-        </ol>
-      </li>
-      <li>Scrittura della documentazione</li>
-      <li>Definizione configurazione di deployment</li>
-    </ol>
-  </li>
-  <li><strong>Sistema di notifiche</strong>
-    <ol>
-      <li>Analisi di tecnologie / protocolli per l’invio di notifiche push</li>
-      <li>Implementazione API del servizio
-        <ol>
-          <li>Implementazione DB e schemi</li>
-          <li>Implementazione funzionalità di invio notifiche push</li>
-          <li>Implementazione funzionalità di invio notifiche mail</li>
-        </ol>
-      </li>
-      <li>Scrittura della documentazione</li>
-      <li>Definizione configurazione di deployment</li>
-    </ol>
-  </li>
-</ol>
-
 <!--
-   1. Autenticazione
-      1. Iscrizione
-         1. il servizio deve supportare l'iscrizione di nuovi utenti
-         2. il servizio deve inviare una mail con i dati relativi all'iscrizione
-      2. Log-in
-         1. il servizio deve supportare il _login_ di utenti già iscritti
-         2. il servizio deve creare e gestire _token_ di autenticazione e la sessione a questo correlata
-      3. Aggiornamento utente
-         1. il servizio deve permettere all'utente di modificare le proprie informazioni e password
-   2. Gestione gruppi
-      1. Creazione gruppo
-         1. il servizio deve supportare la creazione di un gruppo
-      2. Adesione gruppo
-         1. il servizio deve supportare la possibilità di invitare utenti nei gruppi, oltre che notificare i facenti parte del gruppo ad ogni nuova adesione
-      3. Abbandono gruppo
-         1. il servizio deve permettere all'utente di abbandonare un gruppo in cui ha precedentemente aderito
+1. **Progettazione e implementazione di un servizio per la gestione utente che deve occuparsi di tutti gli aspetti relativi all'autenticazione, sia per quanto riguarda l'iscrizione, sia per il log-in, a cui va aggiunta la creazione e il mantenimento dei gruppi.**
+   1. Configurazione ed implementazione servizio di autenticazione
+      1. Configurazione DB e implementazione schemi
+      2. Implementazione token di autenticazione
+      3. Regole di controllo di accesso
+      4. Implementazione API di autenticazione
+   2. Implementazione delle feature relative ai gruppi
+      1. Configurazione DB e implementazione schemi
+      2. Implementazione API di gestione gruppi
+   3. Scrittura della documentazione
+   4. Definizione configurazione di deployment
+
+2. **Progettazione e implementazione di un servizio di localizzazione che permetta di geolocalizzare un utente in tempo reale, individuare coordinate a partire da indirizzi / luoghi ed esporre un'API per impostare notifiche quando l'utente arriva in prossimità di una certa posizione.**
+   1. Confronto di tecnologie _MOM_ consone allo sviluppo del servizio
+   2. Progettazione e design
+   3. _Geocoding_ di indirizzi / luoghi in coordinate
+      1. Studio di un servizio web di mappe per il _geocoding_
+      2. Implementazione logica
+   4. Implementazione API del servizio
+      1. Impostazione di notifiche di prossimità
+      2. Tracciamento real-time e gestione della posizione
+      3. Configurazione DB dati e implementazione schemi
+      4. Gestione stato utente
+      5. Configurazione tecnologia / protocollo scelto all'interno del sistema
+   5. Scrittura della documentazione
+   6. Definizione configurazione di deployment
+
+3. **Progettazione e implementazione di un servizio di chat che permetta di conversare in tempo reale con un singolo o un gruppo ristretto di utenti con la quale si vuole condividere la propria posizione e stato. Questo permetterà all,'utente di avere una comunicazione più diretta e immediata con i membri del gruppo.**
+   1. Analisi di tecnologie / protocolli per lo scambio di messaggi
+   2. Analisi aspetti di _sicurezza_ nella comunicazione in tempo reale tra più utenti
+      1. Implementazione servizio _crittografia E2E_
+   3. Implementazione API del servizio
+      1. Configurazione tecnologia / protocollo scelto all'interno del sistema
+      2. Implementazione funzionalità di chat
+         1. Gestione invio _notifiche_
+      3. Implementazione funzionalità _amministrazione_ dei gruppi chat
+   4. Scrittura della documentazione
+   5. Definizione configurazione di deployment
+
+4. **Sistema di notifiche**
+   1. Analisi di tecnologie / protocolli per l'invio di notifiche push
+   2. Implementazione API del servizio
+      1. Implementazione DB e schemi
+      2. Implementazione funzionalità di invio notifiche push
+      3. Implementazione funzionalità di invio notifiche mail
+   3. Scrittura della documentazione
+   4. Definizione configurazione di deployment
+
 -->
 </section>
             </div><div class="search-results">
@@ -569,7 +552,7 @@ window.MathJax = {
     },
     "gitbook": {
         "version": "3.2.3",
-        "time": "2024-09-27 15:26:13 +0000"
+        "time": "2024-09-27 16:02:55 +0000"
     },
     "basePath": "/PM-report",
     "book": {
