@@ -45,6 +45,10 @@ Per fini di brevità, aggreghiamo la sintesi e i risultati delle prime 3 riunion
 
 In dettaglio, l'analisi è stata raffinata incrementalmente, inizialmente definendo gli obiettivi generali del progetto, da cui sono emerse le opportunità e i rischi correlati; parallelamente, sono state stilate le condizioni e criteri di successo del sistema.
 
+> 📂 **_Allegato_**
+> Il POS è riportato nell'[Allegato 1]({{ site.baseurl }}/attachments/1-pos/)
+{: .block-tip }
+
 Al fine di estrarre le principali funzionalità dell'applicativo nel modo più rapido ed efficace possibile, è stato utilizzato **_Event Storming_**, una tecnica di modellazione collaborativa e visuale particolarmente utilizzata e apprezzata nel contesto di sviluppo _agile_ e _Domain-Driven_.
 La sua potenza deriva da un gruppo eterogeneo e multidisciplinare di esperti, dagli architetti ai _product owner_, passando per i _designer_ dell'_UI/UX_ ai _tester_, che, insieme, collaborano per estrarre le principali funzionalità e i processi che le guidano, condividendo questa conoscenza per far sì che sia condivisa al di là dei compartimenti stagni di ciascun team.
 Inoltre, questo approccio consente di uniformare il linguaggio utilizzato (quello che in DDD è detto _ubiquitous language_) e di sollevare e poi risolvere eventuali ambiguità o incomprensioni che possono emergere sin dalle prime fasi del progetto.
@@ -68,3 +72,8 @@ La struttura da seguire viene riassunta di seguito:
 Attraverso la stesura dei _requirements_ in una struttura gerarchica è stato possibile identificare anche un ordine di produzione delle macro-componenti, al fine di favorire inizialmente uno sviluppo che giovi dei benefici offerti dalla _continuous integration_ fin dall'inizio, e una struttura di testing incrementale.
 
 Essendo in uno scenario di incertezza tecnologica che necessita di una componente esplorativa, abbiamo ritenuto che il modello che più si presti a queste esigenze sia quello _adattativo_: questa scelta permette di accogliere e adeguarsi ai cambiamenti, derivanti dalla raccolta di nuove informazioni che possono emergere durante il ciclo di vita del progetto.
+
+
+TODO:
+
+- I REQUISITI COME LI VALIDIAMO?
