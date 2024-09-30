@@ -8,10 +8,6 @@ Vengono di seguito riportate le stime dei costi per la realizzazione del progett
 
 Nelle stime di implementazione qui riportate consideriamo anche i costi per il testing.
 
-<details>
-<summary><strong>Stima attività requisito 1</strong></summary>
-
-
 **Attività 1.1** Configurazione build tool e DVCS
 
 | Stime | Luca Rubboli | Giovanni Antonioni | Luca Tassinari | Media | Mediana | 3 point method |
@@ -143,4 +139,8 @@ Nelle stime di implementazione qui riportate consideriamo anche i costi per il t
 | Durata stimata:    | 0,5 |
 
 
-</details>
+[expand]
+Long content here
+and here
+...
+[/expand]
