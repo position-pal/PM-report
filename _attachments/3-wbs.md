@@ -32,14 +32,25 @@ A partire dalla RBS definita nel [Allegato 2 - Requirements Breakdown Structure]
       1. Esplorazione di plugin _on the shelf_
       2. Implementazione API di gestione dei ruoli
       3. Predisposizione dello _storage_ per la gestione dei ruoli
-   4. Il sistema deve poter gestire le informazioni relative agli utenti e l'impostazione degli indirizzi preferiti.
+   4. 👉🏻 Il sistema deve poter gestire le informazioni relative agli utenti e l'impostazione degli indirizzi preferiti.
 
 3. **Progettazione e implementazione di un servizio di localizzazione.**
    1. Il sistema deve effettuare il _geocoding_ di indirizzi / luoghi in coordinate;
+      1. Esplorazione di un servizio web di mappe per il _geocoding_ [vecchia 3.3.1]
+      2. Implementazione ReST API [vecchia 3.3.2]
    2. Il sistema deve localizzare in tempo reale gli utenti e supportarne la condivisione con i membri del proprio gruppo;
+      1. Confronto di tecnologie _MOM_ consone allo sviluppo del servizio [vecchia 3.1]
+      2. Progettazione e design [vecchia 3.2]
+      3. Implementazione storage posizioni utenti
+      4. Implementazione API
    3. Il sistema deve gestire lo stato degli utenti in tempo reale;
-   4. Il sistema deve permettere di impostare notifiche di prossimità con cui notificare gli utenti del proprio gruppo quando si raggiunge una certa posizione o se si verificano situazioni anomale (ad esempio, l'utente rimane fermo per troppo tempo).
+      1. Implementazione logica gestione dello stato utente [vecchia 3.4.4]
+   4. Il sistema deve permettere all'utente d'iniziare un percorso e condividerlo con i membri del proprio gruppo, notificando l'arrivo in prossimità della posizione di destinazione o in caso si verificano situazioni anomale, quali l'utente rimane fermo per troppo tempo, va _off-line_ o non ha raggiunto la destinazione entro un certo tempo (stabilito all'atto della creazione del percorso)
+      1. Identificazione della tecnologia che permetta un tracciamento real time reattivo e potenzialmente replicabile
+      2. Implementazione logica di reazione a eventi
+      3. Implementazione API
    5. Il sistema deve permettere di poter notificare gli utenti di una situazione di pericolo, iniziando a tracciare il percorso dell'utente.
+      1. Implementazione API
 
 4. **Progettazione e implementazione di un servizio di chat.**
    1. Il sistema deve permettere una comunicazione sicura;
@@ -48,17 +59,11 @@ A partire dalla RBS definita nel [Allegato 2 - Requirements Breakdown Structure]
 
 5. **Sistema di notifiche**
    1. Il sistema deve permettere l'invio di notifiche push;
+      1. Analisi di tecnologie / protocolli per l'invio di notifiche push [vecchia 5.1]
    2. Il sistema deve permettere l'invio di notifiche mail.
 
-
-
-
-
-
-
-
 <!--
-1. **Progettazione e implementazione di un servizio per la gestione utente che deve occuparsi di tutti gli aspetti relativi all'autenticazione, sia per quanto riguarda l'iscrizione, sia per il log-in, a cui va aggiunta la creazione e il mantenimento dei gruppi.**
+2. **Progettazione e implementazione di un servizio per la gestione utente che deve occuparsi di tutti gli aspetti relativi all'autenticazione, sia per quanto riguarda l'iscrizione, sia per il log-in, a cui va aggiunta la creazione e il mantenimento dei gruppi.**
    1. Configurazione ed implementazione servizio di autenticazione
       1. Configurazione DB e implementazione schemi
       2. Implementazione token di autenticazione
@@ -70,7 +75,7 @@ A partire dalla RBS definita nel [Allegato 2 - Requirements Breakdown Structure]
    3. Scrittura della documentazione
    4. Definizione configurazione di deployment
 
-2. **Progettazione e implementazione di un servizio di localizzazione che permetta di geolocalizzare un utente in tempo reale, individuare coordinate a partire da indirizzi / luoghi ed esporre un'API per impostare notifiche quando l'utente arriva in prossimità di una certa posizione.**
+3. **Progettazione e implementazione di un servizio di localizzazione che permetta di geolocalizzare un utente in tempo reale, individuare coordinate a partire da indirizzi / luoghi ed esporre un'API per impostare notifiche quando l'utente arriva in prossimità di una certa posizione.**
    1. Confronto di tecnologie _MOM_ consone allo sviluppo del servizio
    2. Progettazione e design
    3. _Geocoding_ di indirizzi / luoghi in coordinate
@@ -85,7 +90,7 @@ A partire dalla RBS definita nel [Allegato 2 - Requirements Breakdown Structure]
    5. Scrittura della documentazione
    6. Definizione configurazione di deployment
 
-3. **Progettazione e implementazione di un servizio di chat che permetta di conversare in tempo reale con un singolo o un gruppo ristretto di utenti con la quale si vuole condividere la propria posizione e stato. Questo permetterà all,'utente di avere una comunicazione più diretta e immediata con i membri del gruppo.**
+4. **Progettazione e implementazione di un servizio di chat che permetta di conversare in tempo reale con un singolo o un gruppo ristretto di utenti con la quale si vuole condividere la propria posizione e stato. Questo permetterà all,'utente di avere una comunicazione più diretta e immediata con i membri del gruppo.**
    1. Analisi di tecnologie / protocolli per lo scambio di messaggi
    2. Analisi aspetti di _sicurezza_ nella comunicazione in tempo reale tra più utenti
       1. Implementazione servizio _crittografia E2E_
@@ -97,7 +102,7 @@ A partire dalla RBS definita nel [Allegato 2 - Requirements Breakdown Structure]
    4. Scrittura della documentazione
    5. Definizione configurazione di deployment
 
-4. **Sistema di notifiche**
+5. **Sistema di notifiche**
    1. Analisi di tecnologie / protocolli per l'invio di notifiche push
    2. Implementazione API del servizio
       1. Implementazione DB e schemi
