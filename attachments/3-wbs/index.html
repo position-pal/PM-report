@@ -251,76 +251,79 @@
                     
 
                     <p>A partire dalla RBS definita nel <a href="/PM-report/attachments/2-rbs/">Allegato 2 - Requirements Breakdown Structure</a>, vengono qui di seguito esplosi i requisiti del sistema elencando le attività necessarie per soddisfarli, nel formato di una <em>Work Breakdown Structure</em>.</p>
-
 <ol>
-  <li><strong>Progettazione, inizializzazione e configurazione dei workspace con un adeguato <em>build tool</em>, di un’infrastruttura con predisposizione a una <em>pipeline</em> automatizzata di <em>continuous integration &amp; deployment</em>.</strong>
-    <ol>
-      <li>Configurazione build tool e DVCS</li>
-      <li>Configurazione pipeline di <em>continuous integration</em></li>
-      <li>Configurazione pipeline di <em>continuous deployment</em>
-        <ol>
-          <li>Progettazione diagrammi deployment</li>
-          <li>Creazione struttura locale minimale di orchestrazione</li>
-          <li>Configurazione ambiente di produzione</li>
-          <li>Sviluppo azioni deployment da locale a produzione</li>
-        </ol>
-      </li>
-      <li>Configurazione <em>bot</em> per aggiornamento automatico delle dipendenze</li>
-      <li>Configurazione <em>bot</em> per il <em>merge</em> automatizzato di Pull Request sulla repo</li>
-      <li>Configurazione <em>bot</em> per il rilascio automatico delle <em>release</em></li>
-      <li>Configurazione di un sistema di <em>ticketing</em> automatizzato</li>
-    </ol>
-  </li>
-  <li><strong>Progettazione e implementazione di un servizio per la gestione utente.</strong>
-    <ol>
-      <li>Il sistema deve poter gestire l’autenticazione degli utenti;
-        <ol>
-          <li>Configurazione DB e implementazione schemi</li>
-          <li>Implementazione token di autenticazione</li>
-          <li>Regole di controllo di accesso</li>
-          <li>Implementazione API di autenticazione</li>
-        </ol>
-      </li>
-      <li>Il sistema deve poter gestire la creazione, adesione e abbandono ai gruppi (operazioni CRUD);
-        <ol>
-          <li>Configurazione DB e implementazione schemi</li>
-          <li>Implementazione API di gestione gruppi</li>
-        </ol>
-      </li>
-      <li>Il sistema deve supportare una struttura gerarchica degli utenti appartenenti ad un gruppo;
-        <ol>
-          <li>Esplorazione di plugin <em>on the shelf</em></li>
-          <li>Implementazione API di gestione dei ruoli</li>
-          <li>Predisposizione dello <em>storage</em> per la gestione dei ruoli</li>
-        </ol>
-      </li>
-      <li>Il sistema deve poter gestire le informazioni relative agli utenti e l’impostazione degli indirizzi preferiti.</li>
-    </ol>
-  </li>
-  <li><strong>Progettazione e implementazione di un servizio di localizzazione.</strong>
-    <ol>
-      <li>Il sistema deve effettuare il <em>geocoding</em> di indirizzi / luoghi in coordinate;</li>
-      <li>Il sistema deve localizzare in tempo reale gli utenti e supportarne la condivisione con i membri del proprio gruppo;</li>
-      <li>Il sistema deve gestire lo stato degli utenti in tempo reale;</li>
-      <li>Il sistema deve permettere di impostare notifiche di prossimità con cui notificare gli utenti del proprio gruppo quando si raggiunge una certa posizione o se si verificano situazioni anomale (ad esempio, l’utente rimane fermo per troppo tempo).</li>
-      <li>Il sistema deve permettere di poter notificare gli utenti di una situazione di pericolo, iniziando a tracciare il percorso dell’utente.</li>
-    </ol>
-  </li>
-  <li><strong>Progettazione e implementazione di un servizio di chat.</strong>
-    <ol>
-      <li>Il sistema deve permettere una comunicazione sicura;</li>
-      <li>Il sistema deve permettere un canale di comunicazione tra il client e il server;</li>
-      <li>Il sistema deve permettere una comunicazione di natura broadcast ai membri appartenenti ai gruppi.</li>
-    </ol>
-  </li>
-  <li><strong>Sistema di notifiche</strong>
-    <ol>
-      <li>Il sistema deve permettere l’invio di notifiche push;</li>
-      <li>Il sistema deve permettere l’invio di notifiche mail.</li>
-    </ol>
-  </li>
+<li>
+<p><strong>Progettazione, inizializzazione e configurazione dei workspace con un adeguato <em>build tool</em>, di un’infrastruttura con predisposizione a una <em>pipeline</em> automatizzata di <em>continuous integration &amp; deployment</em>.</strong></p>
+<ol>
+<li>Configurazione build tool e DVCS</li>
+<li>Configurazione pipeline di <em>continuous integration</em></li>
+<li>Configurazione pipeline di <em>continuous deployment</em>
+<ol>
+<li>Progettazione diagrammi deployment</li>
+<li>Creazione struttura locale minimale di orchestrazione</li>
+<li>Configurazione ambiente di produzione</li>
+<li>Sviluppo azioni deployment da locale a produzione</li>
 </ol>
-
+</li>
+<li>Configurazione <em>bot</em> per aggiornamento automatico delle dipendenze</li>
+<li>Configurazione <em>bot</em> per il <em>merge</em> automatizzato di Pull Request sulla repo</li>
+<li>Configurazione <em>bot</em> per il rilascio automatico delle <em>release</em></li>
+<li>Configurazione di un sistema di <em>ticketing</em> automatizzato</li>
+</ol>
+</li>
+<li>
+<p><strong>Progettazione e implementazione di un servizio per la gestione utente.</strong></p>
+<ol>
+<li>Il sistema deve poter gestire l’autenticazione degli utenti;
+<ol>
+<li>Configurazione DB e implementazione schemi</li>
+<li>Implementazione token di autenticazione</li>
+<li>Regole di controllo di accesso</li>
+<li>Implementazione API di autenticazione</li>
+</ol>
+</li>
+<li>Il sistema deve poter gestire la creazione, adesione e abbandono ai gruppi (operazioni CRUD);
+<ol>
+<li>Configurazione DB e implementazione schemi</li>
+<li>Implementazione API di gestione gruppi</li>
+</ol>
+</li>
+<li>Il sistema deve supportare una struttura gerarchica degli utenti appartenenti ad un gruppo;
+<ol>
+<li>Esplorazione di plugin <em>on the shelf</em></li>
+<li>Implementazione API di gestione dei ruoli</li>
+<li>Predisposizione dello <em>storage</em> per la gestione dei ruoli</li>
+</ol>
+</li>
+<li>Il sistema deve poter gestire le informazioni relative agli utenti e l’impostazione degli indirizzi preferiti.</li>
+</ol>
+</li>
+<li>
+<p><strong>Progettazione e implementazione di un servizio di localizzazione.</strong></p>
+<ol>
+<li>Il sistema deve effettuare il <em>geocoding</em> di indirizzi / luoghi in coordinate;</li>
+<li>Il sistema deve localizzare in tempo reale gli utenti e supportarne la condivisione con i membri del proprio gruppo;</li>
+<li>Il sistema deve gestire lo stato degli utenti in tempo reale;</li>
+<li>Il sistema deve permettere di impostare notifiche di prossimità con cui notificare gli utenti del proprio gruppo quando si raggiunge una certa posizione o se si verificano situazioni anomale (ad esempio, l’utente rimane fermo per troppo tempo).</li>
+<li>Il sistema deve permettere di poter notificare gli utenti di una situazione di pericolo, iniziando a tracciare il percorso dell’utente.</li>
+</ol>
+</li>
+<li>
+<p><strong>Progettazione e implementazione di un servizio di chat.</strong></p>
+<ol>
+<li>Il sistema deve permettere una comunicazione sicura;</li>
+<li>Il sistema deve permettere un canale di comunicazione tra il client e il server;</li>
+<li>Il sistema deve permettere una comunicazione di natura broadcast ai membri appartenenti ai gruppi.</li>
+</ol>
+</li>
+<li>
+<p><strong>Sistema di notifiche</strong></p>
+<ol>
+<li>Il sistema deve permettere l’invio di notifiche push;</li>
+<li>Il sistema deve permettere l’invio di notifiche mail.</li>
+</ol>
+</li>
+</ol>
 <!--
 1. **Progettazione e implementazione di un servizio per la gestione utente che deve occuparsi di tutti gli aspetti relativi all'autenticazione, sia per quanto riguarda l'iscrizione, sia per il log-in, a cui va aggiunta la creazione e il mantenimento dei gruppi.**
    1. Configurazione ed implementazione servizio di autenticazione
@@ -552,7 +555,7 @@ window.MathJax = {
     },
     "gitbook": {
         "version": "3.2.3",
-        "time": "2024-09-30 20:12:42 +0000"
+        "time": "2024-09-30 20:17:18 +0000"
     },
     "basePath": "/PM-report",
     "book": {
@@ -583,20 +586,5 @@ window.MathJax = {
 <script src="/PM-report/assets/gitbook/custom.js"></script>
 <script src="/PM-report/assets/gitbook/custom-local.js"></script>
 
-<script>
-    
-    var elements = document.querySelectorAll('p');
-    Array.prototype.forEach.call(elements, function(el, i){
-        if(el.innerHTML=='[expand]') {
-            var parentcontent = el.parentNode.innerHTML.replace('<p>[expand]</p>','<div class="expand" style="display: none; height: 0; overflow: hidden;">').replace('<p>[/expand]</p>','</div>');
-            el.parentNode.innerHTML = parentcontent;
-        }
-    });
-
-    var elements = document.querySelectorAll('div.expand');
-    Array.prototype.forEach.call(elements, function(el, i){
-        el.previousElementSibling.innerHTML = el.previousElementSibling.innerHTML + '<span>..&nbsp; <a href="#" style="cursor: pointer;" onclick="this.parentNode.parentNode.nextElementSibling.style.display = \'block\'; this.parentNode.parentNode.nextElementSibling.style.height = \'auto\'; this.parentNode.style.display = \'none\';">read&nbsp;more&nbsp;&rarr;</a></span>';
-    });
-
-</script></body>
+</body>
 </html>

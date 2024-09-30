@@ -252,51 +252,37 @@
 
                     <p>Dopo la fase di <em>scoping</em> il team ha chiari gli obiettivi del progetto e le funzionalità che il sistema dovrà offrire.
 Per poter procedere con la fase esecutiva, comprensiva di <em>design</em> e <em>implementazione</em>, è necessario pianificare le attività da svolgere, stimarne i costi e produrre una schedula che permetta di monitorare l’avanzamento del progetto.</p>
-
 <h2 id="project-planning">Project Planning</h2>
-
 <h3 id="i-sessione">I sessione</h3>
-
 <p><strong>Scopo:</strong></p>
-
 <p><strong>Partecipanti della riunione:</strong></p>
-
 <p><strong>Agenda</strong>:</p>
-
 <ol>
-  <li>Generazione e validazione della WBS;</li>
-  <li>Stima della quantità di lavoro, della durata e delle risorse richieste;</li>
+<li>Generazione e validazione della WBS;</li>
+<li>Stima della quantità di lavoro, della durata e delle risorse richieste;</li>
 </ol>
-
 <p>La riunione è iniziata con la generazione della Work Breakdown Structure (WBS) come estensione della RBS, uno strumento fondamentale per suddividere il progetto in attività più piccole, gestibili e stimabili.</p>
-
 <p>Successivamente, la WBS è stata validata attraverso il confronto con gli stakeholder chiave, assicurandosi che tutte le componenti fossero coperte e non ci fossero aree di lavoro omesse.</p>
-
-<blockquote class="block-tip">
-  <p>📂 <strong><em>Allegato</em></strong>
-La WBS risultante è presentata nell’<a href="/PM-report/PM-report/attachments/3-wbs/">Allegato 3 - Work Breakdown Structure</a>.</p>
+<blockquote>
+<p>📂 <strong><em>Allegato</em></strong>
+La WBS risultante è presentata nell’<a href="/PM-report/PM-report/attachments/3-wbs/">Allegato 3 - Work Breakdown Structure</a>.
+{: .block-tip }</p>
 </blockquote>
-
 <p>Una volta completata la WBS, il team ha proceduto con la stima delle attività, calcolando la quantità di lavoro, la durata e le risorse necessarie per completare ciascuna attività.</p>
-
 <p>La stima delle attività è stata condotta in modo iterativo, utilizzando diverse tecniche per affinare il più possibile la precisione delle previsioni:</p>
-
 <ul>
-  <li><strong>Media</strong>;</li>
-  <li><strong>Mediana</strong>;</li>
-  <li><strong>3 Point Method</strong>: È stato applicato per includere nelle stime tre valori: ottimistico, pessimista e realistico, e quindi calcolare una stima ponderata.</li>
+<li><strong>Media</strong>;</li>
+<li><strong>Mediana</strong>;</li>
+<li><strong>3 Point Method</strong>: È stato applicato per includere nelle stime tre valori: ottimistico, pessimista e realistico, e quindi calcolare una stima ponderata.</li>
 </ul>
-
 <p>Il team ha iterato su questi metodi fino a ottenere una convergenza accettabile (di quanto?).</p>
-
 <h3 id="ii-sessione">II sessione</h3>
-
 <ol>
-  <li>Creazione del diagramma delle dipendenze;</li>
-  <li>Individuazione e discussione del <em>critical path</em> e delle date previste per il completamento del progetto e delle diverse milestone;</li>
-  <li>Analisi della schedula e della sua compressione, se necessario;</li>
-  <li>Identificazione dei rischi e degli eventuali piani di mitigazione;</li>
-  <li>Consenso tra tutti i partecipanti</li>
+<li>Creazione del diagramma delle dipendenze;</li>
+<li>Individuazione e discussione del <em>critical path</em> e delle date previste per il completamento del progetto e delle diverse milestone;</li>
+<li>Analisi della schedula e della sua compressione, se necessario;</li>
+<li>Identificazione dei rischi e degli eventuali piani di mitigazione;</li>
+<li>Consenso tra tutti i partecipanti</li>
 </ol>
 </section>
             </div><div class="search-results">
@@ -479,7 +465,7 @@ window.MathJax = {
     },
     "gitbook": {
         "version": "3.2.3",
-        "time": "2024-09-30 20:12:42 +0000"
+        "time": "2024-09-30 20:17:18 +0000"
     },
     "basePath": "/PM-report",
     "book": {
@@ -510,20 +496,5 @@ window.MathJax = {
 <script src="/PM-report/assets/gitbook/custom.js"></script>
 <script src="/PM-report/assets/gitbook/custom-local.js"></script>
 
-<script>
-    
-    var elements = document.querySelectorAll('p');
-    Array.prototype.forEach.call(elements, function(el, i){
-        if(el.innerHTML=='[expand]') {
-            var parentcontent = el.parentNode.innerHTML.replace('<p>[expand]</p>','<div class="expand" style="display: none; height: 0; overflow: hidden;">').replace('<p>[/expand]</p>','</div>');
-            el.parentNode.innerHTML = parentcontent;
-        }
-    });
-
-    var elements = document.querySelectorAll('div.expand');
-    Array.prototype.forEach.call(elements, function(el, i){
-        el.previousElementSibling.innerHTML = el.previousElementSibling.innerHTML + '<span>..&nbsp; <a href="#" style="cursor: pointer;" onclick="this.parentNode.parentNode.nextElementSibling.style.display = \'block\'; this.parentNode.parentNode.nextElementSibling.style.height = \'auto\'; this.parentNode.style.display = \'none\';">read&nbsp;more&nbsp;&rarr;</a></span>';
-    });
-
-</script></body>
+</body>
 </html>

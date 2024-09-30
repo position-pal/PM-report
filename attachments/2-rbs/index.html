@@ -251,55 +251,58 @@
                     
 
                     <h2 id="event-storming">Event Storming</h2>
-
-<blockquote class="block-warning">
-  <p><strong>🚧 TODO: Riportare diagramma <em>event storming</em></strong></p>
+<blockquote>
+<p><strong>🚧 TODO: Riportare diagramma <em>event storming</em></strong>
+{: .block-warning }</p>
 </blockquote>
-
 <h2 id="requirements-breakdown-structure">Requirements Breakdown Structure</h2>
-
 <p>Vengono qui di seguito esplosi i requisiti del sistema, a partire dagli obiettivi definiti nel <a href="/PM-report/attachments/1-pos/">POS</a> e sulla base dell’<em>Event Storming</em> effettuato, nel formato di una <em>Requirements Breakdown Structure</em>.</p>
-
 <ol>
-  <li>
-    <p><strong>Progettazione, inizializzazione e configurazione dei workspace con un adeguato <em>build tool</em>, di un’infrastruttura con predisposizione a una <em>pipeline</em> automatizzata di <em>continuous integration &amp; deployment</em>.</strong></p>
-  </li>
-  <li><strong>Progettazione e implementazione di un servizio per la gestione utente.</strong>
-    <ol>
-      <li>Il sistema deve poter gestire l’autenticazione degli utenti;</li>
-      <li>Il sistema deve poter gestire la creazione, adesione e abbandono ai gruppi (operazioni CRUD);</li>
-      <li>Il sistema deve supportare una struttura gerarchica degli utenti appartenenti ad un gruppo;</li>
-      <li>Il sistema deve poter gestire le informazioni relative agli utenti e l’impostazione degli indirizzi preferiti.</li>
-    </ol>
-  </li>
-  <li><strong>Progettazione e implementazione di un servizio di localizzazione.</strong>
-    <ol>
-      <li>Il sistema deve effettuare il <em>geocoding</em> di indirizzi / luoghi in coordinate;</li>
-      <li>Il sistema deve localizzare in tempo reale gli utenti e supportarne la condivisione con i membri del proprio gruppo;</li>
-      <li>Il sistema deve gestire lo stato degli utenti in tempo reale;</li>
-      <li>Il sistema deve permettere di impostare notifiche di prossimità con cui notificare gli utenti del proprio gruppo quando si raggiunge una certa posizione o se si verificano situazioni anomale (ad esempio, l’utente rimane fermo per troppo tempo).</li>
-      <li>Il sistema deve permettere di poter notificare gli utenti di una situazione di pericolo, iniziando a tracciare il percorso dell’utente.</li>
-    </ol>
-  </li>
-  <li><strong>Progettazione e implementazione di un servizio di chat.</strong>
-    <ol>
-      <li>Il sistema deve permettere una comunicazione sicura;</li>
-      <li>Il sistema deve permettere un canale di comunicazione tra il client e il server;</li>
-      <li>Il sistema deve permettere una comunicazione (di messaggi testuali) di natura broadcast ai membri appartenenti ai gruppi.</li>
-    </ol>
-  </li>
-  <li><strong>Sistema di notifiche</strong>
-    <ol>
-      <li>Il sistema deve permettere l’invio di notifiche push;</li>
-      <li>Il sistema deve permettere l’invio di notifiche mail.</li>
-    </ol>
-  </li>
+<li>
+<p><strong>Progettazione, inizializzazione e configurazione dei workspace con un adeguato <em>build tool</em>, di un’infrastruttura con predisposizione a una <em>pipeline</em> automatizzata di <em>continuous integration &amp; deployment</em>.</strong></p>
+</li>
+<li>
+<p><strong>Progettazione e implementazione di un servizio per la gestione utente.</strong></p>
+<ol>
+<li>Il sistema deve poter gestire l’autenticazione degli utenti;</li>
+<li>Il sistema deve poter gestire la creazione, adesione e abbandono ai gruppi (operazioni CRUD);</li>
+<li>Il sistema deve supportare una struttura gerarchica degli utenti appartenenti ad un gruppo;</li>
+<li>Il sistema deve poter gestire le informazioni relative agli utenti e l’impostazione degli indirizzi preferiti.</li>
 </ol>
-
+</li>
+<li>
+<p><strong>Progettazione e implementazione di un servizio di localizzazione.</strong></p>
+<ol>
+<li>Il sistema deve effettuare il <em>geocoding</em> di indirizzi / luoghi in coordinate;</li>
+<li>Il sistema deve localizzare in tempo reale gli utenti e supportarne la condivisione con i membri del proprio gruppo;</li>
+<li>Il sistema deve gestire lo stato degli utenti in tempo reale;</li>
+<li>Il sistema deve permettere di impostare notifiche di prossimità con cui notificare gli utenti del proprio gruppo quando si raggiunge una certa posizione o se si verificano situazioni anomale (ad esempio, l’utente rimane fermo per troppo tempo).</li>
+<li>Il sistema deve permettere di poter notificare gli utenti di una situazione di pericolo, iniziando a tracciare il percorso dell’utente.</li>
+</ol>
+</li>
+<li>
+<p><strong>Progettazione e implementazione di un servizio di chat.</strong></p>
+<ol>
+<li>Il sistema deve permettere una comunicazione sicura;</li>
+<li>Il sistema deve permettere un canale di comunicazione tra il client e il server;</li>
+<li>Il sistema deve permettere una comunicazione (di messaggi testuali) di natura broadcast ai membri appartenenti ai gruppi.</li>
+</ol>
+</li>
+<li>
+<p><strong>Sistema di notifiche</strong></p>
+<ol>
+<li>Il sistema deve permettere l’invio di notifiche push;</li>
+<li>Il sistema deve permettere l’invio di notifiche mail.</li>
+</ol>
+</li>
+</ol>
 <div style="width: 100%; overflow-x: auto; white-space: nowrap;">
-  <img src="/PM-report/res/rbs.svg" alt="rbs schema" style="max-width: none;" />
+  <img 
+    src="/PM-report/res/rbs.svg" 
+    alt="rbs schema" 
+    style="max-width: none;"
+  />
 </div>
-
 </section>
             </div><div class="search-results">
     <div class="has-results">
@@ -481,7 +484,7 @@ window.MathJax = {
     },
     "gitbook": {
         "version": "3.2.3",
-        "time": "2024-09-30 20:12:42 +0000"
+        "time": "2024-09-30 20:17:18 +0000"
     },
     "basePath": "/PM-report",
     "book": {
@@ -512,20 +515,5 @@ window.MathJax = {
 <script src="/PM-report/assets/gitbook/custom.js"></script>
 <script src="/PM-report/assets/gitbook/custom-local.js"></script>
 
-<script>
-    
-    var elements = document.querySelectorAll('p');
-    Array.prototype.forEach.call(elements, function(el, i){
-        if(el.innerHTML=='[expand]') {
-            var parentcontent = el.parentNode.innerHTML.replace('<p>[expand]</p>','<div class="expand" style="display: none; height: 0; overflow: hidden;">').replace('<p>[/expand]</p>','</div>');
-            el.parentNode.innerHTML = parentcontent;
-        }
-    });
-
-    var elements = document.querySelectorAll('div.expand');
-    Array.prototype.forEach.call(elements, function(el, i){
-        el.previousElementSibling.innerHTML = el.previousElementSibling.innerHTML + '<span>..&nbsp; <a href="#" style="cursor: pointer;" onclick="this.parentNode.parentNode.nextElementSibling.style.display = \'block\'; this.parentNode.parentNode.nextElementSibling.style.height = \'auto\'; this.parentNode.style.display = \'none\';">read&nbsp;more&nbsp;&rarr;</a></span>';
-    });
-
-</script></body>
+</body>
 </html>

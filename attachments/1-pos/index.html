@@ -93,7 +93,7 @@
                                 </a>
                                 
                                     
-                                        <ul><li><a href="#opportunità" onclick="mobilePageScrollToAnchor(this)" >Opportunità</a></li><li><a href="#scopo-del-progetto" onclick="mobilePageScrollToAnchor(this)" >Scopo del progetto</a></li><li><a href="#obiettivi" onclick="mobilePageScrollToAnchor(this)" >Obiettivi</a></li><li><a href="#conditions-of-satisfactions" onclick="mobilePageScrollToAnchor(this)" ><em>Conditions of Satisfactions</em></a></li><li><a href="#success-criteria" onclick="mobilePageScrollToAnchor(this)" >Success Criteria</a></li><li><a href="#rischi" onclick="mobilePageScrollToAnchor(this)" >Rischi</a></li><li><a href="#milestone" onclick="mobilePageScrollToAnchor(this)" >Milestone</a></li></ul>
+                                        <ul><li><a href="#opportunit" onclick="mobilePageScrollToAnchor(this)" >Opportunità</a></li><li><a href="#scopo-del-progetto" onclick="mobilePageScrollToAnchor(this)" >Scopo del progetto</a></li><li><a href="#obiettivi" onclick="mobilePageScrollToAnchor(this)" >Obiettivi</a></li><li><a href="#emconditions-of-satisfactionsem" onclick="mobilePageScrollToAnchor(this)" ><em>Conditions of Satisfactions</em></a></li><li><a href="#success-criteria" onclick="mobilePageScrollToAnchor(this)" >Success Criteria</a></li><li><a href="#rischi" onclick="mobilePageScrollToAnchor(this)" >Rischi</a></li><li><a href="#milestone" onclick="mobilePageScrollToAnchor(this)" >Milestone</a></li></ul>
 
                                     
                                 
@@ -250,75 +250,58 @@
                         <h1 id="/attachments/1-pos">Allegato 1 - Project Overview Statement</h1>
                     
 
-                    <h2 id="opportunità">Opportunità</h2>
-
+                    <h2 id="opportunit">Opportunità</h2>
 <p>Da un’indagine di mercato è emersa la presenza di applicativi già esistenti per questo ambito.
 Tuttavia, dall’analisi di questi ultimi è affiorata la possibilità di fornire una versione <em>open source</em>, che al contempo permetta al gruppo di impratichirsi con tecnologie e metodologie avanzate, cercando di migliorare l’esperienza utente.</p>
-
 <h2 id="scopo-del-progetto">Scopo del progetto</h2>
-
 <p><strong>Lo scopo del progetto è l’implementazione di un sistema <!-- a micro-servizi --> di tracciamento e condivisione, in tempo reale, della posizione e di un’informazione di stato tra gruppi di utenti fidati.</strong></p>
-
 <h2 id="obiettivi">Obiettivi</h2>
-
 <p>Qui di seguito vengono descritti i principali obiettivi del progetto:</p>
-
 <ol>
-  <li>
-    <p>Organizzazione, configurazione e inizializzazione dei workspace con un adeguato <em>build tool</em>, di un’infrastruttura con predisposizione a una <em>pipeline</em> automatizzata di <em>continuous integration &amp; deployment</em>.</p>
-  </li>
-  <li>
-    <p>Progettazione e implementazione di un servizio per la gestione utente che deve occuparsi di tutti gli aspetti relativi all’autenticazione, sia per quanto riguarda l’iscrizione, sia per il log-in, a cui va aggiunta la creazione e il mantenimento dei gruppi e lo stato in tempo reale.</p>
-  </li>
-  <li>
-    <p>Progettazione e implementazione di un servizio di localizzazione che permetta di geolocalizzare un utente in tempo reale, individuare coordinate a partire da indirizzi / luoghi ed esporre un’API per impostare notifiche quando l’utente arriva in prossimità di una certa posizione.</p>
-  </li>
-  <li>
-    <p>Progettazione e implementazione di un servizio di chat che permetta di conversare in tempo reale con un singolo o un gruppo ristretto di utenti con la quale si vuole condividere la propria posizione e stato. Questo permetterà all’utente di avere una comunicazione più diretta e immediata con i membri del gruppo.</p>
-  </li>
+<li>
+<p>Organizzazione, configurazione e inizializzazione dei workspace con un adeguato <em>build tool</em>, di un’infrastruttura con predisposizione a una <em>pipeline</em> automatizzata di <em>continuous integration &amp; deployment</em>.</p>
+</li>
+<li>
+<p>Progettazione e implementazione di un servizio per la gestione utente che deve occuparsi di tutti gli aspetti relativi all’autenticazione, sia per quanto riguarda l’iscrizione, sia per il log-in, a cui va aggiunta la creazione e il mantenimento dei gruppi e lo stato in tempo reale.</p>
+</li>
+<li>
+<p>Progettazione e implementazione di un servizio di localizzazione che permetta di geolocalizzare un utente in tempo reale, individuare coordinate a partire da indirizzi / luoghi ed esporre un’API per impostare notifiche quando l’utente arriva in prossimità di una certa posizione.</p>
+</li>
+<li>
+<p>Progettazione e implementazione di un servizio di chat che permetta di conversare in tempo reale con un singolo o un gruppo ristretto di utenti con la quale si vuole condividere la propria posizione e stato. Questo permetterà all’utente di avere una comunicazione più diretta e immediata con i membri del gruppo.</p>
+</li>
 </ol>
-
-<h2 id="conditions-of-satisfactions"><em>Conditions of Satisfactions</em></h2>
-
+<h2 id="emconditions-of-satisfactionsem"><em>Conditions of Satisfactions</em></h2>
 <ul>
-  <li>Il sistema deve essere completato entro Luglio 2024;</li>
-  <li>Utilizzo di architettura a micro-servizi e di <em>tool</em> di orchestrazione come Kubernetes;</li>
-  <li>Utilizzo di approccio <em>Domain</em> e <em>Test Driven</em> (DDD e TDD);</li>
-  <li>Organizzazione di focus group per raccolta di feedback sulla user experience.</li>
+<li>Il sistema deve essere completato entro Luglio 2024;</li>
+<li>Utilizzo di architettura a micro-servizi e di <em>tool</em> di orchestrazione come Kubernetes;</li>
+<li>Utilizzo di approccio <em>Domain</em> e <em>Test Driven</em> (DDD e TDD);</li>
+<li>Organizzazione di focus group per raccolta di feedback sulla user experience.</li>
 </ul>
-
 <h2 id="success-criteria">Success Criteria</h2>
-
 <ul>
-  <li>Il downtime del sistema deve essere minore dell’1% rispetto al tempo di attività;</li>
-  <li>I costi del progetto per servizi esterni e tecnologie non devono eccedere 100€;</li>
-  <li>Tutti i requisiti funzionali devono essere soddisfatti e verificati mediante test automatici;</li>
-  <li>La copertura del codice del dominio deve essere &gt; 90%.</li>
+<li>Il downtime del sistema deve essere minore dell’1% rispetto al tempo di attività;</li>
+<li>I costi del progetto per servizi esterni e tecnologie non devono eccedere 100€;</li>
+<li>Tutti i requisiti funzionali devono essere soddisfatti e verificati mediante test automatici;</li>
+<li>La copertura del codice del dominio deve essere &gt; 90%.</li>
 </ul>
-
 <h2 id="rischi">Rischi</h2>
-
 <p>Un elenco dei principali rischi che ci si assumerebbero sono elencati qui di seguito:</p>
-
 <ul>
-  <li>il team non ha esperienza nella progettazione e sviluppo di applicazioni con architettura a micro-servizi;</li>
-  <li>il team ha limitata esperienza riguardo l’utilizzo di tecnologie e strumenti per il <em>continuous depoloyment</em> in ambienti di produzione;</li>
-  <li>il sistema finale potrebbe avere meno <em>appeal</em> rispetto a quello dei <em>competitor</em> nel mercato.</li>
+<li>il team non ha esperienza nella progettazione e sviluppo di applicazioni con architettura a micro-servizi;</li>
+<li>il team ha limitata esperienza riguardo l’utilizzo di tecnologie e strumenti per il <em>continuous depoloyment</em> in ambienti di produzione;</li>
+<li>il sistema finale potrebbe avere meno <em>appeal</em> rispetto a quello dei <em>competitor</em> nel mercato.</li>
 </ul>
-
 <p>L’analisi e la gestione del rischio è trattata <a href="/PM-report/attachments/3-risk-analysis/">Allegato 3 - Analisi dei rischi</a></p>
-
 <h2 id="milestone">Milestone</h2>
-
 <p>Si prevede di rilasciare i servizi in questo ordine:</p>
-
 <ol>
-  <li>predisposizione infrastruttura di continuous integration &amp; deployment;</li>
-  <li>sotto-sistema autenticazione e gestione gruppi;</li>
-  <li>sotto-sistema di localizzazione;</li>
-  <li>sotto-sistema di notifiche;</li>
-  <li>sotto-sistema di chat.</li>
-  <li>predisposizione di un sistema di diagnosi e monitoraggio.</li>
+<li>predisposizione infrastruttura di continuous integration &amp; deployment;</li>
+<li>sotto-sistema autenticazione e gestione gruppi;</li>
+<li>sotto-sistema di localizzazione;</li>
+<li>sotto-sistema di notifiche;</li>
+<li>sotto-sistema di chat.</li>
+<li>predisposizione di un sistema di diagnosi e monitoraggio.</li>
 </ol>
 </section>
             </div><div class="search-results">
@@ -501,7 +484,7 @@ window.MathJax = {
     },
     "gitbook": {
         "version": "3.2.3",
-        "time": "2024-09-30 20:12:42 +0000"
+        "time": "2024-09-30 20:17:18 +0000"
     },
     "basePath": "/PM-report",
     "book": {
@@ -532,20 +515,5 @@ window.MathJax = {
 <script src="/PM-report/assets/gitbook/custom.js"></script>
 <script src="/PM-report/assets/gitbook/custom-local.js"></script>
 
-<script>
-    
-    var elements = document.querySelectorAll('p');
-    Array.prototype.forEach.call(elements, function(el, i){
-        if(el.innerHTML=='[expand]') {
-            var parentcontent = el.parentNode.innerHTML.replace('<p>[expand]</p>','<div class="expand" style="display: none; height: 0; overflow: hidden;">').replace('<p>[/expand]</p>','</div>');
-            el.parentNode.innerHTML = parentcontent;
-        }
-    });
-
-    var elements = document.querySelectorAll('div.expand');
-    Array.prototype.forEach.call(elements, function(el, i){
-        el.previousElementSibling.innerHTML = el.previousElementSibling.innerHTML + '<span>..&nbsp; <a href="#" style="cursor: pointer;" onclick="this.parentNode.parentNode.nextElementSibling.style.display = \'block\'; this.parentNode.parentNode.nextElementSibling.style.height = \'auto\'; this.parentNode.style.display = \'none\';">read&nbsp;more&nbsp;&rarr;</a></span>';
-    });
-
-</script></body>
+</body>
 </html>
