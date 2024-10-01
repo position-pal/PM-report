@@ -37,6 +37,8 @@ Vengono qui di seguito esplosi i requisiti del sistema, a partire dagli obiettiv
    1. Il sistema deve permettere l'invio di notifiche push;
    2. Il sistema deve permettere l'invio di notifiche mail.
 
+6. **Frontend**
+
 ```plantuml
 @startwbs rbs
 
@@ -64,5 +66,7 @@ Vengono qui di seguito esplosi i requisiti del sistema, a partire dagli obiettiv
 ++ **5.** Sistema di notifiche
 +++ **5.1.** Notifiche push
 +++ **5.2.** Notifiche mail
+
+++ **6.** Frontend
 @endwbs
 ```

@@ -27,7 +27,7 @@ Qui di seguito vengono descritti i principali obiettivi del progetto:
 
 ## _Conditions of Satisfactions_
 
-- Il sistema deve essere completato entro Luglio 2024;
+- Il sistema deve essere completato entro Novembre 2024;
 - Utilizzo di architettura a micro-servizi e di _tool_ di orchestrazione come Kubernetes;
 - Utilizzo di approccio _Domain_ e _Test Driven_ (DDD e TDD);
 - Organizzazione di focus group per raccolta di feedback sulla user experience.
