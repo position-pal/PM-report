@@ -148,10 +148,10 @@ Nelle stime di implementazione qui riportate consideriamo anche i costi per il t
 | Round 1 | 4 | 6,5 | 5 | 5,17 | 5 | 5,19 |
 | Round 2 | 5,5 | 6 | 6 | 5,83 | 6 | 5,81 |
 
-| Unità di misura:   | Ore |
+| Unità di misura    | Ore |
 |--------------------|-----|
-| Risorse assegnate: | 1   |
-| Durata stimata:    | 6   |
+| Risorse assegnate  | 1   |
+| Durata stimata     | 6   |
 
 **Attività 2.1.2** Autenticazione - Implementazione token di autenticazione
 
@@ -161,10 +161,10 @@ Nelle stime di implementazione qui riportate consideriamo anche i costi per il t
 | Round 2 | 12 | 12 | 14 | 12,67 | 12 | 12,78 |
 | Round 3 | 12 | 12 | 13 | 12,33 | 12 | 12,39 |
 
-| Unità di misura:   | Ore |
+| Unità di misura    | Ore |
 |--------------------|-----|
-| Risorse assegnate: | 1   |
-| Durata stimata:    | 12  |
+| Risorse assegnate  | 1   |
+| Durata stimata     | 12  |
 
 **Attività 2.1.3** Autenticazione - Regole di controllo di accesso
 
@@ -176,9 +176,8 @@ Nelle stime di implementazione qui riportate consideriamo anche i costi per il t
 
 | Unità di misura:   | Ore |
 |--------------------|-----|
-| Unità di misura:   | Ore |
-| Risorse assegnate: | 1   |
-| Durata stimata:    | 13  |
+| Risorse assegnate  | 1   |
+| Durata stimata     | 13  |
 
 **Attività 2.1.4** Autenticazione - Implementazione API di autenticazione
 
@@ -190,9 +189,8 @@ Nelle stime di implementazione qui riportate consideriamo anche i costi per il t
 
 | Unità di misura:   | Ore |
 |--------------------|-----|
-| Unità di misura:   | Ore |
-| Risorse assegnate: | 1   |
-| Durata stimata:    | 19  |
+| Risorse assegnate  | 1   |
+| Durata stimata     | 19  |
 
 **Attività 2.2.1** Gruppi - Configurazione DB e implementazione schemi
 
@@ -204,8 +202,8 @@ Nelle stime di implementazione qui riportate consideriamo anche i costi per il t
 
 | Unità di misura:   | Ore |
 |--------------------|-----|
-| Risorse assegnate: | 1   |
-| Durata stimata:    | 9,5 |
+| Risorse assegnate  | 1   |
+| Durata stimata     | 9,5 |
 
 **Attività 2.2.2** Gruppi - Implementazione API di gestione gruppi
 
@@ -216,8 +214,8 @@ Nelle stime di implementazione qui riportate consideriamo anche i costi per il t
 
 | Unità di misura:   | Ore |
 |--------------------|-----|
-| Risorse assegnate: | 1   |
-| Durata stimata:    | 20  |
+| Risorse assegnate  | 1   |
+| Durata stimata     | 20  |
 
 **Attività 2.3.1** Struttura gerarchica utenti - Esplorazione di plugin _on the shelf_
 
@@ -229,8 +227,8 @@ Nelle stime di implementazione qui riportate consideriamo anche i costi per il t
 
 | Unità di misura:   | Ore |
 |--------------------|-----|
-| Risorse assegnate: | 1   |
-| Durata stimata:    | 3   |
+| Risorse assegnate  | 1   |
+| Durata stimata     | 3   |
 
 **Attività 2.3.2** Struttura gerarchica utenti - Implementazione API di gestione dei ruoli
 
@@ -242,8 +240,8 @@ Nelle stime di implementazione qui riportate consideriamo anche i costi per il t
 
 | Unità di misura:   | Ore |
 |--------------------|-----|
-| Risorse assegnate: | 1   |
-| Durata stimata:    | 18  |
+| Risorse assegnate  | 1   |
+| Durata stimata     | 18  |
 
 **Attività 2.3.3** Struttura gerarchica utenti - Predisposizione dello _storage_ per la gestione dei ruoli
 
@@ -252,9 +250,11 @@ Nelle stime di implementazione qui riportate consideriamo anche i costi per il t
 | Round 1 | 6 | 7 | 6 | 6,33 | 6 | 6,39 |
 | Round 2 | 6 | 6,5 | 6,5 | 6,33 | 6,5 | 6,31 |
 
-| Unità di misura:   | Ore |
+| Unità di misura    | Ore |
 |--------------------|-----|
-| Risorse assegnate: | 1   |
-| Durata stimata:    | 6,5 |
+| Risorse assegnate  | 1   |
+| Durata stimata     | 6,5 |
 
 </details>
+
+

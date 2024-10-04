@@ -68,13 +68,13 @@ A partire dalla RBS definita nel [Allegato 2 - Requirements Breakdown Structure]
    4. Definizione configurazione di deployment
 
 5. **Sistema di notifiche**
-   1. Il sistema deve permettere l'invio di notifiche push;
-      1. Analisi di tecnologie / protocolli per l'invio di notifiche push
-      2. Configurazione tecnologia scelta
-      3. Implementazione logica d'invio notifiche push
-   2. Il sistema deve permettere l'invio di notifiche mail.
-      1. Configurazione mail server
-      2. Implementazione logica invio mail
+   1. Il sistema deve permettere l'invio di notifiche push
+      1. Analisi di tecnologie / protocolli per l'invio di notifiche push;
+      2. Configurazione tecnologia scelta;
+      3. Implementazione logica d'invio notifiche push;
+   2. Il sistema deve permettere l'invio di notifiche mail
+      1. Configurazione mail server;
+      2. Implementazione logica invio mail.
 
 6. **Frontend**
    1. Mockup

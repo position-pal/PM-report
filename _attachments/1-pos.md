@@ -7,7 +7,7 @@ layout: post
 ## Opportunità
 
 Da un'indagine di mercato è emersa la presenza di applicativi già esistenti per questo ambito.
-Tuttavia, dall'analisi di questi ultimi è affiorata la possibilità di fornire una versione _open source_, che al contempo permetta al gruppo di impratichirsi con tecnologie e metodologie avanzate, cercando di migliorare l'esperienza utente.
+Tuttavia, dall'analisi di questi ultimi è affiorata la possibilità di fornire una versione _open source_, che al contempo permetta al gruppo d'impratichirsi con tecnologie e metodologie avanzate, cercando di migliorare l'esperienza utente.
 
 ## Scopo del progetto
 
@@ -17,7 +17,7 @@ Tuttavia, dall'analisi di questi ultimi è affiorata la possibilità di fornire 
 
 Qui di seguito vengono descritti i principali obiettivi del progetto:
 
-1. Organizzazione, configurazione e inizializzazione dei workspace con un adeguato _build tool_, di un'infrastruttura con predisposizione a una _pipeline_ automatizzata di _continuous integration & deployment_.
+1. Organizzazione, configurazione e inizializzazione dei _workspace_ con un adeguato _build tool_, di un'infrastruttura con predisposizione a una _pipeline_ automatizzata di _continuous integration & deployment_.
 
 2. Progettazione e implementazione di un servizio per la gestione utente che deve occuparsi di tutti gli aspetti relativi all'autenticazione, sia per quanto riguarda l'iscrizione, sia per il log-in, a cui va aggiunta la creazione e il mantenimento dei gruppi e lo stato in tempo reale.
 
@@ -47,7 +47,7 @@ Un elenco dei principali rischi che ci si assumerebbero sono elencati qui di seg
 - il team ha limitata esperienza riguardo l'utilizzo di tecnologie e strumenti per il _continuous depoloyment_ in ambienti di produzione;
 - il sistema finale potrebbe avere meno _appeal_ rispetto a quello dei _competitor_ nel mercato.
 
-L'analisi e la gestione del rischio è trattata [Allegato 3 - Analisi dei rischi](/PM-report/attachments/3-risk-analysis/)
+L'analisi e la gestione del rischio è trattata nell'[Allegato 3 - Analisi dei rischi]({{ site.baseurl }}/attachments/3-risk-analysis/)
 
 ## Milestone
 
