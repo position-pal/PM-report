@@ -77,6 +77,19 @@ A partire dalla RBS definita nel [Allegato 2 - Requirements Breakdown Structure]
       2. Implementazione logica invio mail.
 
 6. **Frontend**
-   1. Mockup
-   2. Realizzazione UI
-   3. Integrazione con backend
+   1. Realizzazione Mockup delle pagine;
+   2. Il sistema deve permettere di registrarsi e autenticarsi al sistema
+      1. Realizzazione UI;
+      2. Integrazione con backend.
+   3. Il sistema deve mostrare all'utente la mappa in tempo reale e lo stato di tutti i gruppi di cui fa parte
+      1. Realizzazione UI;
+      2. Integrazione con backend.
+   4. Il sistema deve permettere la modifica delle informazioni dell'utente.
+      1. Realizzazione UI;
+      2. Integrazione con backend.
+   5. Il sistema deve permettere di visualizzare le notifiche ricevute
+      1. Realizzazione UI;
+      2. Integrazione con backend.
+   6. Il sistema deve permettere di visualizzare e interagire con le chat
+      1. Realizzazione UI;
+      2. Integrazione con backend. 
