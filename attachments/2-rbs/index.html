@@ -262,72 +262,66 @@
                     
 
                     <h2 id="event-storming">Event Storming</h2>
+
 <p>Viene qui presentata la mappa concettuale dell’<em>Event Storming</em> effettuato per la definizione dei requisiti del sistema.</p>
+
 <div style="width: 100%; overflow-x: auto; white-space: nowrap;">
-<img 
-   src="/PM-report/res/event-storming.svg" 
-   alt="Event Storming"
-   style="max-width: 220%;"
-/>
+  <p><img src="/PM-report/res/event-storming.svg" alt="Event Storming" style="max-width: 220%;" /></p>
 </div>
+
 <h2 id="requirements-breakdown-structure">Requirements Breakdown Structure</h2>
+
 <p>Vengono qui di seguito esplosi i requisiti del sistema, a partire dagli obiettivi definiti nel <a href="/PM-report/attachments/1-pos/">POS</a> e sulla base dell’<em>Event Storming</em> effettuato, nel formato di una <em>Requirements Breakdown Structure</em>.</p>
+
 <ol>
-<li>
-<p><strong>Progettazione, inizializzazione e configurazione dei workspace con un adeguato <em>build tool</em>, di un’infrastruttura con predisposizione a una <em>pipeline</em> automatizzata di <em>continuous integration &amp; deployment</em>.</strong></p>
-</li>
-<li>
-<p><strong>Progettazione e implementazione di un servizio per la gestione utente.</strong></p>
-<ol>
-<li>Il sistema deve poter gestire l’autenticazione degli utenti;</li>
-<li>Il sistema deve poter gestire la creazione, adesione e abbandono ai gruppi (operazioni CRUD);</li>
-<li>Il sistema deve supportare una struttura gerarchica degli utenti appartenenti ad un gruppo;</li>
-<li>Il sistema deve poter gestire le informazioni relative agli utenti e l’impostazione degli indirizzi preferiti.</li>
+  <li>
+    <p><strong>Progettazione, inizializzazione e configurazione dei workspace con un adeguato <em>build tool</em>, di un’infrastruttura con predisposizione a una <em>pipeline</em> automatizzata di <em>continuous integration &amp; deployment</em>.</strong></p>
+  </li>
+  <li><strong>Progettazione e implementazione di un servizio per la gestione utente.</strong>
+    <ol>
+      <li>Il sistema deve poter gestire l’autenticazione degli utenti;</li>
+      <li>Il sistema deve poter gestire la creazione, adesione e abbandono ai gruppi (operazioni CRUD);</li>
+      <li>Il sistema deve supportare una struttura gerarchica degli utenti appartenenti ad un gruppo;</li>
+      <li>Il sistema deve poter gestire le informazioni relative agli utenti e l’impostazione degli indirizzi preferiti.</li>
+    </ol>
+  </li>
+  <li><strong>Progettazione e implementazione di un servizio di localizzazione.</strong>
+    <ol>
+      <li>Il sistema deve effettuare il <em>geocoding</em> di indirizzi / luoghi in coordinate;</li>
+      <li>Il sistema deve localizzare in tempo reale gli utenti e supportarne la condivisione con i membri del proprio gruppo;</li>
+      <li>Il sistema deve gestire lo stato degli utenti in tempo reale;</li>
+      <li>Il sistema deve permettere all’utente d’iniziare un percorso e condividerlo con i membri del proprio gruppo, notificando l’arrivo in prossimità della posizione di destinazione o in caso si verifichino situazioni anomale, quali l’utente rimane fermo per troppo tempo, va <em>off-line</em> o non ha raggiunto la destinazione entro un certo tempo (stabilito all’atto della creazione del percorso);</li>
+      <li>Il sistema, al sollevarsi di una situazione di pericolo, deve mantenere uno storico del percorso compiuto fino alla cessazione del pericolo.</li>
+    </ol>
+  </li>
+  <li><strong>Progettazione e implementazione di un servizio di chat.</strong>
+    <ol>
+      <li>Il sistema deve permettere una comunicazione sicura;</li>
+      <li>Il sistema deve permettere un canale di comunicazione tra il client e il server;</li>
+      <li>Il sistema deve permettere una comunicazione (di messaggi testuali) di natura broadcast ai membri appartenenti ai gruppi.</li>
+    </ol>
+  </li>
+  <li><strong>Sistema di notifiche</strong>
+    <ol>
+      <li>Il sistema deve permettere l’invio di notifiche push;</li>
+      <li>Il sistema deve permettere l’invio di notifiche mail.</li>
+    </ol>
+  </li>
+  <li><strong>Frontend</strong>
+    <ol>
+      <li>Il sistema deve permettere di registrarsi e autenticarsi al sistema</li>
+      <li>Il sistema deve mostrare all’utente la mappa in tempo reale e lo stato di tutti i gruppi di cui fa parte.</li>
+      <li>Il sistema deve permettere la modifica delle informazioni dell’utente</li>
+      <li>Il sistema deve permettere di visualizzare le notifiche ricevute</li>
+      <li>Il sistema deve permettere di visualizzare e interagire con le chat</li>
+    </ol>
+  </li>
 </ol>
-</li>
-<li>
-<p><strong>Progettazione e implementazione di un servizio di localizzazione.</strong></p>
-<ol>
-<li>Il sistema deve effettuare il <em>geocoding</em> di indirizzi / luoghi in coordinate;</li>
-<li>Il sistema deve localizzare in tempo reale gli utenti e supportarne la condivisione con i membri del proprio gruppo;</li>
-<li>Il sistema deve gestire lo stato degli utenti in tempo reale;</li>
-<li>Il sistema deve permettere all’utente d’iniziare un percorso e condividerlo con i membri del proprio gruppo, notificando l’arrivo in prossimità della posizione di destinazione o in caso si verifichino situazioni anomale, quali l’utente rimane fermo per troppo tempo, va <em>off-line</em> o non ha raggiunto la destinazione entro un certo tempo (stabilito all’atto della creazione del percorso);</li>
-<li>Il sistema, al sollevarsi di una situazione di pericolo, deve mantenere uno storico del percorso compiuto fino alla cessazione del pericolo.</li>
-</ol>
-</li>
-<li>
-<p><strong>Progettazione e implementazione di un servizio di chat.</strong></p>
-<ol>
-<li>Il sistema deve permettere una comunicazione sicura;</li>
-<li>Il sistema deve permettere un canale di comunicazione tra il client e il server;</li>
-<li>Il sistema deve permettere una comunicazione (di messaggi testuali) di natura broadcast ai membri appartenenti ai gruppi.</li>
-</ol>
-</li>
-<li>
-<p><strong>Sistema di notifiche</strong></p>
-<ol>
-<li>Il sistema deve permettere l’invio di notifiche push;</li>
-<li>Il sistema deve permettere l’invio di notifiche mail.</li>
-</ol>
-</li>
-<li>
-<p><strong>Frontend</strong></p>
-<ol>
-<li>Il sistema deve permettere di registrarsi e autenticarsi al sistema</li>
-<li>Il sistema deve mostrare all’utente la mappa in tempo reale e lo stato di tutti i gruppi di cui fa parte.</li>
-<li>Il sistema deve permettere la modifica delle informazioni dell’utente</li>
-<li>Il sistema deve permettere di visualizzare le notifiche ricevute</li>
-<li>Il sistema deve permettere di visualizzare e interagire con le chat</li>
-</ol>
-</li>
-</ol>
+
 <div style="width: 100%; overflow-x: auto; white-space: nowrap;">
-  <img 
-    src="/PM-report/res/rbs.svg" 
-    alt="rbs schema" 
-    style="max-width: none;"
-  />
+  <p><img src="/PM-report/res/rbs.svg" alt="rbs schema" style="max-width: none;" /></p>
 </div>
+
 </section>
             </div><div class="search-results">
     <div class="has-results">
@@ -509,7 +503,7 @@ window.MathJax = {
     },
     "gitbook": {
         "version": "3.2.3",
-        "time": "2024-10-05 13:42:07 +0000"
+        "time": "2024-10-05 13:50:09 +0000"
     },
     "basePath": "/PM-report",
     "book": {

@@ -179,7 +179,7 @@
                                 </a>
                                 
                                     
-                                        <ul><li><a href="#contesto" onclick="mobilePageScrollToAnchor(this)" >Contesto</a></li><li><a href="#riunione-di-definizione-del-progetto-emscoping-meetingem" onclick="mobilePageScrollToAnchor(this)" >Riunione di definizione del progetto (<em>scoping meeting</em>)</a></li></ul>
+                                        <ul><li><a href="#contesto" onclick="mobilePageScrollToAnchor(this)" >Contesto</a></li><li><a href="#riunione-di-definizione-del-progetto-scoping-meeting" onclick="mobilePageScrollToAnchor(this)" >Riunione di definizione del progetto (<em>scoping meeting</em>)</a></li></ul>
 
                                     
                                 
@@ -262,77 +262,99 @@
                     
 
                     <h2 id="contesto">Contesto</h2>
+
 <p>Luca R., Giovanni A., Luca T. sono quattro studenti di Ingegneria e Scienze Informatiche dell’Università di Bologna che, a fronte di <a href="https://www.open.online/2024/04/04/scrivi-quando-arrivi-gruppo-whatsapp-ragazze/">alcune notizie</a> lette recentemente di ragazzi e ragazze che tornando a casa di notte in zone poco sicure della città condividono la loro posizione in un gruppo WhatsApp per sostenersi e sorvegliarsi a vicenda, si sono posti come obiettivo quello di creare un sistema software <em>open source</em> di tracciamento della posizione specificatamente progettato e studiato per creare una rete di supporto e assistenza efficace e tempestiva, in grado di segnalare in maniera rapida una situazione di emergenza.</p>
+
 <p>Essendo un progetto <em>open source</em> nato in contesto universitario da alcuni studenti con l’obiettivo di apprendere nuove tecnologie, pattern di progettazione, nonché nuove metodologie di sviluppo, non c’è un vero e proprio committente, né una singola figura che lo rappresenta.
 Al contrario, tutti i membri del <em>team</em> collaborano attivamente per cercare di capire e individuare al meglio tutti i possibili bisogni e desideri dell’utenza finale del prodotto.</p>
+
 <p>L’analisi, in termini di <em>project management</em>, verterà sulla valutazione dei criteri di successo e dei rischi che possono accompagnare alcune scelte, oltre che all’individuazione e decomposizione delle macro-attività in unità più piccole, a cui seguirà una stima dei tempi di lavoro previsti e i <em>deliverables</em> attesi.</p>
+
 <p>Da un punto di vista tecnico, i membri del <em>team</em> hanno recentemente avuto modo di seguire corsi riguardo a come progettare applicazioni <em>software</em> di medio/grandi dimensioni sfruttando approcci guidati dal dominio (<em>domain-driven</em>), architetture distribuite a micro-servizi, e hanno avuto modo di apprezzare l’importanza di applicare metodologie di sviluppo <em>DevOps</em> in cui l’automatizzazione dei processi e l’integrazione continua di codice funzionante (<em>working code</em>) in produzione in maniera completamente automatizzata è un fattore di primaria importanza.
 Per queste ragioni il progetto <em>software</em> e il suo processo di sviluppo sarà improntato seguendo queste fondamentali linee guida.</p>
-<h2 id="riunione-di-definizione-del-progetto-emscoping-meetingem">Riunione di definizione del progetto (<em>scoping meeting</em>)</h2>
+
+<h2 id="riunione-di-definizione-del-progetto-scoping-meeting">Riunione di definizione del progetto (<em>scoping meeting</em>)</h2>
+
 <p><strong>Scopo:</strong> individuazione delle aspettative e dei requisiti dell’applicazione.</p>
+
 <p><strong>Partecipanti della riunione:</strong></p>
+
 <table>
-<thead>
-<tr>
-<th>Membro</th>
-<th>Ruolo</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>Luca Rubboli</strong></td>
-<td><strong>Facilitatore</strong></td>
-</tr>
-<tr>
-<td>Luca Tassinari</td>
-<td><em>Core Team member</em></td>
-</tr>
-<tr>
-<td>Giovanni Antonioni</td>
-<td><em>Core Team member</em></td>
-</tr>
-</tbody>
+  <thead>
+    <tr>
+      <th>Membro</th>
+      <th>Ruolo</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Luca Rubboli</strong></td>
+      <td><strong>Facilitatore</strong></td>
+    </tr>
+    <tr>
+      <td>Luca Tassinari</td>
+      <td><em>Core Team member</em></td>
+    </tr>
+    <tr>
+      <td>Giovanni Antonioni</td>
+      <td><em>Core Team member</em></td>
+    </tr>
+  </tbody>
 </table>
+
 <p><strong>Agenda:</strong></p>
+
 <ul>
-<li>introduzione (ad opera del facilitatore);</li>
-<li>scopo della riunione (ad opera del facilitatore);</li>
-<li>descrizione dell’opportunità di business;</li>
-<li>discussione delle <em>conditions of satisfaction</em>;</li>
-<li>descrizione dei <em>derivable</em> del progetto;</li>
-<li>descrizione dei requisiti e della documentazione tramite <em>event storming</em>;</li>
-<li>scelta del modello <em>PMLC</em> da seguire;</li>
-<li>bozza e approvazione del <em>POS</em>;</li>
+  <li>introduzione (ad opera del facilitatore);</li>
+  <li>scopo della riunione (ad opera del facilitatore);</li>
+  <li>descrizione dell’opportunità di business;</li>
+  <li>discussione delle <em>conditions of satisfaction</em>;</li>
+  <li>descrizione dei <em>derivable</em> del progetto;</li>
+  <li>descrizione dei requisiti e della documentazione tramite <em>event storming</em>;</li>
+  <li>scelta del modello <em>PMLC</em> da seguire;</li>
+  <li>bozza e approvazione del <em>POS</em>;</li>
 </ul>
+
 <p><strong>Sintesi svolgimento:</strong></p>
+
 <p>Per fini di brevità, aggreghiamo la sintesi e i risultati delle prime 3 riunioni, tenute da tutti i componenti del gruppo, nelle quali sono stati definiti gli obiettivi principali del progetto, sono stati formalizzati i requisiti e i criteri di accettazione.</p>
+
 <p>In dettaglio, l’analisi è stata raffinata incrementalmente, inizialmente definendo gli obiettivi generali del progetto, da cui sono emerse le opportunità e i rischi correlati; parallelamente, sono state stilate le condizioni e criteri di successo del sistema.</p>
-<blockquote>
-<p>📂 <strong><em>Allegato</em></strong>
-Il POS è riportato nell’<a href="/PM-report/attachments/1-pos/">Allegato 1</a>
-{: .block-tip }</p>
+
+<blockquote class="block-tip">
+  <p>📂 <strong><em>Allegato</em></strong>
+Il POS è riportato nell’<a href="/PM-report/attachments/1-pos/">Allegato 1</a></p>
 </blockquote>
+
 <p>Al fine di estrarre le principali funzionalità dell’applicativo nel modo più rapido ed efficace possibile, è stato utilizzato <strong><em>Event Storming</em></strong>, una tecnica di modellazione collaborativa e visuale particolarmente utilizzata e apprezzata nel contesto di sviluppo <em>agile</em> e <em>Domain-Driven</em>.
 La sua potenza deriva da un gruppo eterogeneo e multidisciplinare di esperti, dagli architetti ai <em>product owner</em>, passando per i <em>designer</em> dell’<em>UI/UX</em> ai <em>tester</em>, che, insieme, collaborano per estrarre le principali funzionalità e i processi che le guidano, condividendo questa conoscenza per far sì che sia condivisa al di là dei compartimenti stagni di ciascun team.
 Inoltre, questo approccio consente di uniformare il linguaggio utilizzato (quello che in DDD è detto <em>ubiquitous language</em>) e di sollevare e poi risolvere eventuali ambiguità o incomprensioni che possono emergere sin dalle prime fasi del progetto.</p>
+
 <p>Dopo aver introdotto brevemente quali sono i vantaggi nell’utilizzo di questa tecnica rispetto a un approccio più tradizionale, è stato quindi illustrato a tutti i componenti del gruppo come si svolge una sessione di <em>Event Storming</em>.</p>
+
 <p>Si parte da un problema o da un obiettivo e, attraverso l’uso di <em>stickynotes</em> colorate e <em>markers</em>, si procede a mappare i processi e le interazioni tra le varie entità coinvolte, in modo da ottenere una visione d’insieme del sistema e delle sue interazioni.
 Più in dettaglio, la sessione inizia con l’identificazione dei <em>domain event</em>, ovvero gli eventi relativi al dominio che si sta esplorando che rappresentano qualcosa di interessante che è accaduto (per questo si usa il passato) e che possa essere utile per il sistema.
 Questi vengono disposti in sequenza temporale in modo da creare una <em>timeline</em> che rappresenti il flusso di eventi che si verificano nel sistema.
 A questo punto si procede con l’identificazione dei <em>commands</em>, ovvero azioni che possono essere eseguite sul sistema da parte di un attore, e delle <em>policy</em> con cui il sistema reagisce, andando ad arricchire la <em>timeline</em> seguendo il flusso di eventi e azioni.
 Infine si pongono in evidenza i <em>read models</em>, ovvero qualunque informazione che il sistema deve mostrare all’utente.</p>
+
 <p>La struttura da seguire viene riassunta di seguito:</p>
+
 <p><img src="/PM-report/res/meta-event-storming.png" alt="Meta event storming" /></p>
-<blockquote>
-<p>📂 <strong><em>Allegato</em></strong>
-Lo schema risultante dell’<em>Event Storming</em> è riportato, insieme all’RBS, nell’<a href="/PM-report/attachments/2-rbs/">Allegato 2</a>
-{: .block-tip }</p>
+
+<blockquote class="block-tip">
+  <p>📂 <strong><em>Allegato</em></strong>
+Lo schema risultante dell’<em>Event Storming</em> è riportato, insieme all’RBS, nell’<a href="/PM-report/attachments/2-rbs/">Allegato 2</a></p>
 </blockquote>
+
 <p>Attraverso la stesura dei <em>requirements</em> in una struttura gerarchica è stato possibile identificare anche un ordine di produzione delle macro-componenti, al fine di favorire inizialmente uno sviluppo che giovi dei benefici offerti dalla <em>continuous integration</em> fin dall’inizio, e una struttura di testing incrementale.</p>
+
 <p>Essendo in uno scenario di incertezza tecnologica che necessita di una componente esplorativa, abbiamo ritenuto che il modello che più si presti a queste esigenze sia quello <em>adattativo</em>: questa scelta permette di accogliere e adeguarsi ai cambiamenti, derivanti dalla raccolta di nuove informazioni che possono emergere durante il ciclo di vita del progetto.</p>
+
 <p>TODO:</p>
+
 <ul>
-<li>I REQUISITI COME LI VALIDIAMO?</li>
+  <li>I REQUISITI COME LI VALIDIAMO?</li>
 </ul>
 </section>
             </div><div class="search-results">
@@ -515,7 +537,7 @@ window.MathJax = {
     },
     "gitbook": {
         "version": "3.2.3",
-        "time": "2024-10-05 13:42:07 +0000"
+        "time": "2024-10-05 13:50:09 +0000"
     },
     "basePath": "/PM-report",
     "book": {

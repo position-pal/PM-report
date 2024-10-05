@@ -262,173 +262,168 @@
                     
 
                     <p>A partire dalla RBS definita nel <a href="/PM-report/attachments/2-rbs/">Allegato 2 - Requirements Breakdown Structure</a>, vengono qui di seguito esplosi i requisiti del sistema elencando le attività necessarie per soddisfarli, nel formato di una <em>Work Breakdown Structure</em>.</p>
+
 <ol>
-<li>
-<p><strong>Progettazione, inizializzazione e configurazione dei workspace con un adeguato <em>build tool</em>, di un’infrastruttura con predisposizione a una <em>pipeline</em> automatizzata di <em>continuous integration &amp; deployment</em>.</strong></p>
-<ol>
-<li>Configurazione build tool e DVCS</li>
-<li>Configurazione pipeline di <em>continuous integration</em></li>
-<li>Configurazione pipeline di <em>continuous deployment</em>
-<ol>
-<li>Progettazione diagrammi deployment</li>
-<li>Creazione struttura locale minimale di orchestrazione</li>
-<li>Configurazione ambiente di produzione</li>
-<li>Sviluppo azioni deployment da locale a produzione</li>
-</ol>
-</li>
-<li>Configurazione <em>bot</em> per aggiornamento automatico delle dipendenze</li>
-<li>Configurazione <em>bot</em> per il <em>merge</em> automatizzato di Pull Request sulla repo</li>
-<li>Configurazione <em>bot</em> per il rilascio automatico delle <em>release</em></li>
-<li>Configurazione di un sistema di <em>ticketing</em> automatizzato</li>
-</ol>
-</li>
-<li>
-<p><strong>Progettazione e implementazione di un servizio per la gestione utente.</strong></p>
-<ol>
-<li>Il sistema deve poter gestire l’autenticazione degli utenti;
-<ol>
-<li>Configurazione DB e implementazione schemi</li>
-<li>Implementazione token di autenticazione</li>
-<li>Regole di controllo di accesso</li>
-<li>Implementazione API di autenticazione</li>
-</ol>
-</li>
-<li>Il sistema deve poter gestire la creazione, adesione e abbandono ai gruppi (operazioni CRUD);
-<ol>
-<li>Configurazione DB e implementazione schemi</li>
-<li>Implementazione API di gestione gruppi</li>
-</ol>
-</li>
-<li>Il sistema deve supportare una struttura gerarchica degli utenti appartenenti ad un gruppo;
-<ol>
-<li>Esplorazione di plugin <em>on the shelf</em></li>
-<li>Implementazione API di gestione dei ruoli</li>
-<li>Predisposizione dello <em>storage</em> per la gestione dei ruoli</li>
-</ol>
-</li>
-<li>Il sistema deve poter gestire le informazioni relative agli utenti e l’impostazione degli indirizzi preferiti.
-<ol>
-<li>Configurazione DB e implementazione repository;</li>
-<li>Implementazione API per la gestione delle informazioni.</li>
-</ol>
-</li>
-<li>Definizione configurazione di deployment</li>
-</ol>
-</li>
-<li>
-<p><strong>Progettazione e implementazione di un servizio di localizzazione.</strong></p>
-<ol>
-<li>Il sistema deve effettuare il <em>geocoding</em> di indirizzi / luoghi in coordinate;
-<ol>
-<li>Ricerca di un servizio web di mappe per il <em>geocoding</em>;</li>
-<li>Implementazione ReST API.</li>
-</ol>
-</li>
-<li>Il sistema deve tracciare in tempo reale la posizione degli utenti e supportarne la condivisione con i membri del proprio gruppo;
-<ol>
-<li>Confronto di tecnologie <em>MOM</em> consone allo sviluppo del servizio;</li>
-<li>Identificazione della tecnologia che consenta un tracciamento <em>real-time</em> reattivo e potenzialmente replicabile;</li>
-<li>Progettazione e design;</li>
-<li>Implementazione repository posizioni utenti;</li>
-<li>Implementazione comunicazione real-time tramite websocket.</li>
-</ol>
-</li>
-<li>Il sistema deve gestire lo stato degli utenti in tempo reale;
-<ol>
-<li>Implementazione logica gestione dello stato utente.</li>
-</ol>
-</li>
-<li>Il sistema deve permettere all’utente d’iniziare un percorso e condividerlo con i membri del proprio gruppo, notificando l’arrivo in prossimità della posizione di destinazione o in caso si verifichino situazioni anomale, quali l’utente rimane fermo per troppo tempo, va <em>off-line</em> o non ha raggiunto la destinazione entro un certo tempo (stabilito all’atto della creazione del percorso)
-<ol>
-<li>Implementazione logica di reazione a eventi.</li>
-</ol>
-</li>
-<li>Il sistema, al sollevarsi di una situazione di pericolo, deve mantenere uno storico del percorso compiuto fino alla cessazione del pericolo
-<ol>
-<li>Implementazione logica salvataggio dei percorsi.</li>
-</ol>
-</li>
-<li>Definizione configurazione di deployment</li>
-</ol>
-</li>
-<li>
-<p><strong>Progettazione e implementazione di un servizio di chat.</strong></p>
-<ol>
-<li>Il sistema deve permettere una comunicazione sicura;
-<ol>
-<li>Ricerca strumenti o librerie che permettano di implementare una comunicazione criptata E2E;</li>
-<li>Installazione e configurazione dello strumento scelto nel punto precedente.</li>
-</ol>
-</li>
-<li>Il sistema deve permettere un canale di comunicazione tra il client e il server;
-<ol>
-<li>Analisi di tecnologie / protocolli per lo scambio di messaggi</li>
-<li>Configurazione tecnologia scelta per lo scambio di messaggi</li>
-<li>Implementazione API</li>
-</ol>
-</li>
-<li>Il sistema deve permettere una comunicazione di natura broadcast ai membri appartenenti ai gruppi.
-<ol>
-<li>Implementazione logica di broadcasting dei messaggi</li>
-</ol>
-</li>
-<li>Definizione configurazione di deployment</li>
-</ol>
-</li>
-<li>
-<p><strong>Sistema di notifiche</strong></p>
-<ol>
-<li>Il sistema deve permettere l’invio di notifiche push
-<ol>
-<li>Analisi di tecnologie / protocolli per l’invio di notifiche push;</li>
-<li>Configurazione tecnologia scelta;</li>
-<li>Implementazione logica d’invio notifiche push;</li>
-</ol>
-</li>
-<li>Il sistema deve permettere l’invio di notifiche mail
-<ol>
-<li>Configurazione mail server;</li>
-<li>Implementazione logica invio mail.</li>
-</ol>
-</li>
-</ol>
-</li>
-<li>
-<p><strong>Frontend</strong></p>
-<ol>
-<li>Realizzazione Mockup delle pagine;</li>
-<li>Il sistema deve permettere di registrarsi e autenticarsi al sistema
-<ol>
-<li>Realizzazione UI;</li>
-<li>Integrazione con backend.</li>
-</ol>
-</li>
-<li>Il sistema deve mostrare all’utente la mappa in tempo reale e lo stato di tutti i gruppi di cui fa parte
-<ol>
-<li>Realizzazione UI;</li>
-<li>Integrazione con backend.</li>
-</ol>
-</li>
-<li>Il sistema deve permettere la modifica delle informazioni dell’utente.
-<ol>
-<li>Realizzazione UI;</li>
-<li>Integrazione con backend.</li>
-</ol>
-</li>
-<li>Il sistema deve permettere di visualizzare le notifiche ricevute
-<ol>
-<li>Realizzazione UI;</li>
-<li>Integrazione con backend.</li>
-</ol>
-</li>
-<li>Il sistema deve permettere di visualizzare e interagire con le chat
-<ol>
-<li>Realizzazione UI;</li>
-<li>Integrazione con backend.</li>
-</ol>
-</li>
-</ol>
-</li>
+  <li><strong>Progettazione, inizializzazione e configurazione dei workspace con un adeguato <em>build tool</em>, di un’infrastruttura con predisposizione a una <em>pipeline</em> automatizzata di <em>continuous integration &amp; deployment</em>.</strong>
+    <ol>
+      <li>Configurazione build tool e DVCS</li>
+      <li>Configurazione pipeline di <em>continuous integration</em></li>
+      <li>Configurazione pipeline di <em>continuous deployment</em>
+        <ol>
+          <li>Progettazione diagrammi deployment</li>
+          <li>Creazione struttura locale minimale di orchestrazione</li>
+          <li>Configurazione ambiente di produzione</li>
+          <li>Sviluppo azioni deployment da locale a produzione</li>
+        </ol>
+      </li>
+      <li>Configurazione <em>bot</em> per aggiornamento automatico delle dipendenze</li>
+      <li>Configurazione <em>bot</em> per il <em>merge</em> automatizzato di Pull Request sulla repo</li>
+      <li>Configurazione <em>bot</em> per il rilascio automatico delle <em>release</em></li>
+      <li>Configurazione di un sistema di <em>ticketing</em> automatizzato</li>
+    </ol>
+  </li>
+  <li><strong>Progettazione e implementazione di un servizio per la gestione utente.</strong>
+    <ol>
+      <li>Il sistema deve poter gestire l’autenticazione degli utenti;
+        <ol>
+          <li>Configurazione DB e implementazione schemi</li>
+          <li>Implementazione token di autenticazione</li>
+          <li>Regole di controllo di accesso</li>
+          <li>Implementazione API di autenticazione</li>
+        </ol>
+      </li>
+      <li>Il sistema deve poter gestire la creazione, adesione e abbandono ai gruppi (operazioni CRUD);
+        <ol>
+          <li>Configurazione DB e implementazione schemi</li>
+          <li>Implementazione API di gestione gruppi</li>
+        </ol>
+      </li>
+      <li>Il sistema deve supportare una struttura gerarchica degli utenti appartenenti ad un gruppo;
+        <ol>
+          <li>Esplorazione di plugin <em>on the shelf</em></li>
+          <li>Implementazione API di gestione dei ruoli</li>
+          <li>Predisposizione dello <em>storage</em> per la gestione dei ruoli</li>
+        </ol>
+      </li>
+      <li>Il sistema deve poter gestire le informazioni relative agli utenti e l’impostazione degli indirizzi preferiti.
+        <ol>
+          <li>Configurazione DB e implementazione repository;</li>
+          <li>Implementazione API per la gestione delle informazioni.</li>
+        </ol>
+      </li>
+      <li>Definizione configurazione di deployment</li>
+    </ol>
+  </li>
+  <li><strong>Progettazione e implementazione di un servizio di localizzazione.</strong>
+    <ol>
+      <li>Il sistema deve effettuare il <em>geocoding</em> di indirizzi / luoghi in coordinate;
+        <ol>
+          <li>Ricerca di un servizio web di mappe per il <em>geocoding</em>;</li>
+          <li>Implementazione ReST API.</li>
+        </ol>
+      </li>
+      <li>Il sistema deve tracciare in tempo reale la posizione degli utenti e supportarne la condivisione con i membri del proprio gruppo;
+        <ol>
+          <li>Confronto di tecnologie <em>MOM</em> consone allo sviluppo del servizio;</li>
+          <li>Identificazione della tecnologia che consenta un tracciamento <em>real-time</em> reattivo e potenzialmente replicabile;</li>
+          <li>Progettazione e design;</li>
+          <li>Implementazione repository posizioni utenti;</li>
+          <li>Implementazione comunicazione real-time tramite websocket.</li>
+        </ol>
+      </li>
+      <li>Il sistema deve gestire lo stato degli utenti in tempo reale;
+        <ol>
+          <li>Implementazione logica gestione dello stato utente.</li>
+        </ol>
+      </li>
+      <li>Il sistema deve permettere all’utente d’iniziare un percorso e condividerlo con i membri del proprio gruppo, notificando l’arrivo in prossimità della posizione di destinazione o in caso si verifichino situazioni anomale, quali l’utente rimane fermo per troppo tempo, va <em>off-line</em> o non ha raggiunto la destinazione entro un certo tempo (stabilito all’atto della creazione del percorso)
+        <ol>
+          <li>Implementazione logica di reazione a eventi.</li>
+        </ol>
+      </li>
+      <li>Il sistema, al sollevarsi di una situazione di pericolo, deve mantenere uno storico del percorso compiuto fino alla cessazione del pericolo
+        <ol>
+          <li>Implementazione logica salvataggio dei percorsi.</li>
+        </ol>
+      </li>
+      <li>Definizione configurazione di deployment</li>
+    </ol>
+  </li>
+  <li><strong>Progettazione e implementazione di un servizio di chat.</strong>
+    <ol>
+      <li>Il sistema deve permettere una comunicazione sicura;
+        <ol>
+          <li>Ricerca strumenti o librerie che permettano di implementare una comunicazione criptata E2E;</li>
+          <li>Installazione e configurazione dello strumento scelto nel punto precedente.</li>
+        </ol>
+      </li>
+      <li>Il sistema deve permettere un canale di comunicazione tra il client e il server;
+        <ol>
+          <li>Analisi di tecnologie / protocolli per lo scambio di messaggi</li>
+          <li>Configurazione tecnologia scelta per lo scambio di messaggi</li>
+          <li>Implementazione API</li>
+        </ol>
+      </li>
+      <li>Il sistema deve permettere una comunicazione di natura broadcast ai membri appartenenti ai gruppi.
+        <ol>
+          <li>Implementazione logica di broadcasting dei messaggi</li>
+        </ol>
+      </li>
+      <li>Definizione configurazione di deployment</li>
+    </ol>
+  </li>
+  <li><strong>Sistema di notifiche</strong>
+    <ol>
+      <li>Il sistema deve permettere l’invio di notifiche push
+        <ol>
+          <li>Analisi di tecnologie / protocolli per l’invio di notifiche push;</li>
+          <li>Configurazione tecnologia scelta;</li>
+          <li>Implementazione logica d’invio notifiche push;</li>
+        </ol>
+      </li>
+      <li>Il sistema deve permettere l’invio di notifiche mail
+        <ol>
+          <li>Configurazione mail server;</li>
+          <li>Implementazione logica invio mail.</li>
+        </ol>
+      </li>
+    </ol>
+  </li>
+  <li><strong>Frontend</strong>
+    <ol>
+      <li>Realizzazione Mockup delle pagine;</li>
+      <li>Il sistema deve permettere di registrarsi e autenticarsi al sistema
+        <ol>
+          <li>Realizzazione UI;</li>
+          <li>Integrazione con backend.</li>
+        </ol>
+      </li>
+      <li>Il sistema deve mostrare all’utente la mappa in tempo reale e lo stato di tutti i gruppi di cui fa parte
+        <ol>
+          <li>Realizzazione UI;</li>
+          <li>Integrazione con backend.</li>
+        </ol>
+      </li>
+      <li>Il sistema deve permettere la modifica delle informazioni dell’utente.
+        <ol>
+          <li>Realizzazione UI;</li>
+          <li>Integrazione con backend.</li>
+        </ol>
+      </li>
+      <li>Il sistema deve permettere di visualizzare le notifiche ricevute
+        <ol>
+          <li>Realizzazione UI;</li>
+          <li>Integrazione con backend.</li>
+        </ol>
+      </li>
+      <li>Il sistema deve permettere di visualizzare e interagire con le chat
+        <ol>
+          <li>Realizzazione UI;</li>
+          <li>Integrazione con backend.</li>
+        </ol>
+      </li>
+    </ol>
+  </li>
 </ol>
 </section>
             </div><div class="search-results">
@@ -611,7 +606,7 @@ window.MathJax = {
     },
     "gitbook": {
         "version": "3.2.3",
-        "time": "2024-10-05 13:42:07 +0000"
+        "time": "2024-10-05 13:50:09 +0000"
     },
     "basePath": "/PM-report",
     "book": {
