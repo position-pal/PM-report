@@ -9,7 +9,7 @@ Vengono di seguito riportate le stime dei costi per la realizzazione del progett
 Nelle stime di implementazione qui riportate consideriamo anche i costi per il testing.
 
 <details>
-<summary>
+<summary markdown='span'>
     <strong>Stima attività requisito 1</strong>
 </summary>
 
@@ -137,11 +137,12 @@ Nelle stime di implementazione qui riportate consideriamo anche i costi per il t
 | Risorse assegnate: | 1   |
 | Durata stimata:    | 0,5 |
 
-
 </details>
 
 <details>
-<summary><strong>Stima attività requisito 2</strong></summary>
+<summary markdown='span'>
+    <strong>Stima attività requisito 2</strong>
+</summary>
 
 **Attività 2.1.1** Autenticazione - Configurazione DB e implementazione schemi
 
@@ -258,5 +259,3 @@ Nelle stime di implementazione qui riportate consideriamo anche i costi per il t
 | Durata stimata     | 6,5 |
 
 </details>
-
-
