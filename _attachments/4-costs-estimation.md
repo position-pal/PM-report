@@ -9,7 +9,9 @@ Vengono di seguito riportate le stime dei costi per la realizzazione del progett
 Nelle stime di implementazione qui riportate consideriamo anche i costi per il testing.
 
 <details>
-<summary><strong>Stima attività requisito 1</strong></summary>
+<summary>
+    <strong>Stima attività requisito 1</strong>
+</summary>
 
 **Attività 1.1** Configurazione _build tool_ e DVCS
 

@@ -25,7 +25,7 @@ La riunione è iniziata con la generazione della Work Breakdown Structure (WBS) 
 Successivamente, la WBS è stata validata attraverso il confronto con gli stakeholder chiave, assicurandosi che tutte le componenti fossero coperte e non ci fossero aree di lavoro omesse.
 
 > 📂 **_Allegato_**
-> La WBS risultante è presentata nell'[Allegato 3 - Work Breakdown Structure]({{ site.baseurl }}/PM-report/attachments/3-wbs/).
+> La WBS risultante è presentata nell'[Allegato 3 - Work Breakdown Structure]({{ site.baseurl }}/attachments/3-wbs/).
 {: .block-tip }
 
 Una volta completata la WBS, il team ha proceduto con la stima delle attività, calcolando la quantità di lavoro, la durata e le risorse necessarie per completare ciascuna attività.
