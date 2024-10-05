@@ -6,11 +6,13 @@ layout: post
 
 ## Event Storming
 
+Viene qui presentata la mappa concettuale dell'_Event Storming_ effettuato per la definizione dei requisiti del sistema.
+
 <div style="width: 100%; overflow-x: auto; white-space: nowrap;">
 <img 
    src="{{ site.baseurl }}/res/event-storming.svg" 
    alt="Event Storming"
-   style="max-width: 200%;"
+   style="max-width: 220%;"
 />
 </div>
 
