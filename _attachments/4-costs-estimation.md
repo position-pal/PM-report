@@ -11,17 +11,17 @@ Nelle stime di implementazione qui riportate consideriamo anche i costi per il t
 <details>
 <summary><strong>Stima attività requisito 1</strong></summary>
 
-**Attività 1.1** Configurazione build tool e DVCS
+**Attività 1.1** Configurazione _build tool_ e DVCS
 
-| Stime | Luca Rubboli | Giovanni Antonioni | Luca Tassinari | Media | Mediana | 3 point method |
-|---|---|---|---|---|---|---|
-| Round 1 | 4 | 6 | 8 | 6,00 | 6 | 6,00 |
-| Round 2 | 6 | 6,5 | 7 | 6,50 | 6,5 | 6,50 |
+| Stime   | Luca Rubboli | Giovanni Antonioni | Luca Tassinari | Media | Mediana | 3 point method |
+|---------|--------------|--------------------|----------------|-------|---------|----------------|
+| Round 1 | 4            | 6                  | 8              | 6,00  | 6       | 6,00           |
+| Round 2 | 6            | 6,5                | 7              | 6,50  | 6,5     | 6,50           |
 
 | Unità di misura:   | Ore |
 |--------------------|-----|
-| Risorse assegnate: | 2   |
-| Durata stimata:    | 4   |
+| Risorse assegnate  | 2   |
+| Durata stimata     | 4   |
 
 **Attività 1.2** Configurazione pipeline di _continuous integration_
 
@@ -114,14 +114,14 @@ Nelle stime di implementazione qui riportate consideriamo anche i costi per il t
 
 **Attività 1.6** Configurazione _bot_ per il rilascio automatico delle _release_
 
-| Stime | Luca Rubboli | Giovanni Antonioni | Luca Tassinari | Media | Mediana | 3 point method |
-|---|---|---|---|---|---|---|
+| Stime   | Luca Rubboli | Giovanni Antonioni | Luca Tassinari | Media | Mediana | 3 point method |
+|---------|--------------|--------------------|----------------|-------|---------|----------------|
 | Round 1 | 3 | 3 | 2,5 | 2,83 | 3 | 2,81 |
 | Round 2 | 2,75 | 3 | 2,5 | 2,75 | 2,75 | 2,75 |
 
-| Unità di misura:   | Ore |
-|--------------------|-----|
-| Risorse assegnate: | 1 |
+| Unità di misura:   | Ore  |
+|--------------------|------|
+| Risorse assegnate: | 1    |
 | Durata stimata:    | 2,75 |
 
 **Attività 1.7** Configurazione di un sistema di _ticketing_ automatizzato
@@ -132,7 +132,7 @@ Nelle stime di implementazione qui riportate consideriamo anche i costi per il t
 
 | Unità di misura:   | Ore |
 |--------------------|-----|
-| Risorse assegnate: | 1 |
+| Risorse assegnate: | 1   |
 | Durata stimata:    | 0,5 |
 
 
