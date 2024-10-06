@@ -9,8 +9,8 @@ Vengono di seguito riportate le stime dei costi per la realizzazione del progett
 Nelle stime di implementazione qui riportate consideriamo anche i costi per il testing.
 
 <details>
-<summary markdown='span'>
-    <strong>▶️ Stime attività requisito 1</strong>
+<summary markdown='span' style="cursor: pointer; text-decoration:underline; color:#008CFF;">
+    <strong>▶Stime attività requisito 1</strong>
 </summary>
 
 **Attività 1.1** Configurazione _build tool_ e DVCS
@@ -140,8 +140,8 @@ Nelle stime di implementazione qui riportate consideriamo anche i costi per il t
 </details>
 
 <details>
-<summary markdown='span'>
-    <strong>▶️ Stime attività requisito 2</strong>
+<summary markdown='span' style="cursor: pointer; text-decoration:underline; color:#008CFF;">
+    <strong>Stime attività requisito 2</strong>
 </summary>
 
 **Attività 2.1.1** Autenticazione - Configurazione DB e implementazione repository
@@ -299,8 +299,8 @@ Nelle stime di implementazione qui riportate consideriamo anche i costi per il t
 </details>
 
 <details>
-<summary markdown='span'>
-    <strong>▶️ Stime attività requisito 3</strong>
+<summary markdown='span' style="cursor: pointer; text-decoration:underline; color:#008CFF;">
+    <strong>Stime attività requisito 3</strong>
 </summary>
 
 **Attività 3.1.1** Il sistema deve effettuare il _geocoding_ di indirizzi e luoghi in coordinate - Ricerca di un servizio web di mappe per il _geocoding_
@@ -469,8 +469,8 @@ Nelle stime di implementazione qui riportate consideriamo anche i costi per il t
 </details>
 
 <details>
-<summary markdown='span'>
-    <strong>▶️ Stime attività requisito 4</strong>
+<summary markdown='span' style="cursor: pointer; text-decoration:underline; color:#008CFF;">
+    <strong>▶Stime attività requisito 4</strong>
 </summary>
 
 **Attività 4.1.1**
@@ -576,8 +576,8 @@ Attività 4.4
 </details>
 
 <details>
-<summary markdown='span'>
-    <strong>▶️ Stime attività requisito 5</strong>
+<summary markdown='span' style="cursor: pointer; text-decoration:underline; color:#008CFF;">
+    <strong>Stime attività requisito 5</strong>
 </summary>
 
 Attività 5.1.1
@@ -644,8 +644,8 @@ Attività 5.2.2
 </details>
 
 <details>
-<summary markdown='span'>
-    <strong>▶️ Stime attività requisito 6</strong>
+<summary markdown='span' style="cursor: pointer; text-decoration:underline; color:#008CFF;">
+    <strong>Stime attività requisito 6</strong>
 </summary>
 
 **Attività 6.1**
