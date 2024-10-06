@@ -10,7 +10,7 @@ Nelle stime di implementazione qui riportate consideriamo anche i costi per il t
 
 <details>
 <summary markdown='span' style="cursor: pointer; text-decoration:underline; color:#008CFF;">
-    <strong>▶Stime attività requisito 1</strong>
+    <strong>Stime attività requisito 1</strong>
 </summary>
 
 **Attività 1.1** Configurazione _build tool_ e DVCS
@@ -137,7 +137,7 @@ Nelle stime di implementazione qui riportate consideriamo anche i costi per il t
 | Risorse assegnate  | 1   |
 | Durata stimata     | 0,5 |
 
-</details>
+</details><br>
 
 <details>
 <summary markdown='span' style="cursor: pointer; text-decoration:underline; color:#008CFF;">
@@ -296,7 +296,7 @@ Nelle stime di implementazione qui riportate consideriamo anche i costi per il t
 | Risorse assegnate  | 1   |
 | Durata stimata     | 13  |
 
-</details>
+</details><br>
 
 <details>
 <summary markdown='span' style="cursor: pointer; text-decoration:underline; color:#008CFF;">
@@ -466,11 +466,11 @@ Nelle stime di implementazione qui riportate consideriamo anche i costi per il t
 | Risorse assegnate  | 1   |
 | Durata stimata     | 14  |
 
-</details>
+</details><br>
 
 <details>
 <summary markdown='span' style="cursor: pointer; text-decoration:underline; color:#008CFF;">
-    <strong>▶Stime attività requisito 4</strong>
+    <strong>Stime attività requisito 4</strong>
 </summary>
 
 **Attività 4.1.1**
@@ -573,7 +573,7 @@ Attività 4.4
 | Risorse assegnate  | 1   |
 | Durata stimata     | 14  |
 
-</details>
+</details><br>
 
 <details>
 <summary markdown='span' style="cursor: pointer; text-decoration:underline; color:#008CFF;">
@@ -641,7 +641,7 @@ Attività 5.2.2
 | Risorse assegnate  | 1   |
 | Durata stimata     | 5,5 |
 
-</details>
+</details><br>
 
 <details>
 <summary markdown='span' style="cursor: pointer; text-decoration:underline; color:#008CFF;">
