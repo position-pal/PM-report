@@ -38,10 +38,10 @@ A partire dalla RBS definita nel [Allegato 2 - Requirements Breakdown Structure]
    5. Definizione configurazione di deployment
 
 3. **Progettazione e implementazione di un servizio di localizzazione.**
-   1. Il sistema deve effettuare il _geocoding_ di indirizzi / luoghi in coordinate
+   1. Il sistema deve effettuare il _geocoding_ di indirizzi e luoghi in coordinate
       1. Ricerca di un servizio web di mappe per il _geocoding_
       2. Implementazione ReST API
-   2. Il sistema deve tracciare in tempo reale la posizione degli utenti e supportarne la condivisione con i membri del proprio gruppo;
+   2. Il sistema deve tracciare in tempo reale la posizione degli utenti e supportarne la condivisione con i membri del proprio gruppo
       1. Confronto di tecnologie _MOM_ consone allo sviluppo del servizio
       2. Identificazione della tecnologia che consenta un tracciamento _real-time_ reattivo e potenzialmente replicabile
       3. Progettazione e design
