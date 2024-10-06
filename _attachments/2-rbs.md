@@ -12,7 +12,7 @@ Viene qui presentata la mappa concettuale dell'_Event Storming_ effettuato per l
 <img 
    src="{{ site.baseurl }}/res/event-storming.svg" 
    alt="Event Storming"
-   style="max-width: 220%;"
+   style="max-width: 250%;"
 />
 </div>
 
@@ -29,19 +29,19 @@ Vengono qui di seguito esplosi i requisiti del sistema, a partire dagli obiettiv
    4. Il sistema deve poter gestire le informazioni relative agli utenti e l'impostazione degli indirizzi preferiti.
 
 3. **Progettazione e implementazione di un servizio di localizzazione.**
-   1. Il sistema deve effettuare il _geocoding_ di indirizzi / luoghi in coordinate;
+   1. Il sistema deve effettuare il _geocoding_ di indirizzi e luoghi in coordinate;
    2. Il sistema deve localizzare in tempo reale gli utenti e supportarne la condivisione con i membri del proprio gruppo;
    3. Il sistema deve gestire lo stato degli utenti in tempo reale;
-   4. Il sistema deve permettere all'utente d'iniziare un percorso e condividerlo con i membri del proprio gruppo, notificando l'arrivo in prossimità della posizione di destinazione o in caso si verifichino situazioni anomale, quali l'utente rimane fermo per troppo tempo, va _off-line_ o non ha raggiunto la destinazione entro un certo tempo (stabilito all'atto della creazione del percorso);
-   5. Il sistema, al sollevarsi di una situazione di pericolo, deve mantenere uno storico del percorso compiuto fino alla cessazione del pericolo.
+   4. Il sistema deve permettere all'utente d'iniziare un percorso e condividerlo con i membri del proprio gruppo, notificando l'arrivo in prossimità della posizione di arrivo o in caso si verifichino situazioni anomale, quali: l'utente rimane fermo per troppo tempo nella stessa posizione, va _off-line_ o non ha raggiunto la destinazione entro un certo tempo stabilito all'atto della creazione del percorso;
+   5. Il sistema, al sollevarsi di una situazione di pericolo, deve tracciare il percorso compiuto fino alla sua cessazione.
 
 4. **Progettazione e implementazione di un servizio di chat.**
    1. Il sistema deve permettere una comunicazione sicura;
    2. Il sistema deve permettere un canale di comunicazione tra il client e il server;
-   3. Il sistema deve permettere una comunicazione (di messaggi testuali) di natura broadcast ai membri appartenenti ai gruppi.
+   3. Il sistema deve permettere una comunicazione (di messaggi testuali) di natura _broadcast_ ai membri appartenenti ai gruppi.
 
 5. **Sistema di notifiche**
-   1. Il sistema deve permettere l'invio di notifiche push;
+   1. Il sistema deve permettere l'invio di notifiche _push_;
    2. Il sistema deve permettere l'invio di notifiche mail.
 
 6. **Frontend**

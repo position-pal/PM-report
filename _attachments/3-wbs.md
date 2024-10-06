@@ -20,76 +20,79 @@ A partire dalla RBS definita nel [Allegato 2 - Requirements Breakdown Structure]
    7. Configurazione di un sistema di _ticketing_ automatizzato
 
 2. **Progettazione e implementazione di un servizio per la gestione utente.**
-   1. Il sistema deve poter gestire l'autenticazione degli utenti;
-      1. Configurazione DB e implementazione schemi
+   1. Il sistema deve poter gestire l'autenticazione degli utenti
+      1. Configurazione DB e implementazione repository
       2. Implementazione token di autenticazione
       3. Regole di controllo di accesso
       4. Implementazione API di autenticazione
-   2. Il sistema deve poter gestire la creazione, adesione e abbandono ai gruppi (operazioni CRUD);
-      1. Configurazione DB e implementazione schemi
+   2. Il sistema deve poter gestire la creazione, adesione e abbandono ai gruppi (operazioni CRUD)
+      1. Configurazione DB e implementazione repository
       2. Implementazione API di gestione gruppi
-   3. Il sistema deve supportare una struttura gerarchica degli utenti appartenenti ad un gruppo;
+   3. Il sistema deve supportare una struttura gerarchica degli utenti appartenenti ad un gruppo
       1. Esplorazione di plugin _on the shelf_
       2. Implementazione API di gestione dei ruoli
       3. Predisposizione dello _storage_ per la gestione dei ruoli
-   4. Il sistema deve poter gestire le informazioni relative agli utenti e l'impostazione degli indirizzi preferiti.
-      1. Configurazione DB e implementazione repository;
-      2. Implementazione API per la gestione delle informazioni.
+   4. Il sistema deve poter gestire le informazioni relative agli utenti e l'impostazione degli indirizzi preferiti
+      1. Configurazione DB e implementazione repository
+      2. Implementazione API per la gestione delle informazioni
    5. Definizione configurazione di deployment
 
 3. **Progettazione e implementazione di un servizio di localizzazione.**
-   1. Il sistema deve effettuare il _geocoding_ di indirizzi / luoghi in coordinate;
-      1. Ricerca di un servizio web di mappe per il _geocoding_;
-      2. Implementazione ReST API.
+   1. Il sistema deve effettuare il _geocoding_ di indirizzi / luoghi in coordinate
+      1. Ricerca di un servizio web di mappe per il _geocoding_
+      2. Implementazione ReST API
    2. Il sistema deve tracciare in tempo reale la posizione degli utenti e supportarne la condivisione con i membri del proprio gruppo;
-      1. Confronto di tecnologie _MOM_ consone allo sviluppo del servizio;
-      2. Identificazione della tecnologia che consenta un tracciamento _real-time_ reattivo e potenzialmente replicabile;
-      3. Progettazione e design;
-      4. Implementazione repository posizioni utenti;
-      5. Implementazione comunicazione real-time tramite websocket.
-   3. Il sistema deve gestire lo stato degli utenti in tempo reale;
-      1. Implementazione logica gestione dello stato utente.
-   4. Il sistema deve permettere all'utente d'iniziare un percorso e condividerlo con i membri del proprio gruppo, notificando l'arrivo in prossimità della posizione di destinazione o in caso si verifichino situazioni anomale, quali l'utente rimane fermo per troppo tempo, va _off-line_ o non ha raggiunto la destinazione entro un certo tempo (stabilito all'atto della creazione del percorso)
-      1. Implementazione logica di reazione a eventi.
-   5. Il sistema, al sollevarsi di una situazione di pericolo, deve mantenere uno storico del percorso compiuto fino alla cessazione del pericolo
-      1. Implementazione logica salvataggio dei percorsi.
+      1. Confronto di tecnologie _MOM_ consone allo sviluppo del servizio
+      2. Identificazione della tecnologia che consenta un tracciamento _real-time_ reattivo e potenzialmente replicabile
+      3. Progettazione e design
+      4. Implementazione repository posizioni utenti
+      5. Implementazione comunicazione real-time tramite websocket
+      6. Implementazione interazione con la tecnologia _MOM_ per la ricezione di eventi
+   3. Il sistema deve gestire lo stato degli utenti in tempo reale
+      1. Implementazione logica di gestione dello stato utente
+   4. Il sistema deve permettere all'utente d'iniziare un percorso e condividerlo con i membri del proprio gruppo, notificando l'arrivo in prossimità della posizione di arrivo o in caso si verifichino situazioni anomale
+      1. Implementazione logica di reazione a eventi
+      2. Implementazione comunicazione con il servizio di notifiche
+   5. Il sistema, al sollevarsi di una situazione di pericolo, deve tracciare il percorso compiuto fino alla sua cessazione
+      1. Implementazione logica salvataggio dei percorsi
    6. Definizione configurazione di deployment
 
 4. **Progettazione e implementazione di un servizio di chat.**
-   1. Il sistema deve permettere una comunicazione sicura;
-      1. Ricerca strumenti o librerie che permettano di implementare una comunicazione criptata E2E;
+   1. Il sistema deve permettere una comunicazione sicura
+      1. Ricerca strumenti o librerie che permettano di implementare una comunicazione criptata E2E
       2. Installazione e configurazione dello strumento scelto nel punto precedente.
-   2. Il sistema deve permettere un canale di comunicazione tra il client e il server;
+   2. Il sistema deve permettere un canale di comunicazione tra il client e il server
       1. Analisi di tecnologie / protocolli per lo scambio di messaggi
       2. Configurazione tecnologia scelta per lo scambio di messaggi
       3. Implementazione API
-   3. Il sistema deve permettere una comunicazione di natura broadcast ai membri appartenenti ai gruppi.
+   3. Il sistema deve permettere una comunicazione di natura broadcast ai membri appartenenti ai gruppi
       1. Implementazione logica di broadcasting dei messaggi
+      2. Implementazione comunicazione con il servizio di notifiche
    4. Definizione configurazione di deployment
 
 5. **Sistema di notifiche**
    1. Il sistema deve permettere l'invio di notifiche push
-      1. Analisi di tecnologie / protocolli per l'invio di notifiche push;
-      2. Configurazione tecnologia scelta;
-      3. Implementazione logica d'invio notifiche push;
+      1. Analisi di tecnologie / protocolli per l'invio di notifiche push
+      2. Configurazione tecnologia scelta
+      3. Implementazione logica d'invio notifiche push
    2. Il sistema deve permettere l'invio di notifiche mail
-      1. Configurazione mail server;
-      2. Implementazione logica invio mail.
+      1. Configurazione mail server
+      2. Implementazione logica invio mail
 
 6. **Frontend**
-   1. Realizzazione Mockup delle pagine;
+   1. Realizzazione Mockup delle pagine
    2. Il sistema deve permettere di registrarsi e autenticarsi al sistema
-      1. Realizzazione UI;
-      2. Integrazione con backend.
+      1. Realizzazione UI
+      2. Integrazione con backend
    3. Il sistema deve mostrare all'utente la mappa in tempo reale e lo stato di tutti i gruppi di cui fa parte
-      1. Realizzazione UI;
-      2. Integrazione con backend.
-   4. Il sistema deve permettere la modifica delle informazioni dell'utente.
-      1. Realizzazione UI;
-      2. Integrazione con backend.
+      1. Realizzazione UI
+      2. Integrazione con backend
+   4. Il sistema deve permettere la modifica delle informazioni dell'utente
+      1. Realizzazione UI
+      2. Integrazione con backend
    5. Il sistema deve permettere di visualizzare le notifiche ricevute
-      1. Realizzazione UI;
-      2. Integrazione con backend.
+      1. Realizzazione UI
+      2. Integrazione con backend
    6. Il sistema deve permettere di visualizzare e interagire con le chat
-      1. Realizzazione UI;
-      2. Integrazione con backend. 
+      1. Realizzazione UI
+      2. Integrazione con backend

@@ -10,7 +10,7 @@ Nelle stime di implementazione qui riportate consideriamo anche i costi per il t
 
 <details>
 <summary markdown='span'>
-    <strong>Stima attività requisito 1</strong>
+    <strong>Stime delle attività requisito 1</strong>
 </summary>
 
 **Attività 1.1** Configurazione _build tool_ e DVCS
@@ -141,7 +141,7 @@ Nelle stime di implementazione qui riportate consideriamo anche i costi per il t
 
 <details>
 <summary markdown='span'>
-    <strong>Stima attività requisito 2</strong>
+    <strong>Stima delle attività requisito 2</strong>
 </summary>
 
 **Attività 2.1.1** Autenticazione - Configurazione DB e implementazione schemi
