@@ -173,7 +173,7 @@ Nelle stime di implementazione qui riportate consideriamo anche i costi per il t
 
 | Stime   | Luca Rubboli | Giovanni Antonioni | Luca Tassinari | Media | Mediana | 3 point method |
 |---------|--------------|--------------------|----------------|-------|---------|----------------|
-| Round 1 | 6 | 13 | 12 |  | 10,33 | 12 | 10,06 |
+| Round 1 | 6 | 13 | 12 | 10,33 | 12 | 10,06 |
 | Round 2 | 12 | 13,5 | 13 | 12,83 | 13 | 12,81 |
 | Round 3 | 12,5 | 13,5 | 13 | 13,00 | 13 | 13,00 |
 
@@ -186,9 +186,9 @@ Nelle stime di implementazione qui riportate consideriamo anche i costi per il t
 
 | Stime   | Luca Rubboli | Giovanni Antonioni | Luca Tassinari | Media | Mediana | 3 point method |
 |---------|--------------|--------------------|----------------|-------|---------|----------------|
-| Round 1 | 10 | 11 | 16 |  | 12,33 | 11 | 12,56 |
-| Round 2 | 13 | 18 | 19 |  | 16,67 | 18 | 16,44 |
-| Round 3 | 16 | 19 | 19 |  | 18,00 | 19 | 17,83 |
+| Round 1 | 10 | 11 | 16 | 12,33 | 11 | 12,56 |
+| Round 2 | 13 | 18 | 19 | 16,67 | 18 | 16,44 |
+| Round 3 | 16 | 19 | 19 | 18,00 | 19 | 17,83 |
 
 | Unità di misura    | Ore |
 |--------------------|-----|
@@ -337,7 +337,7 @@ Nelle stime di implementazione qui riportate consideriamo anche i costi per il t
 
 | Unità di misura    | Ore |
 |--------------------|-----|
-| Risorse assegnate  | 3   |
+| Risorse assegnate  | 1   |
 | Durata stimata     | 3   |
 
 **Attività 3.2.2** Il sistema deve tracciare in tempo reale la posizione degli utenti e supportarne la condivisione con i membri del proprio gruppo - Identificazione della tecnologia che consenta un tracciamento _real-time_ reattivo e potenzialmente replicabile
@@ -580,11 +580,208 @@ Attività 4.4
     <strong>▶️ Stime attività requisito 5</strong>
 </summary>
 
+Attività 5.1.1
+
+| Stime   | Luca Rubboli | Giovanni Antonioni | Luca Tassinari | Media | Mediana | 3 point method |
+|---------|--------------|--------------------|----------------|-------|---------|----------------|
+| Round 1 | 6            | 7                  | 5              | 6,00  | 6       | 6,00           |
+| Round 2 | 6            | 6                  | 5              | 5,67  | 6       | 5,61           |
+
+| Unità di misura    | Ore |
+|--------------------|-----|
+| Risorse assegnate  | 1   |
+| Durata stimata     | 6   |
+
+Attività 5.1.2
+
+| Stime   | Luca Rubboli | Giovanni Antonioni | Luca Tassinari | Media | Mediana | 3 point method |
+|---------|--------------|--------------------|----------------|-------|---------|----------------|
+| Round 1 | 6            | 5                  | 7              | 6,00  | 6       | 6,00           |
+| Round 2 | 6            | 6,5                | 6,5            | 6,33  | 6,5     | 6,31           |
+
+| Unità di misura    | Ore |
+|--------------------|-----|
+| Risorse assegnate  | 1   |
+| Durata stimata     | 6,5 |
+
+Attività 5.1.3
+
+| Stime   | Luca Rubboli | Giovanni Antonioni | Luca Tassinari | Media | Mediana | 3 point method |
+|---------|--------------|--------------------|----------------|-------|---------|----------------|
+| Round 1 | 10           | 10                 | 11             | 10,33 | 10      | 10,39          |
+| Round 2 | 10,5         | 10                 | 10,5           | 10,25 | 10,25   | 10,25          |
+
+| Unità di misura    | Ore |
+|--------------------|-----|
+| Risorse assegnate  | 1   |
+| Durata stimata     | 10  |
+
+Attività 5.2.1
+
+| Stime   | Luca Rubboli | Giovanni Antonioni | Luca Tassinari | Media | Mediana | 3 point method |
+|---------|--------------|--------------------|----------------|-------|---------|----------------|
+| Round 1 | 4            | 3                  | 3              | 3,33  | 3       | 3,39           |
+| Round 2 | 3,5          | 3,5                | 3              | 3,33  | 3,5     | 3,31           |
+
+| Unità di misura    | Ore |
+|--------------------|-----|
+| Risorse assegnate  | 1   |
+| Durata stimata     | 3,5 |
+
+Attività 5.2.2
+
+| Stime   | Luca Rubboli | Giovanni Antonioni | Luca Tassinari | Media | Mediana | 3 point method |
+|---------|--------------|--------------------|----------------|-------|---------|----------------|
+| Round 1 | 5            | 5                  | 6              | 5,33  | 5       | 5,39           |
+| Round 2 | 5,5          | 5                  | 6              | 5,50  | 5,5     | 5,50           |
+| Round 3 | 5,5          | 5,5                | 6              | 5,67  | 5,5     | 5,69           |
+
+| Unità di misura    | Ore |
+|--------------------|-----|
+| Risorse assegnate  | 1   |
+| Durata stimata     | 5,5 |
+
 </details>
 
 <details>
 <summary markdown='span'>
     <strong>▶️ Stime attività requisito 6</strong>
 </summary>
+
+**Attività 6.1**
+
+| Stime   | Luca Rubboli | Giovanni Antonioni | Luca Tassinari | Media | Mediana | 3 point method |
+|---------|--------------|--------------------|----------------|-------|---------|----------------|
+| Round 1 | 4            | 12                 | 8              | 8,00  | 8       | 8,00           |
+| Round 2 | 9            | 10                 | 10             | 9,67  | 10      | 9,61           |
+
+| Unità di misura    | Ore |
+|--------------------|-----|
+| Risorse assegnate  | 3   |
+| Durata stimata     | 4   |
+
+**Attività 6.2.1**
+
+| Stime   | Luca Rubboli | Giovanni Antonioni | Luca Tassinari | Media | Mediana | 3 point method |
+|---------|--------------|--------------------|----------------|-------|---------|----------------|
+| Round 1 | 3            | 2                  | 2              | 2,33  | 2       | 2,39           |
+| Round 2 | 3,5          | 2,5                | 3              | 3,00  | 3       | 3,00           |
+
+| Unità di misura    | Ore |
+|--------------------|-----|
+| Risorse assegnate  | 1   |
+| Durata stimata     | 3   |
+
+**Attività 6.2.2**
+
+| Stime   | Luca Rubboli | Giovanni Antonioni | Luca Tassinari | Media | Mediana | 3 point method |
+|---------|--------------|--------------------|----------------|-------|---------|----------------|
+| Round 1 | 4            | 4                  | 3              | 3,67  | 4       | 3,61           |
+| Round 2 | 3,5          | 3,5                | 3              | 3,33  | 3,5     | 3,31           |
+
+| Unità di misura    | Ore |
+|--------------------|-----|
+| Risorse assegnate  | 1   |
+| Durata stimata     | 3,5 |
+
+**Attività 6.3.1**
+
+| Stime   | Luca Rubboli | Giovanni Antonioni | Luca Tassinari | Media | Mediana | 3 point method |
+|---------|--------------|--------------------|----------------|-------|---------|----------------|
+| Round 1 | 6            | 3                  | 4              | 4,33  | 4       | 4,39           |
+| Round 2 | 4,5          | 5                  | 4              | 4,75  | 4,75    | 4,75           |
+| Round 3 | 5            | 5                  | 4,5            | 4,83  | 5       | 4,81           |
+
+| Unità di misura    | Ore |
+|--------------------|-----|
+| Risorse assegnate  | 1   |
+| Durata stimata     | 5   |
+
+**Attività 6.3.2**
+
+| Stime   | Luca Rubboli | Giovanni Antonioni | Luca Tassinari | Media | Mediana | 3 point method |
+|---------|--------------|--------------------|----------------|-------|---------|----------------|
+| Round 1 | 6            | 9                  | 10             | 8,33  | 9       | 8,22           |
+| Round 2 | 8            | 10                 | 9              | 9,00  | 9       | 9,00           |
+| Round 3 | 9,5          | 10                 | 10             | 9,83  | 10      | 9,81           |
+
+| Unità di misura    | Ore |
+|--------------------|-----|
+| Risorse assegnate  | 1   |
+| Durata stimata     | 10  |
+
+**Attività 6.4.1**
+
+| Stime   | Luca Rubboli | Giovanni Antonioni | Luca Tassinari | Media | Mediana | 3 point method |
+|---------|--------------|--------------------|----------------|-------|---------|----------------|
+| Round 1 | 3            | 2                  | 2              | 2,33  | 2       | 2,39           |
+| Round 2 | 2,5          | 2                  | 2,5            | 2,25  | 2,25    | 2,25           |
+
+| Unità di misura    | Ore |
+|--------------------|-----|
+| Risorse assegnate  | 1   |
+| Durata stimata     | 2,5 |
+
+**Attività 6.4.2**
+
+| Stime   | Luca Rubboli | Giovanni Antonioni | Luca Tassinari | Media | Mediana | 3 point method |
+|---------|--------------|--------------------|----------------|-------|---------|----------------|
+| Round 1 | 1            | 3                  | 3              | 2,33  | 3       | 2,22           |
+| Round 2 | 2            | 3                  | 3              | 2,50  | 2,5     | 2,50           |
+| Round 3 | 2,5          | 2,5                | 3              | 2,67  | 2,5     | 2,69           |
+
+| Unità di misura    | Ore |
+|--------------------|-----|
+| Risorse assegnate  | 1   |
+| Durata stimata     | 2,5 |
+
+**Attività 6.5.1**
+
+| Stime   | Luca Rubboli | Giovanni Antonioni | Luca Tassinari | Media | Mediana | 3 point method |
+|---------|--------------|--------------------|----------------|-------|---------|----------------|
+| Round 1 | 2,5          | 2                  | 3              | 2,50  | 2,5     | 2,50           |
+| Round 2 | 3            | 3                  | 3              | 3,00  | 3       | 3,00           |
+
+| Unità di misura    | Ore |
+|--------------------|-----|
+| Risorse assegnate  | 1   |
+| Durata stimata     | 3   |
+
+**Attività 6.5.2**
+
+| Stime   | Luca Rubboli | Giovanni Antonioni | Luca Tassinari | Media | Mediana | 3 point method |
+|---------|--------------|--------------------|----------------|-------|---------|----------------|
+| Round 1 | 4            | 5                  | 5              | 4,67  | 5       | 4,61           |
+| Round 2 | 4,5          | 4,5                | 5              | 4,50  | 4,5     | 4,50           |
+
+| Unità di misura    | Ore |
+|--------------------|-----|
+| Risorse assegnate  | 1   |
+| Durata stimata     | 5   |
+
+**Attività 6.6.1**
+
+| Stime   | Luca Rubboli | Giovanni Antonioni | Luca Tassinari | Media | Mediana | 3 point method |
+|---------|--------------|--------------------|----------------|-------|---------|----------------|
+| Round 1 | 4            | 2                  | 5              | 3,67  | 4       | 3,61           |
+| Round 2 | 4            | 3,5                | 4,5            | 3,75  | 3,75    | 3,75           |
+| Round 3 | 4            | 4                  | 4              | 4,00  | 4       | 4,00           |
+
+| Unità di misura    | Ore |
+|--------------------|-----|
+| Risorse assegnate  | 1   |
+| Durata stimata     | 4   |
+
+**Attività 6.6.2**
+
+| Stime   | Luca Rubboli | Giovanni Antonioni | Luca Tassinari | Media | Mediana | 3 point method |
+|---------|--------------|--------------------|----------------|-------|---------|----------------|
+| Round 1 | 9            | 7                  | 10             | 8,67  | 9       | 8,61           |
+| Round 2 | 9            | 8,5                | 9              | 8,75  | 8,75    | 8,75           |
+
+| Unità di misura    | Ore |
+|--------------------|-----|
+| Risorse assegnate  | 1   |
+| Durata stimata     | 9   |
 
 </details>
