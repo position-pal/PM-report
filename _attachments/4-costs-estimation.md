@@ -137,7 +137,7 @@ Nelle stime di implementazione qui riportate consideriamo anche i costi per il t
 | Risorse assegnate  | 1   |
 | Durata stimata     | 0,5 |
 
-</details><br>
+</details>
 
 <details>
 <summary markdown='span' style="cursor: pointer; text-decoration:underline; color:#008CFF;">
@@ -296,7 +296,7 @@ Nelle stime di implementazione qui riportate consideriamo anche i costi per il t
 | Risorse assegnate  | 1   |
 | Durata stimata     | 13  |
 
-</details><br>
+</details>
 
 <details>
 <summary markdown='span' style="cursor: pointer; text-decoration:underline; color:#008CFF;">
@@ -337,7 +337,7 @@ Nelle stime di implementazione qui riportate consideriamo anche i costi per il t
 
 | Unità di misura    | Ore |
 |--------------------|-----|
-| Risorse assegnate  | 1   |
+| Risorse assegnate  | 3   |
 | Durata stimata     | 3   |
 
 **Attività 3.2.2** Il sistema deve tracciare in tempo reale la posizione degli utenti e supportarne la condivisione con i membri del proprio gruppo - Identificazione della tecnologia che consenta un tracciamento _real-time_ reattivo e potenzialmente replicabile
@@ -466,7 +466,7 @@ Nelle stime di implementazione qui riportate consideriamo anche i costi per il t
 | Risorse assegnate  | 1   |
 | Durata stimata     | 14  |
 
-</details><br>
+</details>
 
 <details>
 <summary markdown='span' style="cursor: pointer; text-decoration:underline; color:#008CFF;">
@@ -573,7 +573,7 @@ Attività 4.4
 | Risorse assegnate  | 1   |
 | Durata stimata     | 14  |
 
-</details><br>
+</details>
 
 <details>
 <summary markdown='span' style="cursor: pointer; text-decoration:underline; color:#008CFF;">
@@ -641,7 +641,7 @@ Attività 5.2.2
 | Risorse assegnate  | 1   |
 | Durata stimata     | 5,5 |
 
-</details><br>
+</details>
 
 <details>
 <summary markdown='span' style="cursor: pointer; text-decoration:underline; color:#008CFF;">
