@@ -332,12 +332,12 @@ Nelle stime di implementazione qui riportate consideriamo anche i costi per il t
 
 | Stime   | Luca Rubboli | Giovanni Antonioni | Luca Tassinari | Media | Mediana | 3 point method |
 |---------|--------------|--------------------|----------------|-------|---------|----------------|
-| Round 1 | 6            | 6                  | 7              | 6,33  | 6       | 6,39           |
-| Round 2 | 6,5          | 6,5                | 6,5            | 6,50  | 6,5     | 6,50           |
+| Round 1 | 2            | 3                  | 4              | 3     | 3       | 3              |
+| Round 2 | 3            | 3                  | 3,5            | 3,17  | 3       | 3,19           |
 
 | Unità di misura    | Ore |
 |--------------------|-----|
-| Risorse assegnate  | 3   |
+| Risorse assegnate  | 1   |
 | Durata stimata     | 3   |
 
 **Attività 3.2.2** Il sistema deve tracciare in tempo reale la posizione degli utenti e supportarne la condivisione con i membri del proprio gruppo - Identificazione della tecnologia che consenta un tracciamento _real-time_ reattivo e potenzialmente replicabile
