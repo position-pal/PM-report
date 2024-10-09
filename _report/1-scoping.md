@@ -6,7 +6,7 @@ layout: post
 
 ## Contesto
 
-Luca R., Giovanni A., Luca T. sono quattro studenti di Ingegneria e Scienze Informatiche dell'Università di Bologna che, a fronte di [alcune notizie](https://www.open.online/2024/04/04/scrivi-quando-arrivi-gruppo-whatsapp-ragazze/) lette recentemente di ragazzi e ragazze che tornando a casa di notte in zone poco sicure della città condividono la loro posizione in un gruppo WhatsApp per sostenersi e sorvegliarsi a vicenda, si sono posti come obiettivo quello di creare un sistema software _open source_ di tracciamento della posizione specificatamente progettato e studiato per creare una rete di supporto e assistenza efficace e tempestiva, in grado di segnalare in maniera rapida una situazione di emergenza.
+Luca R., Giovanni A., Luca T., Valerio sono quattro studenti di Ingegneria e Scienze Informatiche dell'Università di Bologna che, a fronte di [alcune notizie](https://www.open.online/2024/04/04/scrivi-quando-arrivi-gruppo-whatsapp-ragazze/) lette recentemente di ragazzi e ragazze che tornando a casa di notte in zone poco sicure della città condividono la loro posizione in un gruppo WhatsApp per sostenersi e sorvegliarsi a vicenda, si sono posti come obiettivo quello di creare un sistema software _open source_ di tracciamento della posizione specificatamente progettato e studiato per creare una rete di supporto e assistenza efficace e tempestiva, in grado di segnalare in maniera rapida una situazione di emergenza.
 
 Essendo un progetto _open source_ nato in contesto universitario da alcuni studenti con l'obiettivo di apprendere nuove tecnologie, pattern di progettazione, nonché nuove metodologie di sviluppo, non c'è un vero e proprio committente, né una singola figura che lo rappresenta.
 Al contrario, tutti i membri del _team_ collaborano attivamente per cercare di capire e individuare al meglio tutti i possibili bisogni e desideri dell'utenza finale del prodotto.
@@ -24,9 +24,10 @@ Per queste ragioni il progetto _software_ e il suo processo di sviluppo sarà im
 
 | Membro                | Ruolo              |
 |-----------------------|--------------------|
-| **Luca Rubboli**      | **Facilitatore**   |
+| **Luca Rubboli**      | **Project Manager** |
 | Luca Tassinari        | _Core Team member_ |
 | Giovanni Antonioni    | _Core Team member_ |
+| Valerio Di Zio        | _Core Team member_ |
 
 **Agenda:**
 
