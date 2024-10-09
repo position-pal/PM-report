@@ -4,13 +4,10 @@ date: 2024-10-05
 layout: post
 ---
 
-## Project Network Diagram
+Il diagramma di Gantt con la pianificazione delle attività e le dipendenze temporali tra di esse è riportato di seguito.
 
-| Attività | Duration | Start    | Finish   | Predecessors |
-|----------|----------|----------|----------|--------------|
-| A        | 5 days   | 01/10/24 | 05/10/24 | -            |
-| B        | 3 days   | 06/10/24 | 08/10/24 | A            |
+> 📂 **_Nota_**
+> La versione ingrandibile del diagramma di Gantt in formato pdf è disponibile [qui](https://raw.githubusercontent.com/position-pal/PM-report/refs/heads/main/res/gantt-colored.pdf).
+{: .block-tip }
 
-...
-
-## Gantt Chart
+![Gantt Chart]({{ site.baseurl }}/res/gantt.svg)
