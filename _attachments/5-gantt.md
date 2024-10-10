@@ -2,6 +2,7 @@
 title: Allegato 5 - Diagramma di Gantt
 date: 2024-10-05
 layout: post
+mermaid: true
 ---
 
 Il diagramma di Gantt con la pianificazione delle attività e le dipendenze temporali tra di esse è riportato di seguito.
