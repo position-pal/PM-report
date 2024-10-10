@@ -74,13 +74,7 @@ Couger:
 
 5. **Sviluppo di un piano d'azione**: Infine, il team sviluppa un piano d'azione dettagliato per implementare la soluzione scelta. Il piano deve includere una descrizione chiara delle attività necessarie, delle risorse coinvolte e delle tempistiche previste per il completamento.
 
-```mermaid
-graph TD
-    A[Definizione del problema] --> B[Analisi del problema]
-    B --> C[Generazione di Idee]
-    C --> D[Valutazione e priorità delle soluzioni]
-    D --> E[Sviluppo di un piano d'azione]
-``` 
+
 ## Gestione cambiamenti scope
 
 Nel caso in cui si rendesse necessario apportare modifiche allo scope del progetto, il team adotta un processo strutturato per gestire i cambiamenti in modo efficace e trasparente il quale prevede le seguenti fasi:
