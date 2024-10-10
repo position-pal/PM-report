@@ -49,6 +49,8 @@ Un elenco dei principali rischi che ci si assumerebbero sono elencati qui di seg
 
 L'analisi e la gestione del rischio è trattata nell'[Allegato 3 - Analisi dei rischi]({{ site.baseurl }}/attachments/3-risk-analysis/)
 
+<!--
+
 ## Milestone
 
 Si prevede di rilasciare i servizi in questo ordine:
@@ -59,3 +61,5 @@ Si prevede di rilasciare i servizi in questo ordine:
 4. sotto-sistema di notifiche;
 5. sotto-sistema di chat.
 6. predisposizione di un sistema di diagnosi e monitoraggio.
+
+-->
