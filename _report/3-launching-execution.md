@@ -60,7 +60,7 @@ Il team adotta il framework Scrum per gestire i meeting e mantenere un ritmo cos
 
 **Sprint Review**: Al termine di ogni sprint, si tiene lo Sprint Review, in cui il team presenta il lavoro completato al Product Owner e agli stakeholder. Durante questa riunione, le funzionalità sviluppate vengono mostrate sotto forma di demo, e si raccolgono feedback utili per migliorare le iterazioni successive. L'incontro garantisce trasparenza sul progresso e permette di adattare il progetto in base alle nuove esigenze.
 
-### Problem solving
+## Problem solving
 Il team adotta un approccio collaborativo per risolvere i problemi basato sulla regola dei 5 punti di Daniel
 Couger:
 
@@ -81,5 +81,14 @@ graph TD
     C --> D[Valutazione e priorità delle soluzioni]
     D --> E[Sviluppo di un piano d'azione]
 ``` 
+## Gestione cambiamenti scope
 
-- [ ] Gestione cambiamenti scope
+Nel caso in cui si rendesse necessario apportare modifiche allo scope del progetto, il team adotta un processo strutturato per gestire i cambiamenti in modo efficace e trasparente il quale prevede le seguenti fasi:
+
+1. **Formalizzazione della richiesta**: Il cambiamento deve essere formalizzato attraverso una richiesta scritta che descriva in modo chiaro e dettagliato la natura della modifica richiesta. Questa deve essere presentata al Project Manager tramite l'invio di una mail.
+
+2. **Analisi preliminare**: Il Project Manager valuta la richiesta di cambiamento e ne analizza l'impatto sul progetto in termini di costi, tempi e risorse. In base a questa valutazione, il PM decide se approvare o respingere la richiesta.
+
+3. **Decision Making Meeting**: Se la richiesta di cambiamento viene approvata, si tiene un incontro con il team per discutere le implicazioni del cambiamento e definire un piano d'azione per implementarlo. Durante l'incontro vengono assegnate le nuove attività e si stabiliscono le nuove scadenze.
+
+4. **Aggiornamento del piano**: Una volta approvato il cambiamento, il Project Manager aggiorna il piano di progetto e comunica le modifiche a tutti i membri del team. 
