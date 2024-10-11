@@ -201,7 +201,7 @@
                                 </a>
                                 
                                     
-                                        <ul><li><a href="#launching" onclick="mobilePageScrollToAnchor(this)" >Launching</a><ul><li><a href="#kick-off-meeting" onclick="mobilePageScrollToAnchor(this)" >Kick-off meeting</a></li><li><a href="#matrice-di-assegnazione-delle-responsabilità" onclick="mobilePageScrollToAnchor(this)" >Matrice di assegnazione delle responsabilità</a></li><li><a href="#legend" onclick="mobilePageScrollToAnchor(this)" >Legend</a></li><li><a href="#regole-operative-per-il-team" onclick="mobilePageScrollToAnchor(this)" >Regole operative per il team</a><ul><li><a href="#tools" onclick="mobilePageScrollToAnchor(this)" >Tools</a></li><li><a href="#meetings" onclick="mobilePageScrollToAnchor(this)" >Meetings</a></li></ul></li><li><a href="#problem-solving" onclick="mobilePageScrollToAnchor(this)" >Problem solving</a></li></ul></li></ul>
+                                        <ul><li><a href="#launching" onclick="mobilePageScrollToAnchor(this)" >Launching</a><ul><li><a href="#kick-off-meeting" onclick="mobilePageScrollToAnchor(this)" >Kick-off meeting</a></li><li><a href="#matrice-di-assegnazione-delle-responsabilità" onclick="mobilePageScrollToAnchor(this)" >Matrice di assegnazione delle responsabilità</a></li><li><a href="#legend" onclick="mobilePageScrollToAnchor(this)" >Legend</a></li><li><a href="#regole-operative-per-il-team" onclick="mobilePageScrollToAnchor(this)" >Regole operative per il team</a><ul><li><a href="#tools" onclick="mobilePageScrollToAnchor(this)" >Tools</a></li><li><a href="#meetings" onclick="mobilePageScrollToAnchor(this)" >Meetings</a></li></ul></li><li><a href="#problem-solving" onclick="mobilePageScrollToAnchor(this)" >Problem solving</a></li><li><a href="#gestione-cambiamenti-scope" onclick="mobilePageScrollToAnchor(this)" >Gestione cambiamenti scope</a></li></ul></li></ul>
 
                                     
                                 
@@ -387,8 +387,8 @@ Per la gestione dell’incontro è stata prodotta un’agenda operativa che ha c
 <p><strong>Sprint Review</strong>: Al termine di ogni sprint, si tiene lo Sprint Review, in cui il team presenta il lavoro completato al Product Owner e agli stakeholder. Durante questa riunione, le funzionalità sviluppate vengono mostrate sotto forma di demo, e si raccolgono feedback utili per migliorare le iterazioni successive. L’incontro garantisce trasparenza sul progresso e permette di adattare il progetto in base alle nuove esigenze.</p>
 
 <h2 id="problem-solving">Problem solving</h2>
-<p>Il team adotta un approccio collaborativo per risolvere i problemi basato sulla regola dei 5 punti di Daniel
-Couger:</p>
+
+<p>Il team adotta un approccio collaborativo per risolvere i problemi basato sulla regola dei 5 punti di Daniel Couger:</p>
 
 <ol>
   <li>
@@ -408,7 +408,14 @@ Couger:</p>
   </li>
 </ol>
 
-<p>## Gestione cambiamenti scope</p>
+<pre><code class="language-mermaid">graph TD
+    A[Definizione del problema] --&gt; B[Analisi del problema]
+    B --&gt; C[Generazione di Idee]
+    C --&gt; D[Valutazione e priorità delle soluzioni]
+    D --&gt; E[Sviluppo di un piano d'azione]
+</code></pre>
+
+<h2 id="gestione-cambiamenti-scope">Gestione cambiamenti scope</h2>
 
 <p>Nel caso in cui si rendesse necessario apportare modifiche allo scope del progetto, il team adotta un processo strutturato per gestire i cambiamenti in modo efficace e trasparente il quale prevede le seguenti fasi:</p>
 
@@ -457,6 +464,38 @@ window.MathJax = {
 
 
 <!-- introduce per-page mermaid support -->
+
+    <script>
+    function render_mermaid() {
+        mermaid.initialize({
+            startOnLoad: false,
+            theme: "default",
+        });
+        window.mermaid.init(undefined, document.querySelectorAll('.language-mermaid'));
+    }
+
+    function initialize_mermaid() {
+        if (document.readyState === "loading") {
+            // Loading hasn't finished yet
+            document.addEventListener("DOMContentLoaded", render_mermaid);
+        } else {
+            // `DOMContentLoaded` has already fired
+            render_mermaid();
+        }
+    }
+
+    if (window.mermaid_script && window.mermaid) {
+        initialize_mermaid();
+    } else {
+        window.mermaid_script = document.createElement("script");
+        mermaid_script.onload = initialize_mermaid;
+        document.head.appendChild(mermaid_script);
+        mermaid_script.defer = true;
+        mermaid_script.id = 'mermaid-script';
+        mermaid_script.src = 'https://unpkg.com/mermaid@10.4.0/dist/mermaid.min.js';
+    }
+</script>
+
 
 
 <!-- introduce mathjax support -->
@@ -607,7 +646,7 @@ window.MathJax = {
     },
     "gitbook": {
         "version": "3.2.3",
-        "time": "2024-10-10 21:22:09 +0000"
+        "time": "2024-10-11 07:17:03 +0000"
     },
     "basePath": "/PM-report",
     "book": {
