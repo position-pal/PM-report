@@ -2,6 +2,7 @@
 title: Launching / Execution
 date: 2024-07-05
 layout: post
+mermaid: true
 ---
 
 # Launching
@@ -61,8 +62,8 @@ Il team adotta il framework Scrum per gestire i meeting e mantenere un ritmo cos
 **Sprint Review**: Al termine di ogni sprint, si tiene lo Sprint Review, in cui il team presenta il lavoro completato al Product Owner e agli stakeholder. Durante questa riunione, le funzionalità sviluppate vengono mostrate sotto forma di demo, e si raccolgono feedback utili per migliorare le iterazioni successive. L'incontro garantisce trasparenza sul progresso e permette di adattare il progetto in base alle nuove esigenze.
 
 ## Problem solving
-Il team adotta un approccio collaborativo per risolvere i problemi basato sulla regola dei 5 punti di Daniel
-Couger:
+
+Il team adotta un approccio collaborativo per risolvere i problemi basato sulla regola dei 5 punti di Daniel Couger:
 
 1. **Definizione del problema**: In questa fase viene definito in maniera formale il problema assieme al proprietario di questo.
 
@@ -74,8 +75,15 @@ Couger:
 
 5. **Sviluppo di un piano d'azione**: Infine, il team sviluppa un piano d'azione dettagliato per implementare la soluzione scelta. Il piano deve includere una descrizione chiara delle attività necessarie, delle risorse coinvolte e delle tempistiche previste per il completamento.
 
+```mermaid
+graph TD
+    A[Definizione del problema] --> B[Analisi del problema]
+    B --> C[Generazione di Idee]
+    C --> D[Valutazione e priorità delle soluzioni]
+    D --> E[Sviluppo di un piano d'azione]
+```
 
-## Gestione cambiamenti scope
+## Gestione cambiamenti scope
 
 Nel caso in cui si rendesse necessario apportare modifiche allo scope del progetto, il team adotta un processo strutturato per gestire i cambiamenti in modo efficace e trasparente il quale prevede le seguenti fasi:
 
@@ -85,4 +93,4 @@ Nel caso in cui si rendesse necessario apportare modifiche allo scope del proget
 
 3. **Decision Making Meeting**: Se la richiesta di cambiamento viene approvata, si tiene un incontro con il team per discutere le implicazioni del cambiamento e definire un piano d'azione per implementarlo. Durante l'incontro vengono assegnate le nuove attività e si stabiliscono le nuove scadenze.
 
-4. **Aggiornamento del piano**: Una volta approvato il cambiamento, il Project Manager aggiorna il piano di progetto e comunica le modifiche a tutti i membri del team. 
+4. **Aggiornamento del piano**: Una volta approvato il cambiamento, il Project Manager aggiorna il piano di progetto e comunica le modifiche a tutti i membri del team.
