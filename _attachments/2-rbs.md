@@ -100,7 +100,7 @@ boxless { // will target boxless node with '_'
 ++ **6.** Frontend
 +++ **6.1.** Mockup
 +++ **6.2.** Interfaccia di autenticazione
-+++ **6.3.** Mappa in tempo reale con sistema di notifiche
++++ **6.3.** Mappa in tempo reale \n con sistema di notifiche
 +++ **6.4.** Dashboard utente
 +++ **6.5.** Dashboard notifiche
 +++ **6.6.** Chat
