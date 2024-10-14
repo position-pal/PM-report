@@ -26,7 +26,7 @@ Per poter procedere con la fase esecutiva, comprensiva di _design_ e _implementa
 1. Generazione e validazione della WBS;
 2. Stima della quantità di lavoro, della durata e delle risorse richieste;
 
-La riunione è iniziata con la generazione della _Work Breakdown Structure_ (WBS) come estensione della RBS, uno strumento fondamentale per suddividere il progetto in attività più piccole, gestibili e stimabili.
+La riunione è iniziata con la generazione della _Work Breakdown Structure_ (WBS) come estensione della _Requirements Breakdown Structure_ (RBS), uno strumento fondamentale per suddividere il progetto in attività più piccole, gestibili e stimabili.
 
 Successivamente, la WBS è stata validata, assicurandosi che tutte le componenti e requisiti fossero coperti e non ci fossero aree di lavoro omesse.
 
@@ -41,7 +41,7 @@ Il team ha iterato su questi metodi fino a ottenere una convergenza.
 
 La stima finale è ottenuta come il valore massimo tra la media e la mediana delle stime, in modo da garantire una stima conservativa e realistica.
 
-Per alcune attività abbiamo ritenuto appropriato di assegnare un numero maggiore di risorse anche a costo di non sfruttare al massimo la parallelizzazione, per ridurre il rischio di ritardi e garantire la qualità del lavoro.
+Per alcune attività abbiamo ritenuto appropriato di assegnare un numero maggiore di risorse, anche a costo di non sfruttare al massimo la parallelizzazione, per ridurre il rischio di ritardi e garantire la qualità del lavoro.
 
 > 📂 **_Allegato_**
 > L'analisi delle stime è riportata nell'[Allegato 4]({{ site.baseurl }}/attachments/4-costs-estimation/).
