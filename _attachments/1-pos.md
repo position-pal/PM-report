@@ -47,6 +47,8 @@ Un elenco dei principali rischi che ci si assumerebbero sono elencati qui di seg
 - il team ha limitata esperienza riguardo l'utilizzo di tecnologie e strumenti per il _continuous depoloyment_ in ambienti di produzione;
 - il sistema finale potrebbe avere meno _appeal_ rispetto a quello dei _competitor_ nel mercato.
 
+TODO è il giusto allegato??
+
 L'analisi e la gestione del rischio è trattata nell'[Allegato 3 - Analisi dei rischi]({{ site.baseurl }}/attachments/3-risk-analysis/)
 
 <!--
