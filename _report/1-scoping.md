@@ -25,6 +25,7 @@ Per queste ragioni il progetto _software_ e il suo processo di sviluppo sarà im
 | Membro             | Ruolo              |
 | ------------------ | ------------------ |
 | **Luca Rubboli**   | **Product Owner**  |
+| **Project Manager**| **Project Manager**|
 | Luca Tassinari     | _Core Team member_ |
 | Giovanni Antonioni | _Core Team member_ |
 
