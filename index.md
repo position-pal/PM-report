@@ -18,7 +18,7 @@ Questo sito raccoglie tutta la documentazione relativa ai processi implementati 
 2. [Planning]({{ site.baseurl }}/report/2-planning/)
    1. [Work Breakdown Structure]({{ site.baseurl }}/attachments/3-wbs/)
    2. [Costs Estimation]({{ site.baseurl }}/attachments/4-costs-estimation/)
-   3. [Gantt Chart]({{ site.baseurl }}/attachments/5-gantt-chart/)
+   3. [Gantt Chart]({{ site.baseurl }}/attachments/5-gantt/)
    4. [Risk Analysis]({{ site.baseurl }}/attachments/6-risk-analysis/)
 3. [Launching & Execution]({{ site.baseurl }}/report/3-launching-execution/)
 4. [Monitoring & Controlling]({{ site.baseurl }}/report/4-monitoring/)

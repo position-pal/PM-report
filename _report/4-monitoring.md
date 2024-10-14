@@ -25,4 +25,4 @@ Github offre inoltre una valida integrazione con Youtrack: seguendo le regole de
 
 Un esempio di _issue_ con l'integrazione di Youtrack è riportato nella seguente immagine.
 
-![esempio di issue]({{ site.baseurl }}/res/issues-log.png)
+![esempio di issue]({{ site.baseurl }}/res/issue-example.png)
