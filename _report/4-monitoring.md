@@ -25,3 +25,5 @@ Come strumento a supporto di _Issues Logging_ abbiamo selezionato GitHub in quan
 
 L'interfaccia permette la definizione di **issues** dettagliate e assegnabili, e supporta la chiusura automatica seguendo le regole di conventional commit che dettagliano i progressi dell'applicativo.
 Github offre inoltre una valida integrazione con Youtrack: seguendo le regole dei conventional commit è possibile far progredire lo status dei ticket in maniera automatica.
+
+![esempio di issue]({{ site.baseurl }}/res/issues-log.png)
