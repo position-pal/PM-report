@@ -19,20 +19,20 @@ Qui di seguito vengono descritti i principali obiettivi del progetto:
 
 1. Organizzazione, configurazione e inizializzazione dei _workspace_ con un adeguato _build tool_, di un'infrastruttura con predisposizione a una _pipeline_ automatizzata di _continuous integration & deployment_.
 
-2. Progettazione e implementazione di un servizio per la gestione utente che deve occuparsi di tutti gli aspetti relativi all'autenticazione, sia per quanto riguarda l'iscrizione, sia per il log-in, a cui va aggiunta la creazione e il mantenimento dei gruppi e lo stato in tempo reale.
+2. Progettazione e implementazione di un servizio per la gestione utente che deve occuparsi di tutti gli aspetti relativi all'autenticazione, sia per quanto riguarda l'iscrizione, sia per il log-in, a cui va aggiunta la creazione e il mantenimento dei gruppi e lo stato dei singoli membri in tempo reale.
 
-3. Progettazione e implementazione di un servizio di localizzazione che permetta di geolocalizzare un utente in tempo reale, individuare coordinate a partire da indirizzi / luoghi ed esporre un'API per impostare notifiche quando l'utente arriva in prossimità di una certa posizione.
+3. Progettazione e implementazione di un servizio di localizzazione che permetta di geolocalizzare un utente in tempo reale, individuare coordinate a partire da indirizzi / luoghi ed esporre un'API per impostare notifiche quando l'utente arriva in prossimità di una certa posizione o al verificarsi di situazioni di potenziale pericolo.
 
 4. Progettazione e implementazione di un servizio di chat che permetta di conversare in tempo reale con un singolo o un gruppo ristretto di utenti con la quale si vuole condividere la propria posizione e stato. Questo permetterà all'utente di avere una comunicazione più diretta e immediata con i membri del gruppo.
 
 ## _Conditions of Satisfactions_
 
-- Il sistema deve essere completato entro Novembre 2024;
+- Il sistema deve essere completato entro Dicembre 2024;
 - Utilizzo di architettura a micro-servizi e di _tool_ di orchestrazione come Kubernetes;
 - Utilizzo di approccio _Domain_ e _Test Driven_ (DDD e TDD);
 - Organizzazione di focus group per raccolta di feedback sulla user experience.
 
-## Success Criteria
+## Acceptance Criteria
 
 - Il downtime del sistema deve essere minore dell'1% rispetto al tempo di attività;
 - I costi del progetto per servizi esterni e tecnologie non devono eccedere 100€;
@@ -47,9 +47,7 @@ Un elenco dei principali rischi che ci si assumerebbero sono elencati qui di seg
 - il team ha limitata esperienza riguardo l'utilizzo di tecnologie e strumenti per il _continuous depoloyment_ in ambienti di produzione;
 - il sistema finale potrebbe avere meno _appeal_ rispetto a quello dei _competitor_ nel mercato.
 
-TODO è il giusto allegato??
-
-L'analisi e la gestione del rischio è trattata nell'[Allegato 3 - Analisi dei rischi]({{ site.baseurl }}/attachments/3-risk-analysis/)
+L'analisi e la gestione del rischio è trattata nell'[Allegato 6 - Analisi dei rischi]({{ site.baseurl }}/attachments/6-risk-analysis/)
 
 <!--
 
