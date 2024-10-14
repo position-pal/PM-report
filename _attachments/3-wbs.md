@@ -133,19 +133,19 @@ A partire dalla RBS definita nel [Allegato 2 - Requirements Breakdown Structure]
 ++ **3.** Servizio di localizzazione
 +++ **3.1.** Geocoding di indirizzi
 ++++_ **3.1.1.** Ricerca di un servizio \n web di mappe per il \n geocoding
-++++_ **3.1.2.** Implementazione ReST API
+++++_ **3.1.2.** Implementazione \n ReST API
 +++ **3.2.** Localizzazione real-time \n e condivisione con \n membri del gruppo
-++++_ **3.2.1.** Confronto di tecnologie MOM
-++++_ **3.2.2.** Identificazione tecnologia \n tracciamento real-time
+++++_ **3.2.1.** Confronto di \n tecnologie MOM
+++++_ **3.2.2.** Identificazione \n tecnologia tracciamento \n real-time
 ++++_ **3.2.3.** Progettazione e design
-++++_ **3.2.4.** Implementazione repository \n posizioni utenti
-++++_ **3.2.5.** Implementazione comunicazione \n real-time tramite websocket
-++++_ **3.2.6.** Implementazione interazione \n con la tecnologia MOM
+++++_ **3.2.4.** Implementazione \n repository posizioni utenti
+++++_ **3.2.5.** Implementazione \n comunicazione real-time \n tramite websocket
+++++_ **3.2.6.** Implementazione \n interazione con \n tecnologia MOM
 +++ **3.3.** Gestione stato utenti \n in tempo reale
 ++++_ **3.3.1.** Implementazione logica \n di gestione dello stato utente
 +++ **3.4.** Impostazione notifiche \n di prossimità
 ++++_ **3.4.1.** Implementazione logica \n di reazione a eventi
-++++_ **3.4.2.** Implementazione comunicazione \n con il servizio di notifiche
+++++_ **3.4.2.** Implementazione \n comunicazione con il servizio \n di notifiche
 +++ **3.5.** Tracciamento percorso \n in situazioni di pericolo
 ++++_ **3.5.1.** Implementazione logica \n salvataggio dei percorsi
 +++_ **3.6.** Definizione configurazione \n di deployment
@@ -155,31 +155,31 @@ A partire dalla RBS definita nel [Allegato 2 - Requirements Breakdown Structure]
 ++++_ **4.1.1.** Ricerca strumenti \n o librerie
 ++++_ **4.1.2.** Installazione e \n configurazione
 +++ **4.2.** Comunicazione \n client-server
-++++_ **4.2.1.** Analisi di tecnologie \n / protocolli
-++++_ **4.2.2.** Configurazione tecnologia
-++++_ **4.2.3.** Implementazione API
+++++_ **4.2.1.** Analisi di tecnologie \n e protocolli
+++++_ **4.2.2.** Configurazione \n tecnologia
+++++_ **4.2.3.** Implementazione \n API
 +++ **4.3.** Comunicazione \n broadcast ai membri \n del gruppo
-++++_ **4.3.1.** Implementazione logica \n di broadcasting
-++++_ **4.3.2.** Implementazione comunicazione \n con il servizio di notifiche
+++++_ **4.3.1.** Implementazione \n logica di broadcasting
+++++_ **4.3.2.** Implementazione \n comunicazione con il \n servizio di notifiche
 +++_ **4.4.** Definizione configurazione \n di deployment
 
 ++ **5.** Sistema di notifiche
 +++ **5.1.** Notifiche push
-++++_ **5.1.1.** Analisi di tecnologie \n / protocolli
-++++_ **5.1.2.** Configurazione tecnologia
-++++_ **5.1.3.** Implementazione logica \n d'invio notifiche push
+++++_ **5.1.1.** Analisi di \n tecnologie e protocolli
+++++_ **5.1.2.** Configurazione \n tecnologia
+++++_ **5.1.3.** Implementazione \n logica d'invio notifiche \n push
 +++ **5.2.** Notifiche mail
-++++_ **5.2.1.** Configurazione mail server
-++++_ **5.2.2.** Implementazione logica \n invio mail
+++++_ **5.2.1.** Configurazione \n mail server
+++++_ **5.2.2.** Implementazione \n logica invio mail
 
 ++ **6.** Frontend
 +++ **6.1.** Mockup
 ++++_ **6.1.1.** Realizzazione UI
 ++++_ **6.1.2.** Integrazione con backend
-+++ **6.2.** Interfaccia di autenticazione
++++ **6.2.** Interfaccia \n di autenticazione
 ++++_ **6.2.1.** Realizzazione UI
 ++++_ **6.2.2.** Integrazione con backend
-+++ **6.3.** Mappa in tempo reale con sistema di notifiche
++++ **6.3.** Mappa in tempo reale \n con sistema di notifiche
 ++++_ **6.3.1.** Realizzazione UI
 ++++_ **6.3.2.** Integrazione con backend
 +++ **6.4.** Dashboard utente
