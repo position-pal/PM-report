@@ -47,7 +47,7 @@ Per alcune attività abbiamo ritenuto appropriato di assegnare un numero maggior
 > L'analisi delle stime è riportata nell'[Allegato 4]({{ site.baseurl }}/attachments/4-costs-estimation/).
 > {: .block-tip }
 
-### II sessione
+### III sessione
 
 **Scopo:** definizione della schedula del progetto.
 
@@ -73,7 +73,7 @@ Per garantire un periodo di margine per possibili ritardi o imprevisti è stata 
 > Il diagramma di Gantt è riportato nell'[Allegato 5]({{ site.baseurl }}/attachments/5-gantt/).
 > {: .block-tip }
 
-### III sessione
+### IV sessione
 
 **Scopo:** Identificare i rischi del progetto.
 
