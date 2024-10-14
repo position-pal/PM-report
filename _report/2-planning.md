@@ -14,6 +14,7 @@ Per poter procedere con la fase esecutiva, comprensiva di _design_ e _implementa
 | Membro             | Ruolo                                  |
 | ------------------ | -------------------------------------- |
 | **Luca Rubboli**   | **Product Owner** e _Core Team member_ |
+| **Project Manager**| **Project Manager**                    |
 | Luca Tassinari     | _Core Team member_                     |
 | Giovanni Antonioni | _Core Team member_                     |
 
