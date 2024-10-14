@@ -13,13 +13,7 @@ A supporto di questo sistema di monitoraggio, è stato adottato lo strumento You
 Il processo aderisce a _Cumulative reports_, in quanto è possibile visualizzare lo storico di tutti gli sprint, con particolare enfasi su eventuali task affetti da ritardo inseriti nel backlog dello sprint successivo.
 Nella seguente immagine viene riportata l'interfaccia dell'applicativo, in cui è possibile delineare i 4 principali stati dei ticket, a cui va aggiunto il _Backlog_, relativo ai ticket non terminati nello sprint schedulato, che andranno ad aggiungersi ai ticket dello sprint successivo.
 
-<div style="width: 100%; overflow-x: auto; white-space: nowrap;">
-<img 
-   src="{{ site.baseurl }}/res/youtrack-interface.png"
-   alt="Youtrack interface"
-   style="max-width: 250%;"
-/>
-</div>
+![Youtrack interface]({{ site.baseurl }}/res/youtrack-interface.png)
 
 ## Issues Log
 
