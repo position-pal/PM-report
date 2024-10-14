@@ -660,7 +660,7 @@ Nelle stime d'implementazione qui riportate consideriamo anche i costi per il _t
     <strong>Stime attività requisito 6</strong>
 </summary>
 
-**Attività 6.1** Realizzazione _mockup_ delle pagine
+**Attività 6.1** Prototipazione delle interfacce utente (_mockup_)
 
 | Stime   | Luca Rubboli | Giovanni Antonioni | Luca Tassinari | Media | Mediana | 3 point method |
 | ------- | ------------ | ------------------ | -------------- | ----- | ------- | -------------- |

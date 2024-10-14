@@ -45,11 +45,12 @@ Vengono qui di seguito esplosi i requisiti del sistema, a partire dagli obiettiv
    2. Il sistema deve permettere l'invio di notifiche mail.
 
 6. **Frontend**
-   1. Il sistema deve permettere di registrarsi e autenticarsi al sistema;
-   2. Il sistema deve mostrare all'utente la mappa in tempo reale e lo stato di tutti i gruppi di cui fa parte;
-   3. Il sistema deve permettere la modifica delle informazioni dell'utente;
-   4. Il sistema deve permettere di visualizzare le notifiche ricevute;
-   5. Il sistema deve permettere di visualizzare e interagire con le chat.
+   1. Prototipazione delle interfacce utente (mockup);
+   2. Il sistema deve permettere di registrarsi e autenticarsi al sistema;
+   3. Il sistema deve mostrare all'utente la mappa in tempo reale e lo stato di tutti i gruppi di cui fa parte;
+   4. Il sistema deve permettere la modifica delle informazioni dell'utente;
+   5. Il sistema deve permettere di visualizzare le notifiche ricevute;
+   6. Il sistema deve permettere di visualizzare e interagire con le chat.
 
 ```plantuml
 @startwbs rbs

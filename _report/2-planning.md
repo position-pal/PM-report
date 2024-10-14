@@ -9,11 +9,17 @@ Per poter procedere con la fase esecutiva, comprensiva di _design_ e _implementa
 
 ## Project Planning
 
+**Partecipanti delle riunioni:**
+
+| Membro             | Ruolo                                  |
+| ------------------ | -------------------------------------- |
+| **Luca Rubboli**   | **Product Owner** e _Core Team member_ |
+| Luca Tassinari     | _Core Team member_                     |
+| Giovanni Antonioni | _Core Team member_                     |
+
 ### I e II sessione
 
 **Scopo:** individuazione delle attività da svolgere per il raggiungimento dei requisiti del progetto.
-
-**Partecipanti della riunione:**
 
 **Agenda**:
 
@@ -26,7 +32,7 @@ Successivamente, la WBS è stata validata, assicurandosi che tutte le componenti
 
 > 📂 **_Allegato_**
 > La WBS risultante è presentata nell'[Allegato 3]({{ site.baseurl }}/attachments/3-wbs/).
-{: .block-tip }
+> {: .block-tip }
 
 Una volta completata la WBS, il team ha proceduto con la stima delle attività, calcolando la quantità di lavoro, la durata e le risorse necessarie per completare ciascuna attività.
 
@@ -39,7 +45,7 @@ Per alcune attività abbiamo ritenuto appropriato di assegnare un numero maggior
 
 > 📂 **_Allegato_**
 > L'analisi delle stime è riportata nell'[Allegato 4]({{ site.baseurl }}/attachments/4-costs-estimation/).
-{: .block-tip }
+> {: .block-tip }
 
 ### II sessione
 
@@ -65,7 +71,7 @@ Per garantire un periodo di margine per possibili ritardi o imprevisti è stata 
 
 > 📂 **_Allegato_**
 > Il diagramma di Gantt è riportato nell'[Allegato 5]({{ site.baseurl }}/attachments/5-gantt/).
-{: .block-tip }
+> {: .block-tip }
 
 ### III sessione
 
@@ -82,4 +88,4 @@ Sulla base di questa valutazione, è stato scelto se accettare il rischio, mitig
 
 > 📂 **_Allegato_**
 > Il documento di analisi dei rischi è riportato nell'[Allegato 6]({{ site.baseurl }}/attachments/6-risk-analysis/)
-{: .block-tip }
+> {: .block-tip }

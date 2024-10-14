@@ -22,11 +22,11 @@ Per queste ragioni il progetto _software_ e il suo processo di sviluppo sarà im
 
 **Partecipanti della riunione:**
 
-| Membro                | Ruolo              |
-|-----------------------|--------------------|
-| **Luca Rubboli**      | **Project Manager** |
-| Luca Tassinari        | _Core Team member_ |
-| Giovanni Antonioni    | _Core Team member_ |
+| Membro             | Ruolo              |
+| ------------------ | ------------------ |
+| **Luca Rubboli**   | **Product Owner**  |
+| Luca Tassinari     | _Core Team member_ |
+| Giovanni Antonioni | _Core Team member_ |
 
 **Agenda:**
 
@@ -47,7 +47,7 @@ In dettaglio, l'analisi è stata raffinata incrementalmente, inizialmente define
 
 > 📂 **_Allegato_**
 > Il POS è riportato nell'[Allegato 1]({{ site.baseurl }}/attachments/1-pos/)
-{: .block-tip }
+> {: .block-tip }
 
 Al fine di estrarre le principali funzionalità dell'applicativo nel modo più rapido ed efficace possibile, è stato utilizzato **_Event Storming_**, una tecnica di modellazione collaborativa e visuale particolarmente utilizzata e apprezzata nel contesto di sviluppo _agile_ e _Domain-Driven_.
 La sua potenza deriva da un gruppo eterogeneo e multidisciplinare di esperti, dagli architetti ai _product owner_, passando per i _designer_ dell'_UI/UX_ ai _tester_, che, insieme, collaborano per estrarre le principali funzionalità e i processi che le guidano, condividendo questa conoscenza per far sì che sia condivisa al di là dei compartimenti stagni di ciascun team.
@@ -67,7 +67,7 @@ La struttura da seguire viene riassunta di seguito:
 
 > 📂 **_Allegato_**
 > Lo schema risultante dell'_Event Storming_ è riportato, insieme all'RBS, nell'[Allegato 2]({{ site.baseurl }}/attachments/2-rbs/)
-{: .block-tip }
+> {: .block-tip }
 
 Attraverso la stesura dei _requirements_ in una struttura gerarchica è stato possibile identificare anche un ordine di produzione delle macro-componenti, al fine di favorire inizialmente uno sviluppo che giovi dei benefici offerti dalla _continuous integration_ fin dall'inizio, e una struttura di testing incrementale.
 

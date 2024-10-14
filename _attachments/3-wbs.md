@@ -81,7 +81,7 @@ A partire dalla RBS definita nel [Allegato 2 - Requirements Breakdown Structure]
    3. Definizione configurazione di _deployment_.
 
 6. **Frontend**
-   1. Realizzazione _mockup_ delle pagine;
+   1. Prototipazione delle interfacce utente (mockup);
    2. Il sistema deve permettere di registrarsi e autenticarsi al sistema;
       1. Realizzazione UI;
       2. Integrazione con backend;
