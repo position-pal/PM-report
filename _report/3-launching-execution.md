@@ -25,7 +25,7 @@ Per la gestione dell'incontro è stata prodotta un'agenda operativa che ha compr
 | Attività                        | Project Manager   | Luca Tassinari    | Luca Rubboli      | Giovanni Antonioni   |
 |---------------------------------|-------------------|-------------------|-------------------|----------------------|
 | 1. Avvio del progetto           | `Responsible`     | `Informed`        | `Informed`        | `Informed`           |
-| 2. Configurazione dei workspace | `Informed`        | `Responsible`     | `Responsible`     | `Responsible`        |
+| 2. Configurazione dei workspace | `Informed`        | `Responsible`     | `Consulted`       | `Consulted`          |
 | 3. Servizio utenti              | `Accountable`     | `Consulted`       | `Responsible`     | `Consulted`          |
 | 4. Servizio localizzazione      | `Accountable`     | `Responsible`     | `Consulted`       | `Consulted`          |
 | 5. Servizio chat                | `Accountable`     | `Consulted`       | `Consulted`       | `Responsible`        |
@@ -34,7 +34,7 @@ Per la gestione dell'incontro è stata prodotta un'agenda operativa che ha compr
 | 8. Lancio del servizio          | `Accountable`     | `Responsible`     | `Responsible`     | `Responsible`        |
 | 9. Consegna progetto            | `Responsible`     | `Informed`        | `Informed`        | `Informed`           |
 
-## Legend
+### Legend
 - **Responsible (R):** Persona(e) responsabile dell’attività e del suo completamento consuccesso.
 - **Accountable (A):** Persona(e) Incaricato dell’approvazione del risultato dell’attività.
 - **Supporting (S):** Risorsa(e) assegnata per supportare il responsabile.
@@ -57,7 +57,7 @@ Il team adotta il framework Scrum per gestire i meeting e mantenere un ritmo cos
 
 **Daily Stand-up (Daily Scrum)**: Ogni giorno, si tiene un breve incontro di 15 minuti, durante il quale ciascun membro del team condivide tre punti chiave: cosa ha fatto il giorno precedente, cosa intende fare durante la giornata e se ci sono eventuali ostacoli che potrebbero impedire il progresso. 
 
-**Sprint Planning**: All'inizio di ogni sprint, si organizza una sessione di Sprint Planning. In questo incontro, il Product Owner presenta le priorità e gli obiettivi da raggiungere, mentre il team esamina le user stories e suddivide il lavoro in task chiari e gestibili. L’obiettivo è assicurarsi che tutte le attività siano ben comprese, definite e stimate in base alla capacità disponibile del team per lo sprint.s
+**Sprint Planning**: All'inizio di ogni sprint, si organizza una sessione di Sprint Planning. In questo incontro, il Product Owner presenta le priorità e gli obiettivi da raggiungere, mentre il team esamina le user stories e suddivide il lavoro in task chiari e gestibili. L’obiettivo è assicurarsi che tutte le attività siano ben comprese, definite e stimate in base alla capacità disponibile del team per lo sprint.
 
 **Sprint Review**: Al termine di ogni sprint, si tiene lo Sprint Review, in cui il team presenta il lavoro completato al Product Owner e agli stakeholder. Durante questa riunione, le funzionalità sviluppate vengono mostrate sotto forma di demo, e si raccolgono feedback utili per migliorare le iterazioni successive. L'incontro garantisce trasparenza sul progresso e permette di adattare il progetto in base alle nuove esigenze.
 
