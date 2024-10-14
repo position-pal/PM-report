@@ -31,7 +31,7 @@ I livelli di impatto e priorità sono categorizzati in 4 livelli:
 | TECNICO | Qualità | TC2 | Le tecnologie CI/CD ritardano il rilascio in produzione | 0.3 | A | A |
 | TECNICO | Qualità | TC3 | Il mal utilizzo delle tecnologie adottate provoca un deterioramento dei QoS (Quality of Services) | 0.8 | C | C |
 | ORGANIZZATIVO | Budget | OR1 | Sforamento del budget | 0.1 | M | B |
-| ORGANIZZATIVO | Budget | OR2 | Ritardi nella consegna | 0.5 | M | M |
+| ORGANIZZATIVO | Budget | OR2 | Ritardi nella consegna | 0.5 | M | B |
 | ESTERNO | Mercato | ES1 | Il sistema finale ha meno _appeal_ rispetto ai _competitor_ | 0.9 | B | B |
 
 ```mermaid
@@ -55,5 +55,5 @@ quadrantChart
 | TC2 | _Mitigate_ | Formazione del team sulle tecnologie CI/CD |
 | TC3 | _Mitigate_   | Formazione del team sulle tecnologie presenti nel mercato |
 | OR1 | _Accept_ | |
-| OR2 | _Contingency Planning_ | In caso di ritardi le funzionalità opzionali vengono scartate |
+| OR2 | _Accept_ | |
 | ES1 | _Accept_ | |
