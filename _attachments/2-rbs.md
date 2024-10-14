@@ -69,6 +69,7 @@ Vengono qui di seguito esplosi i requisiti del sistema, a partire dagli obiettiv
 +++ **3.2.** Localizzazione real-time \n e condivisione con \n membri del gruppo
 +++ **3.3.** Gestione stato utenti \n in tempo reale
 +++ **3.4.** Impostazione notifiche \n di prossimità
++++ **3.5.** Tracciamento percorso \n in situazioni di pericolo
 
 ++ **4.** Servizio di chat
 +++ **4.1.** Sicurezza
@@ -80,11 +81,12 @@ Vengono qui di seguito esplosi i requisiti del sistema, a partire dagli obiettiv
 +++ **5.2.** Notifiche mail
 
 ++ **6.** Frontend
-+++ **6.1.** Interfaccia di login
-+++ **6.2.** Mappa in tempo reale con sistema di notifiche
-+++ **6.3.** Dashboard utente
-+++ **6.4.** Notifiche
-+++ **6.5.** Chat
++++ **6.1.** Mockup
++++ **6.2.** Interfaccia di autenticazione
++++ **6.3.** Mappa in tempo reale con sistema di notifiche
++++ **6.4.** Dashboard utente
++++ **6.5.** Dashboard notifiche
++++ **6.6.** Chat
 
 @endwbs
 ```
