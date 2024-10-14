@@ -31,7 +31,7 @@ Per la gestione dell'incontro è stata prodotta un'agenda operativa che ha compr
 | 5. Servizio chat                | `Accountable`     | `Consulted`       | `Consulted`       | `Responsible`        |
 | 6. Servizio notifiche           | `Accountable`     | `Responsible`     | `Consulted`       | `Consulted`          |
 | 7. Frontend                     | `Accountable`     | `Responsible`     | `Responsible`     | `Responsible`        | 
-| 8. Lancio applicativo           | `Accountable`     | `Responsible`     | `Responsible`     | `Responsible`        |
+| 8. Lancio del servizio          | `Accountable`     | `Responsible`     | `Responsible`     | `Responsible`        |
 | 9. Consegna progetto            | `Responsible`     | `Informed`        | `Informed`        | `Informed`           |
 
 ## Legend
@@ -87,8 +87,8 @@ graph TD
 
 Nel caso in cui si rendesse necessario apportare modifiche allo scope del progetto, il team adotta un processo strutturato per gestire i cambiamenti in modo efficace e trasparente il quale prevede le seguenti fasi:
 
-1. **Formalizzazione della richiesta**: Il cambiamento deve essere formalizzato attraverso una richiesta scritta che descriva in modo chiaro e dettagliato la natura della modifica richiesta. Questa deve essere presentata al Project Manager tramite l'invio di una mail.
-
+1. **Formalizzazione della richiesta**: Il cambiamento deve essere formalizzato attraverso una richiesta scritta che descriva in modo chiaro e dettagliato la natura della stessa.
+ 
 2. **Analisi preliminare**: Il Project Manager valuta la richiesta di cambiamento e ne analizza l'impatto sul progetto in termini di costi, tempi e risorse. In base a questa valutazione, il PM decide se approvare o respingere la richiesta.
 
 3. **Decision Making Meeting**: Se la richiesta di cambiamento viene approvata, si tiene un incontro con il team per discutere le implicazioni del cambiamento e definire un piano d'azione per implementarlo. Durante l'incontro vengono assegnate le nuove attività e si stabiliscono le nuove scadenze.
