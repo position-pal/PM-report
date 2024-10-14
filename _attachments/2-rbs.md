@@ -53,6 +53,23 @@ Vengono qui di seguito esplosi i requisiti del sistema, a partire dagli obiettiv
 
 ```plantuml
 @startwbs rbs
+<style>
+node {
+   RoundCorner 10
+   :depth(0) {
+      BackgroundColor #FFD365
+   }
+   :depth(1) {
+      BackgroundColor #D5F5E8
+   }
+   :depth(2) {
+      BackgroundColor #FFF4E1
+   }
+}
+boxless { // will target boxless node with '_'
+   FontColor #2C3E50
+}
+</style>
 
 + **PositionPal**
 
