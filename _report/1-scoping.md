@@ -71,4 +71,4 @@ La struttura da seguire viene riassunta di seguito:
 
 Attraverso la stesura dei _requirements_ in una struttura gerarchica è stato possibile identificare anche un ordine di produzione delle macro-componenti, al fine di favorire inizialmente uno sviluppo che giovi dei benefici offerti dalla _continuous integration_ fin dall'inizio, e una struttura di testing incrementale.
 
-Essendo in uno scenario di incertezza tecnologica che necessita di una componente esplorativa, abbiamo ritenuto che il modello che più si presti a queste esigenze sia quello _adattativo_: questa scelta permette di accogliere e adeguarsi ai cambiamenti, derivanti dalla raccolta di nuove informazioni che possono emergere durante il ciclo di vita del progetto.
+Essendo in uno scenario d'incertezza tecnologica che necessita di una componente esplorativa, abbiamo ritenuto che il modello che più si presti a queste esigenze sia quello **_adattativo_**: questa scelta permette di accogliere e adeguarsi ai cambiamenti, derivanti dalla raccolta di nuove informazioni che possono emergere durante il ciclo di vita del progetto.
