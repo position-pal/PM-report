@@ -4,8 +4,6 @@ date: 2024-10-05
 layout: post
 ---
 
-# Closing & Acceptance
-
 ## Procedura di accettazione
 
 Il processo di accettazione verte sulla certificazione del successo di tutti i test precedentemente sviluppati, dei _success criteria_ e delle _Conditions of Satisfactions_, oltre che sull'installazione di un'infrastruttura atta al collaudo dell'applicativo.
@@ -39,7 +37,7 @@ Dopo aver ultimato la messa in produzione del progetto, il team si è riunito pe
 - Q. _I criteri di successo sono stati rispettati?_
 - A. **Per quanto riguarda i criteri relativi allo sviluppo del progetto sì; invece, per i criteri riguardanti lo stato del sistema post installazione, i test automatici sono in grado di offrire la sola proiezione di determinati aspetti del sistema, in linea però con i criteri definiti**
 - Q. _Che lezione è stata imparata relativamente alla metodologia di gestione del progetto scelta?_
-- A. **Come già citato a lezione, l'approccio _agile_ è risultato particolarmente utile in un contesto ricco di elementi di incertezza come questo progetto, in quanto ha permesso di adattarsi all'occorrenza di modifiche sia temporali che tecniche, di mantenere una coesione forte a livello di _team working_ e il morale alto grazie a revisioni tempestive in caso di problemi**
+- A. **L'approccio _agile_ è risultato particolarmente utile in un contesto ricco di elementi di incertezza come questo progetto, in quanto ha permesso di adattarsi all'occorrenza di modifiche sia temporali che tecniche, di mantenere una coesione forte a livello di _team working_ e il morale alto grazie a revisioni tempestive in caso di problemi**
 - Q. _Come ha seguito la metodologia il team?_
 - A. **Il team ha cercato di rispettare il più possibile le metodologie previste da _SCRUM_, rilassando però alcuni vincoli, quali ad esempio i _daily meeting_ in mancanza di aggiornamenti rilevanti. Al contempo, in caso di necessità han permesso un tempestivo intervento in grado di far fronte a tutti i problemi incorsi durante lo sviluppo e di ottimizzare così i tempi di lavoro di tutti i membri del gruppo**
 
@@ -56,13 +54,16 @@ I rischi identificati sono stati opportunamente mitigati dove possibile, prevede
 Il progetto rappresenta un'alternativa _open source_ ai software già presenti sul mercato, aprendo così le porte a migliorie e cambiamenti proposti dal bacino di utenza del sistema.
 
 **Pregi dell'approccio**:
-- **Flessibilità**: L'approccio risulta essere flessibile ai cambiamenti, sia in termini tecnici che temporali, caratteristica che si adatta particolarmente a progetti di media/grande dimensione e requisiti affetti da incertezza come nel caso di questo artefatto.
-- **Adattamento alle esigenze del committente**: L'approccio sposa uno sviluppo incrementale, in cui le funzionalità di base vengono rilasciate ben prima della fine del progetto, agevolando i feedback di utenti finali e/o committente.
-- **Coesione del gruppo**: I tanti _meeting_ indetti sia su base giornaliera che settimanale permettono un lavoro coeso del gruppo, che è spesso interpellato a ragionare sulla risoluzione dei singoli problemi.
+- **Flessibilità**: L'approccio risulta essere flessibile ai cambiamenti, sia in termini tecnici che temporali, caratteristica che si adatta particolarmente a progetti di media/grande dimensione e requisiti affetti da incertezza come nel caso di questo artefatto;
+- **Adattamento alle esigenze del committente**: L'approccio sposa uno sviluppo incrementale, in cui le funzionalità di base vengono rilasciate ben prima della fine del progetto, agevolando i feedback di utenti finali e/o committente;
+- **Coesione del gruppo**: I tanti _meeting_ indetti sia su base giornaliera che settimanale permettono un lavoro coeso del gruppo, che è spesso interpellato a ragionare sulla risoluzione dei singoli problemi;
 - **Adattamento alle esigenze del gruppo**: La mole di lavoro assegnata ad inizio sprint viene basata sui _feedback_ degli utenti in maniera adattativa rispetto alla situazione, e varia appunto in base alle esigenze dei membri.
 
 **Difetti dell'approccio**:
+- **Curva di apprendimento**: Può risultare ostico il primo impatto con le dinamiche del framework SCRUM;
 - **Tempi organizzativi**: Il tempo impiegato dai _meeting_ può risultare oneroso.
 
 
 ## Chiusura del progetto
+
+In assenza di un committente, con il _deployment_ del sistema e il soddisfacimento dei test in vitro, il progetto viene considerato terminato. Gli studenti riconoscono il merito del proprio lavoro e si apprestano a consegnare il progetto per gli esami designati auspicando un buon voto.

@@ -21,5 +21,7 @@ Nella seguente immagine viene riportata l'interfaccia dell'applicativo, in cui �
 ## Issues Log
 
 Come strumento a supporto di _Issues Logging_ abbiamo selezionato GitHub in quanto offre un'interfaccia robusta per la segnalazione di problemi e il monitoraggio di questi ed è il sistema già adottato in fase di _Versioning Control_.
+
+
 L'interfaccia permette la definizione di **issues** dettagliate e assegnabili, e supporta la chiusura automatica seguendo le regole di conventional commit che dettagliano i progressi dell'applicativo.
 Github offre inoltre una valida integrazione con Youtrack: seguendo le regole dei conventional commit è possibile far progredire lo status dei ticket in maniera automatica.
