@@ -6,7 +6,7 @@ layout: post
 
 Vengono di seguito riportate le stime dei costi per la realizzazione del progetto.
 
-Nelle stime di implementazione qui riportate consideriamo anche i costi per il testing.
+Nelle stime d'implementazione qui riportate consideriamo anche i costi per il _testing_.
 
 <details>
 <summary markdown='span' style="cursor: pointer; text-decoration:underline; color:#008CFF;">
@@ -38,7 +38,7 @@ Nelle stime di implementazione qui riportate consideriamo anche i costi per il t
 | Risorse assegnate | 2   |
 | Durata stimata    | 4,5 |
 
-**Attività 1.3.1** Configurazione pipeline di _continuous deployment_: progettazione diagrammi deployment
+**Attività 1.3.1** Configurazione pipeline di _continuous deployment_: progettazione diagrammi di _deployment_
 
 | Stime   | Luca Rubboli | Giovanni Antonioni | Luca Tassinari | Media | Mediana | 3 point method |
 | ------- | ------------ | ------------------ | -------------- | ----- | ------- | -------------- |
@@ -76,7 +76,7 @@ Nelle stime di implementazione qui riportate consideriamo anche i costi per il t
 | Risorse assegnate | 1   |
 | Durata stimata    | 8   |
 
-**Attività 1.3.4** Configurazione pipeline di _continuous deployment_: Sviluppo azioni deployment da locale a produzione
+**Attività 1.3.4** Configurazione pipeline di _continuous deployment_: Sviluppo azioni _deployment_ da locale a produzione
 
 | Stime   | Luca Rubboli | Giovanni Antonioni | Luca Tassinari | Media | Mediana | 3 point method |
 | ------- | ------------ | ------------------ | -------------- | ----- | ------- | -------------- |
@@ -101,7 +101,7 @@ Nelle stime di implementazione qui riportate consideriamo anche i costi per il t
 | Risorse assegnate | 1   |
 | Durata stimata    | 1,5 |
 
-**Attività 1.5** Configurazione _bot_ per il _merge_ automatizzato di Pull Request sulla repo
+**Attività 1.5** Configurazione _bot_ per il _merge_ automatizzato di _Pull Request_
 
 | Stime   | Luca Rubboli | Giovanni Antonioni | Luca Tassinari | Media | Mediana | 3 point method |
 | ------- | ------------ | ------------------ | -------------- | ----- | ------- | -------------- |
@@ -340,7 +340,7 @@ Nelle stime di implementazione qui riportate consideriamo anche i costi per il t
 | Risorse assegnate | 1   |
 | Durata stimata    | 5   |
 
-**Attività 3.2.2** Il sistema deve tracciare in tempo reale la posizione degli utenti e supportarne la condivisione con i membri del proprio gruppo - Identificazione della tecnologia che consenta un tracciamento _real-time_ reattivo e potenzialmente replicabile
+**Attività 3.2.2** Il sistema deve tracciare in tempo reale la posizione degli utenti e supportarne la condivisione con i membri del proprio gruppo - Identificazione della tecnologia che consenta un tracciamento _real-time_ reattivo e scalabile
 
 | Stime   | Luca Rubboli | Giovanni Antonioni | Luca Tassinari | Media | Mediana | 3 point method |
 | ------- | ------------ | ------------------ | -------------- | ----- | ------- | -------------- |
@@ -377,7 +377,7 @@ Nelle stime di implementazione qui riportate consideriamo anche i costi per il t
 | Risorse assegnate | 1   |
 | Durata stimata    | 8   |
 
-**Attività 3.2.5** Il sistema deve tracciare in tempo reale la posizione degli utenti e supportarne la condivisione con i membri del proprio gruppo - Implementazione comunicazione real-time tramite websocket
+**Attività 3.2.5** Il sistema deve tracciare in tempo reale la posizione degli utenti e supportarne la condivisione con i membri del proprio gruppo - Implementazione comunicazione _real-time_ tramite _websocket_
 
 | Stime   | Luca Rubboli | Giovanni Antonioni | Luca Tassinari | Media | Mediana | 3 point method |
 | ------- | ------------ | ------------------ | -------------- | ----- | ------- | -------------- |
@@ -473,7 +473,7 @@ Nelle stime di implementazione qui riportate consideriamo anche i costi per il t
     <strong>Stime attività requisito 4</strong>
 </summary>
 
-**Attività 4.1.1**
+**Attività 4.1.1** Il sistema deve permettere una comunicazione sicura - Ricerca strumenti o librerie che permettano di implementare una comunicazione criptata E2E
 
 | Stime   | Luca Rubboli | Giovanni Antonioni | Luca Tassinari | Media | Mediana | 3 point method |
 | ------- | ------------ | ------------------ | -------------- | ----- | ------- | -------------- |
@@ -485,7 +485,7 @@ Nelle stime di implementazione qui riportate consideriamo anche i costi per il t
 | Risorse assegnate | 1   |
 | Durata stimata    | 6,5 |
 
-Attività 4.1.2
+**Attività 4.1.2** Il sistema deve permettere una comunicazione sicura - Installazione e configurazione dello strumento scelto nel punto precedente
 
 | Stime   | Luca Rubboli | Giovanni Antonioni | Luca Tassinari | Media | Mediana | 3 point method |
 | ------- | ------------ | ------------------ | -------------- | ----- | ------- | -------------- |
@@ -497,7 +497,7 @@ Attività 4.1.2
 | Risorse assegnate | 1   |
 | Durata stimata    | 21  |
 
-Attività 4.2.1
+**Attività 4.2.1** Il sistema deve permettere un canale di comunicazione tra il client e il server - Analisi di tecnologie / protocolli per lo scambio di messaggi
 
 | Stime   | Luca Rubboli | Giovanni Antonioni | Luca Tassinari | Media | Mediana | 3 point method |
 | ------- | ------------ | ------------------ | -------------- | ----- | ------- | -------------- |
@@ -509,7 +509,7 @@ Attività 4.2.1
 | Risorse assegnate | 1   |
 | Durata stimata    | 5,5 |
 
-Attività 4.2.2
+**Attività 4.2.2** Il sistema deve permettere un canale di comunicazione tra il client e il server - Configurazione tecnologia scelta per lo scambio di messaggi
 
 | Stime   | Luca Rubboli | Giovanni Antonioni | Luca Tassinari | Media | Mediana | 3 point method |
 | ------- | ------------ | ------------------ | -------------- | ----- | ------- | -------------- |
@@ -522,7 +522,7 @@ Attività 4.2.2
 | Risorse assegnate | 1   |
 | Durata stimata    | 23  |
 
-Attività 4.2.3
+**Attività 4.2.3** Il sistema deve permettere un canale di comunicazione tra il client e il server - Implementazione API
 
 | Stime   | Luca Rubboli | Giovanni Antonioni | Luca Tassinari | Media | Mediana | 3 point method |
 | ------- | ------------ | ------------------ | -------------- | ----- | ------- | -------------- |
@@ -534,7 +534,7 @@ Attività 4.2.3
 | Risorse assegnate | 1   |
 | Durata stimata    | 29  |
 
-Attività 4.3.1
+**Attività 4.3.1** Il sistema deve permettere una comunicazione di natura broadcast ai membri appartenenti ai gruppi - Implementazione logica di _broadcasting_ dei messaggi
 
 | Stime   | Luca Rubboli | Giovanni Antonioni | Luca Tassinari | Media | Mediana | 3 point method |
 | ------- | ------------ | ------------------ | -------------- | ----- | ------- | -------------- |
@@ -547,7 +547,7 @@ Attività 4.3.1
 | Risorse assegnate | 1   |
 | Durata stimata    | 13  |
 
-Attività 4.3.2
+**Attività 4.3.2** Il sistema deve permettere una comunicazione di natura broadcast ai membri appartenenti ai gruppi - Implementazione comunicazione con il servizio di notifiche
 
 | Stime   | Luca Rubboli | Giovanni Antonioni | Luca Tassinari | Media | Mediana | 3 point method |
 | ------- | ------------ | ------------------ | -------------- | ----- | ------- | -------------- |
@@ -559,7 +559,7 @@ Attività 4.3.2
 | Risorse assegnate | 1   |
 | Durata stimata    | 4   |
 
-Attività 4.4
+**Attività 4.4** Definizione configurazione di deployment
 
 | Stime   | Luca Rubboli | Giovanni Antonioni | Luca Tassinari | Media | Mediana | 3 point method |
 | ------- | ------------ | ------------------ | -------------- | ----- | ------- | -------------- |
@@ -579,7 +579,7 @@ Attività 4.4
     <strong>Stime attività requisito 5</strong>
 </summary>
 
-Attività 5.1.1
+**Attività 5.1.1** Il sistema deve permettere l'invio di notifiche _push_ - Analisi di tecnologie / protocolli per l'invio di notifiche _push_
 
 | Stime   | Luca Rubboli | Giovanni Antonioni | Luca Tassinari | Media | Mediana | 3 point method |
 | ------- | ------------ | ------------------ | -------------- | ----- | ------- | -------------- |
@@ -591,7 +591,7 @@ Attività 5.1.1
 | Risorse assegnate | 1   |
 | Durata stimata    | 6   |
 
-Attività 5.1.2
+**Attività 5.1.2** Il sistema deve permettere l'invio di notifiche push - Configurazione tecnologia scelta
 
 | Stime   | Luca Rubboli | Giovanni Antonioni | Luca Tassinari | Media | Mediana | 3 point method |
 | ------- | ------------ | ------------------ | -------------- | ----- | ------- | -------------- |
@@ -603,7 +603,7 @@ Attività 5.1.2
 | Risorse assegnate | 1   |
 | Durata stimata    | 30  |
 
-Attività 5.1.3
+**Attività 5.1.3** Il sistema deve permettere l'invio di notifiche push - Implementazione logica d'invio notifiche push
 
 | Stime   | Luca Rubboli | Giovanni Antonioni | Luca Tassinari | Media | Mediana | 3 point method |
 | ------- | ------------ | ------------------ | -------------- | ----- | ------- | -------------- |
@@ -616,7 +616,7 @@ Attività 5.1.3
 | Risorse assegnate | 1   |
 | Durata stimata    | 24  |
 
-Attività 5.2.1
+**Attività 5.2.1** Il sistema deve permettere l'invio di notifiche mail - Configurazione mail server
 
 | Stime   | Luca Rubboli | Giovanni Antonioni | Luca Tassinari | Media | Mediana | 3 point method |
 | ------- | ------------ | ------------------ | -------------- | ----- | ------- | -------------- |
@@ -628,7 +628,7 @@ Attività 5.2.1
 | Risorse assegnate | 1   |
 | Durata stimata    | 8   |
 
-Attività 5.2.2
+**Attività 5.2.2** Il sistema deve permettere l'invio di notifiche mail - Implementazione logica invio mail
 
 | Stime   | Luca Rubboli | Giovanni Antonioni | Luca Tassinari | Media | Mediana | 3 point method |
 | ------- | ------------ | ------------------ | -------------- | ----- | ------- | -------------- |
@@ -641,7 +641,7 @@ Attività 5.2.2
 | Risorse assegnate | 1   |
 | Durata stimata    | 6   |
 
-Attività 5.3
+**Attività 5.3** Definizione configurazione di _deployment_
 
 | Stime   | Luca Rubboli | Giovanni Antonioni | Luca Tassinari | Media | Mediana | 3 point method |
 | ------- | ------------ | ------------------ | -------------- | ----- | ------- | -------------- |
@@ -660,7 +660,7 @@ Attività 5.3
     <strong>Stime attività requisito 6</strong>
 </summary>
 
-**Attività 6.1**
+**Attività 6.1** Realizzazione _mockup_ delle pagine
 
 | Stime   | Luca Rubboli | Giovanni Antonioni | Luca Tassinari | Media | Mediana | 3 point method |
 | ------- | ------------ | ------------------ | -------------- | ----- | ------- | -------------- |
@@ -672,7 +672,7 @@ Attività 5.3
 | Risorse assegnate | 3   |
 | Durata stimata    | 5   |
 
-**Attività 6.2.1**
+**Attività 6.2.1** Il sistema deve permettere di registrarsi e autenticarsi al sistema - Realizzazione UI
 
 | Stime   | Luca Rubboli | Giovanni Antonioni | Luca Tassinari | Media | Mediana | 3 point method |
 | ------- | ------------ | ------------------ | -------------- | ----- | ------- | -------------- |
@@ -685,7 +685,7 @@ Attività 5.3
 | Risorse assegnate | 1   |
 | Durata stimata    | 6   |
 
-**Attività 6.2.2**
+**Attività 6.2.2** Il sistema deve permettere di registrarsi e autenticarsi al sistema - Integrazione con backend
 
 | Stime   | Luca Rubboli | Giovanni Antonioni | Luca Tassinari | Media | Mediana | 3 point method |
 | ------- | ------------ | ------------------ | -------------- | ----- | ------- | -------------- |
@@ -697,7 +697,7 @@ Attività 5.3
 | Risorse assegnate | 1   |
 | Durata stimata    | 6   |
 
-**Attività 6.3.1**
+**Attività 6.3.1** Il sistema deve mostrare all'utente la mappa in tempo reale e lo stato di tutti i gruppi di cui fa parte - Realizzazione UI
 
 | Stime   | Luca Rubboli | Giovanni Antonioni | Luca Tassinari | Media | Mediana | 3 point method |
 | ------- | ------------ | ------------------ | -------------- | ----- | ------- | -------------- |
@@ -710,7 +710,7 @@ Attività 5.3
 | Risorse assegnate | 1   |
 | Durata stimata    | 18  |
 
-**Attività 6.3.2**
+**Attività 6.3.2** Il sistema deve mostrare all'utente la mappa in tempo reale e lo stato di tutti i gruppi di cui fa parte - Integrazione con backend
 
 | Stime   | Luca Rubboli | Giovanni Antonioni | Luca Tassinari | Media | Mediana | 3 point method |
 | ------- | ------------ | ------------------ | -------------- | ----- | ------- | -------------- |
@@ -723,7 +723,7 @@ Attività 5.3
 | Risorse assegnate | 1   |
 | Durata stimata    | 21  |
 
-**Attività 6.4.1**
+**Attività 6.4.1** Il sistema deve permettere la modifica delle informazioni dell'utente - Realizzazione UI
 
 | Stime   | Luca Rubboli | Giovanni Antonioni | Luca Tassinari | Media | Mediana | 3 point method |
 | ------- | ------------ | ------------------ | -------------- | ----- | ------- | -------------- |
@@ -735,7 +735,7 @@ Attività 5.3
 | Risorse assegnate | 1   |
 | Durata stimata    | 5   |
 
-**Attività 6.4.2**
+**Attività 6.4.2** Il sistema deve permettere la modifica delle informazioni dell'utente - Integrazione con backend
 
 | Stime   | Luca Rubboli | Giovanni Antonioni | Luca Tassinari | Media | Mediana | 3 point method |
 | ------- | ------------ | ------------------ | -------------- | ----- | ------- | -------------- |
@@ -747,7 +747,7 @@ Attività 5.3
 | Risorse assegnate | 1   |
 | Durata stimata    | 6   |
 
-**Attività 6.5.1**
+**Attività 6.5.1** Il sistema deve permettere di visualizzare le notifiche ricevute - Realizzazione UI
 
 | Stime   | Luca Rubboli | Giovanni Antonioni | Luca Tassinari | Media | Mediana | 3 point method |
 | ------- | ------------ | ------------------ | -------------- | ----- | ------- | -------------- |
@@ -759,7 +759,7 @@ Attività 5.3
 | Risorse assegnate | 1   |
 | Durata stimata    | 7   |
 
-**Attività 6.5.2**
+**Attività 6.5.2** Il sistema deve permettere di visualizzare le notifiche ricevute - Integrazione con backend
 
 | Stime   | Luca Rubboli | Giovanni Antonioni | Luca Tassinari | Media | Mediana | 3 point method |
 | ------- | ------------ | ------------------ | -------------- | ----- | ------- | -------------- |
@@ -772,7 +772,7 @@ Attività 5.3
 | Risorse assegnate | 1   |
 | Durata stimata    | 11  |
 
-**Attività 6.6.1**
+**Attività 6.6.1** Il sistema deve permettere di visualizzare e interagire con le chat - Realizzazione UI
 
 | Stime   | Luca Rubboli | Giovanni Antonioni | Luca Tassinari | Media | Mediana | 3 point method |
 | ------- | ------------ | ------------------ | -------------- | ----- | ------- | -------------- |
@@ -785,7 +785,7 @@ Attività 5.3
 | Risorse assegnate | 1   |
 | Durata stimata    | 20  |
 
-**Attività 6.6.2**
+**Attività 6.6.2** Il sistema deve permettere di visualizzare e interagire con le chat - Integrazione con backend
 
 | Stime   | Luca Rubboli | Giovanni Antonioni | Luca Tassinari | Media | Mediana | 3 point method |
 | ------- | ------------ | ------------------ | -------------- | ----- | ------- | -------------- |

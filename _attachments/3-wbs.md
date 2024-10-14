@@ -46,7 +46,7 @@ A partire dalla RBS definita nel [Allegato 2 - Requirements Breakdown Structure]
       2. Identificazione della tecnologia che consenta un tracciamento _real-time_ reattivo e potenzialmente replicabile
       3. Progettazione e design
       4. Implementazione repository posizioni utenti
-      5. Implementazione comunicazione real-time tramite websocket
+      5. Implementazione comunicazione _real-time_ tramite _websocket_
       6. Implementazione interazione con la tecnologia _MOM_ per la ricezione di eventi
    3. Il sistema deve gestire lo stato degli utenti in tempo reale
       1. Implementazione logica di gestione dello stato utente
@@ -55,7 +55,7 @@ A partire dalla RBS definita nel [Allegato 2 - Requirements Breakdown Structure]
       2. Implementazione comunicazione con il servizio di notifiche
    5. Il sistema, al sollevarsi di una situazione di pericolo, deve tracciare il percorso compiuto fino alla sua cessazione
       1. Implementazione logica salvataggio dei percorsi
-   6. Definizione configurazione di deployment
+   6. Definizione configurazione di _deployment_
 
 4. **Progettazione e implementazione di un servizio di chat.**
    1. Il sistema deve permettere una comunicazione sicura
@@ -66,21 +66,22 @@ A partire dalla RBS definita nel [Allegato 2 - Requirements Breakdown Structure]
       2. Configurazione tecnologia scelta per lo scambio di messaggi
       3. Implementazione API
    3. Il sistema deve permettere una comunicazione di natura broadcast ai membri appartenenti ai gruppi
-      1. Implementazione logica di broadcasting dei messaggi
+      1. Implementazione logica di _broadcasting_ dei messaggi
       2. Implementazione comunicazione con il servizio di notifiche
-   4. Definizione configurazione di deployment
+   4. Definizione configurazione di _deployment_
 
 5. **Sistema di notifiche**
    1. Il sistema deve permettere l'invio di notifiche push
-      1. Analisi di tecnologie / protocolli per l'invio di notifiche push
+      1. Analisi di tecnologie / protocolli per l'invio di notifiche _push_
       2. Configurazione tecnologia scelta
       3. Implementazione logica d'invio notifiche push
    2. Il sistema deve permettere l'invio di notifiche mail
       1. Configurazione mail server
       2. Implementazione logica invio mail
+   3. Definizione configurazione di _deployment_
 
 6. **Frontend**
-   1. Realizzazione Mockup delle pagine
+   1. Realizzazione _mockup_ delle pagine
    2. Il sistema deve permettere di registrarsi e autenticarsi al sistema
       1. Realizzazione UI
       2. Integrazione con backend
