@@ -128,6 +128,10 @@ boxless { // will target boxless node with '_'
 +++-_ **1.3.2.** Creazione struttura \n locale di orchestrazione
 +++-_ **1.3.3.** Configurazione \n ambiente di produzione
 +++-_ **1.3.4.** Sviluppo azioni \n deployment da locale \n a produzione
++++_ **1.4** Configurazione bot \n aggiornamento dipendenze
++++_ **1.5** Configurazione bot \n merge automatizzato PR
++++_ **1.6** Configurazione bot \n rilascio automatico release
++++_ **1.7** Configurazione \n sistema di ticketing automatizzato
 
 ++ **2.** Servizio di gestione \n utenti e gruppi
 +++ **2.1.** Autenticazione
@@ -188,6 +192,7 @@ boxless { // will target boxless node with '_'
 +++ **5.2.** Notifiche mail
 ++++_ **5.2.1.** Configurazione \n mail server
 ++++_ **5.2.2.** Implementazione \n logica invio mail
++++_ **5.3** Definizione configurazione \n di deployment
 
 ++ **6.** Frontend
 +++ **6.1.** Mockup
